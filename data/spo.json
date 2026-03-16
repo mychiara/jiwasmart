@@ -1,0 +1,478 @@
+{
+  "A": [
+    {
+      "id": "mse",
+      "judul": "SPO Pengkajian Status Mental (Mental Status Examination)",
+      "pengertian": "Evaluasi sistematis terhadap fungsi psikologis, kognitif, dan perilaku pasien saat ini sebagai komponen kunci dari pemeriksaan klinis psikiatri untuk menegakkan diagnosis dan rencana asuhan.",
+      "tujuan": "1. Mendapatkan data objektif tentang kondisi psikologis pasien saat ini.\n2. Mengidentifikasi gangguan pada domain status mental (persepsi, isi pikir, mood, dll).\n3. Menentukan prioritas intervensi keperawatan.\n4. Memantau progresivitas atau kemunduran kondisi pasien selama perawatan.",
+      "indikasikasi": "1. Pasien baru masuk ruang perawatan jiwa.\n2. Pasien yang akan menjalani terapi psikofarmaka atau ECT.\n3. Evaluasi rutin harian atau saat terjadi perubahan perilaku yang signifikan.\n4. Persiapan pemulangan pasien (Discharge Planning).",
+      "petugas": "1. Perawat Jiwa terlatih.\n2. Dokter Spesialis Kedokteran Jiwa (Psikiater).",
+      "alat": "1. Format Pengkajian Status Mental (lembar pemeriksaan).\n2. Alat tulis.\n3. Papan jalan/clipboard.\n4. Ruangan wawancara yang tenang dan privat.",
+      "prosedur": "1. **Tahap Persiapan**:\n   a. Pelajari catatan medis dan data sebelumnya tentang pasien.\n   b. Siapkan kondisi diri perawat (refleksi diri terhadap perasaan dan bias).\n   c. Ciptakan lingkungan yang kondusif (tenang, aman dari distraksi, dan terjaga privasinya).\n2. **Tahap Orientasi**:\n   a. Ucapkan salam terapeutik dan perkenalkan diri.\n   b. Jelaskan tujuan dan durasi pemeriksaan (sekitar 15-30 menit).\n   c. Mintalah persetujuan pasien untuk memulai wawancara.\n3. **Tahap Pelaksanaan (Wawancara & Observasi)**:\n   a. **Penampilan**: Amati kebersihan (mandi), cara berpakaian (sesuai/tidak), dan postur tubuh.\n   b. **Pembicaraan**: Nilai volume (pelan/keras), kecepatan (lambat/cepat), dan koherensi.\n   c. **Aktivitas Motorik**: Amati adanya tremor, agitasi, atau retardasi psikomotor.\n   d. **Alam Perasaan (Mood)**: Tanyakan bagaimana perasaan pasien hari ini (sedih, senang, takut).\n   e. **Afek**: Amati ekspresi wajah apakah sesuai dengan mood (adekuat, datar, tumpul, atau labil).\n   f. **Interaksi**: Nilai sikap pasien selama wawancara (kooperatif, curiga, defensif, atau bermusuhan).\n   g. **Persepsi**: Tanyakan adanya halusinasi atau ilusi (pendengaran, penglihatan, dll).\n   h. **Proses Pikir**: Nilai arus pikir (flight of ideas, blocking, atau tangensial).\n   i. **Isi Pikir**: Kaji adanya waham, obsesi, atau ide bunuh diri.\n   j. **Tingkat Kesadaran & Orientasi**: Kaji kesadaran terhadap waktu, tempat, dan orang.\n   k. **Memori**: Kaji daya ingat jangka pendek, sedang, dan panjang.\n   l. **Kemampuan Konsentrasi & Berhitung**: Berikan tes sederhana (misal: pengurangan angka).\n   m. **Daya Nilai (Insight)**: Kaji apakah pasien tahu alasan dia dirawat dan menyadari penyakitnya.\n4. **Tahap Terminasi**:\n   a. Informasikan bahwa pemeriksaan sudah selesai.\n   b. Berikan feedback positif atas kerja sama pasien.\n   c. Kontrak waktu untuk pertemuan selanjutnya.",
+      "dokumentasi": "1. Dokumentasikan hasil pemeriksaan pada lembar status mental secara deskriptif dan akurat.\n2. Tanda tangani lembar pemeriksaan dengan menyertakan nama terang, tanggal, dan jam pemeriksaan."
+    },
+    {
+      "id": "suicide_risk",
+      "judul": "SPO Pengkajian Risiko Bunuh Diri",
+      "pengertian": "Prosedur penilaian mendalam dan terstruktur untuk menentukan tingkat risiko seseorang dalam melakukan tindakan yang membahayakan nyawa bagi dirinya sendiri.",
+      "tujuan": "1. Mendeteksi secara dini adanya ide atau rencana bunuh diri.\n2. Mengklasifikasikan tingkat risiko (Rendah, Sedang, Tinggi).\n3. Menentukan level pengawalan dan proteksi lingkungan bagi pasien.\n4. Mencegah kematian akibat tindakan bunuh diri di area rumah sakit.",
+      "indikasikasi": "1. Pasien dengan diagnosa Depresi atau Bipolar.\n2. Pasien yang mengungkapkan perasaan putus asa (hopelessness).\n3. Pasien dengan riwayat percobaan bunuh diri sebelumnya.\n4. Pasien yang menunjukkan perilaku mengumpulkan benda berbahaya atau membagikan harta benda.",
+      "petugas": "Perawat Jiwa (semua shift wajib melakukan monitoring).",
+      "alat": "1. Instrumen SAD PERSONS Scale atau Lembar Observasi Bunuh Diri.\n2. Alat tulis.\n3. Lembar Kesepakatan Perlindungan Diri (Anti-Suicide Contract).",
+      "prosedur": "1. **Tahap Persiapan**:\n   a. Jaga ketenangan diri dan sikap non-judgmental.\n   b. Identifikasi kerentanan pasien melalui rekam medis.\n2. **Tahap Orientasi**:\n   a. Sampaikan bahwa perawat peduli dan ingin membantu menjaga keamanan pasien.\n   b. Bangun kepercayaan (trust) agar pasien mau terbuka tentang pikiran terdalamnya.\n3. **Tahap Pelaksanaan (Kaji 5 Dimensi)**:\n   a. **Ideasi**: Tanyakan langsung 'Apakah Anda pernah berpikir untuk mengakhiri hidup?'.\n   b. **Rencana**: Kaji apakah sudah ada rencana spesifik (kapan, di mana, bagaimana cara melakukannya).\n   c. **Alat/Sarana**: Tanyakan apakah pasien sudah menyiapkan alat (tali, obat, senjata).\n   d. **Niat (Intent)**: Kaji seberapa kuat tekat pasien untuk melaksanakan rencana tersebut.\n   e. **Faktor Pendukung**: Kaji dukungan keluarga atau faktor yang membuat pasien masih mau bertahan hidup.\n4. **Penentuan Skor (SAD PERSONS)**:\n   a. Kaji poin: Sex, Age, Depression, Previous attempt, Ethanol use, Rational thinking loss, Social supports lacking, Organized plan, No spouse, Sickness.\n5. **Tindak Lanjut Segera**:\n   a. Jika Risiko Tinggi: Lakukan observasi 1:1 (perawat selalu di samping pasien).\n   b. Singkirkan benda tajam, tali, ikat pinggang, kabel, dan bahan kimia berbahaya dari sekitar pasien.\n   c. Minta pasien menandatangani kontrak 'tidak akan melukai diri' selama perawatan.",
+      "dokumentasi": "1. Catat skor risiko dan kesimpulan hasil pengkajian.\n2. Dokumentasikan daftar barang berbahaya yang telah disita dari pasien.\n3. Catat instruksi frekuensi observasi pada lembar monitoring khusus."
+    },
+    {
+      "id": "violence_risk",
+      "judul": "SPO Pengkajian Risiko Kekerasan",
+      "pengertian": "Penilaian klinis terhadap indikator perilaku, verbal, dan emosional yang menunjukkan potensi pasien melakukan penyerangan fisik terhadap orang lain atau lingkungan.",
+      "tujuan": "1. Mencegah terjadinya perilaku kekerasan (amuk).\n2. Melindungi keselamatan pasien lain, petugas, dan keluarga.\n3. Menentukan intervensi dini sebelum terjadi krisis (de-eskalasi).",
+      "indikasikasi": "1. Pasien dengan suara keras, nada mengancam, atau sarkasme.\n2. Pasien yang tampak mondar-mandir agresif atau memukul dinding.\n3. Pasien dengan riwayat perilaku menyerang.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "1. Alat tulis.\n2. Lembar observasi harian.\n3. Panduan Skala Agitasi (misal: BARS atau PANSS-EC).",
+      "prosedur": "1. **Tahap Persiapan**:\n   a. Pastikan ada perawat pendamping (jangan sendirian jika pasien tampak sangat tegang).\n   b. Posisikan diri dekat dengan pintu keluar.\n2. **Tahap Pelaksanaan (Observasi Gejala Objektif)**:\n   a. **Wajah**: Amati mata melotot, rahang mengatup rapat, atau tatapan tajam.\n   b. **Motorik**: Amati tangan mengepal, kaki menghentak, atau berdiri dengan kaku.\n   c. **Verbal**: Dengarkan adanya nada bicara tinggi, kata-kata kasar, atau ancaman langsung.\n   d. **Emosi**: Kaji adanya kemarahan berlebih, iritabilitas (mudah tersinggung), atau kecurigaan tinggi.\n3. **Identifikasi Pemicu**:\n   a. Tanyakan penyebab ketegangan (misal: tidak boleh pulang, halusinasi perintah, atau konflik dengan teman).\n4. **Penilaian Level Agitasi**:\n   a. Tentukan apakah pasien berada pada fase Triggering, Escalation, atau Crisis.\n5. **Intervensi Preventif**:\n   a. Jika terlihat tanda eskalasi, lakukan de-eskalasi verbal segera.\n   b. Jauhkan pasien dari kerumunan atau area yang bising.",
+      "dokumentasi": "1. Catat perilaku spesifik yang ditunjukkan pasien.\n2. Dokumentasikan pemicu yang berhasil diidentifikasi.\n3. Catat respon pasien terhadap instruksi pembatasan perilaku."
+    },
+    {
+      "id": "hallucination_assess",
+      "judul": "SPO Pengkajian Halusinasi",
+      "pengertian": "Prosedur pengumpulan data mengenai karakteristik gangguan persepsi sensori yang dialami pasien tanpa adanya rangsangan eksternal nyata.",
+      "tujuan": "1. Mengetahui jenis, isi, dan pola halusinasi pasien.\n2. Menilai sejauh mana halusinasi mempengaruhi perilaku pasien.\n3. Menentukan strategi kontrol halusinasi yang paling efektif.",
+      "indikasikasi": "Pasien yang tampak bicara/tertawa sendiri, melamun, atau menutup telinga.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "1. Alat tulis.\n2. Format pengkajian halusinasi.",
+      "prosedur": "1. **Tahap Persiapan**:\n   a. Bangun komunikasi yang empati.\n   b. Pilih waktu saat pasien tampak tenang atau justru saat terlihat mengalami gejala.\n2. **Tahap Pelaksanaan (Kaji 5 Dimensi Halusinasi)**:\n   a. **Jenis**: Tanyakan apa yang dirasakan (pendengaran, penglihatan, penghidu, peraba, pengecap).\n   b. **Isi**: Tanyakan secara detail apa yang dikatakan suara tersebut atau apa yang tampak.\n   c. **Waktu & Frekuensi**: Tanyakan kapan gejala muncul (pagi/malam) dan berapa kali dalam sehari.\n   d. **Situasi Pencetus**: Kaji apakah muncul saat melamun, sendirian, atau saat cemas.\n   e. **Respon Emosional**: Kaji perasaan pasien saat halusinasi muncul (takut, senang, marah).\n3. **Kaji Upaya Kontrol**:\n   a. Tanyakan apa yang selama ini dilakukan pasien jika halusinasi datang.\n   b. Nilai apakah cara tersebut berhasil atau tidak.\n4. **Observasi Perilaku Tidak Langsung**:\n   a. Amati gerakan bibir yang komat-kamit.\n   b. Amati arah mata yang seolah mengikuti objek yang tidak ada.",
+      "dokumentasi": "1. Dokumentasikan jenis, isi, waktu, frekuensi, dan respon pasien secara lengkap.\n2. Catat tindakan keperawatan mandiri yang sudah dilakukan untuk mengontrol gejala."
+    },
+    {
+      "id": "delusion_assess",
+      "judul": "SPO Pengkajian Waham",
+      "pengertian": "Penilaian klinis terhadap keyakinan yang salah, tetap, dan kuat dipertahankan meskipun secara objektif tidak sesuai dengan realitas/norma budaya.",
+      "tujuan": "1. Mengidentifikasi jenis dan isi waham.\n2. Menilai intensitas keterpakuan pasien pada wahamnya.\n3. Menghindari konfrontasi yang dapat memperburuk kondisi psikis pasien.",
+      "indikasikasi": "Pasien yang mengklaim dirinya nabi, orang kaya raya secara tidak masuk akal, atau merasa terus dimata-matai tanpa bukti.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Alat tulis dan format laporan.",
+      "prosedur": "1. **Tahap Persiapan**:\n   a. Kuasai teknik 'Don't Challenge the Delusion' (Jangan membantah/berdebat).\n2. **Tahap Pelaksanaan**:\n   a. **Dengarkan Aktif**: Biarkan pasien menceritakan keyakinannya tanpa dipotong.\n   b. **Identifikasi Jenis**: Tentukan apakah itu waham Kebesaran, Curiga, Somatik, Nihilistik, atau Keagamaan.\n   c. **Kaji Intensitas**: Seberapa sering pasien memikirkan ide tersebut? Apakah sampai mengganggu aktivitas?\n   d. **Kaji Dampak Perilaku**: Apakah waham tersebut membuat pasien melakukan tindakan tertentu?\n   e. **Validasi Perasaan**: Fokuslah pada perasaan pasien, bukan pada kebenaran isi ceritanya.\n3. **Amati Inkonsistensi**: Tanpa mendebat, perhatikan apakah ada celah logika yang bisa digunakan untuk reorientasi perlahan.",
+      "dokumentasi": "1. Catat isi waham sesuai ucapan pasien.\n2. Dokumentasikan tingkat keterpakuan pasien terhadap keyakinannya."
+    },
+    {
+      "id": "anxiety_assess",
+      "judul": "SPO Pengkajian Tingkat Ansietas",
+      "pengertian": "Prosedur pengukuran derajat kecemasan melalui observasi tanda-tanda fisiologis, perilaku, dan kognitif.",
+      "tujuan": "1. Menentukan level ansietas (Ringan, Sedang, Berat, Panik).\n2. Memilih intervensi yang tepat bagi pasien.",
+      "indikasikasi": "Pasien yang tampak gelisah, gemetar, sulit tidur, atau mengeluh jantung berdebar.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "1. Tensimeter, Termometer, Stetoskop.\n2. Lembar Skala HARS (Hamilton Anxiety Rating Scale).",
+      "prosedur": "1. **Kaji Tanda Fisiologis (Vital Signs)**:\n   a. Hitung Nadi, Ukur Tekanan Darah.\n   b. Amati adanya keringat dingin.\n2. **Kaji Respon Fisik Lainnya**:\n   a. Amati ketegangan otot, tremor, atau sering buang air kecil.\n   b. Tanyakan adanya keluhan pusing atau mual.\n3. **Kaji Respon Perilaku & Kognitif**:\n   a. Amati ketenangan (mondar-mandir).\n   b. Kaji kemampuan fokus dan pola tidur.\n4. **Penentuan Level Ansietas**:\n   a. **Ringan**: Fokus tajam, sedikit gelisah.\n   b. **Sedang**: Fokus hanya pada penyelesaian masalah.\n   c. **Berat**: Perhatian sangat menyempit.\n   d. **Panik**: Disorientasi total, rasa takut mati.",
+      "dokumentasi": "1. Catat parameter TTV yang berkaitan dengan ansietas.\n2. Dokumentasikan level ansietas berdasarkan hasil observasi."
+    },
+    {
+      "id": "aggression_assess",
+      "judul": "SPO Pengkajian Perilaku Agresif",
+      "pengertian": "Evaluasi klinis terhadap kecenderungan pasien untuk melakukan penyerangan baik secara verbal maupun non-verbal.",
+      "tujuan": "1. Menilai risiko eskalasi dari marah biasa menjadi tindakan amuk.\n2. Mengidentifikasi tanda-tanda awal krisis agresi.\n3. Memberikan umpan balik kepada tim medis.",
+      "indikasikasi": "1. Pasien yang sedang dalam kondisi konflik.\n2. Pasien dengan riwayat perilaku menyerang.\n3. Pasien dalam kondisi agitasi psikomotor.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "1. Format laporan observasi harian.\n2. Alat tulis.",
+      "prosedur": "1. **Observasi Fase Agresi**:\n   a. **Fase Triggering**: Identifikasi peristiwa awal yang membuat pasien kesal.\n   b. **Fase Eskalasi**: Amati peningkatan volume suara, wajah merah, dan gerakan motorik kasar.\n   c. **Fase Krisis**: Kaji apakah pasien sudah kehilangan kontrol.\n2. **Kaji Riwayat Agresi**: Tanyakan riwayat berkelahi atau merusak barang.\n3. **Kaji Penguasaan Emosi**: Tanyakan cara menyelesaikan masalah saat marah.",
+      "dokumentasi": "1. Deskripsi perilaku secara objektif sesuai fase.\n2. Level risiko agresi.\n3. Tanda tangan petugas."
+    },
+    {
+      "id": "sleep_assess",
+      "judul": "SPO Pengkajian Gangguan Tidur",
+      "pengertian": "Penilaian kuantitas, kualitas, serta pola istirahat tidur pasien selama di rumah sakit.",
+      "tujuan": "1. Mengidentifikasi jenis gangguan tidur.\n2. Membantu pengaturan jadwal aktivitas dan pengobatan.\n3. Mengevaluasi efektivitas terapi terhadap kualitas tidur.",
+      "indikasikasi": "1. Pasien yang mengeluh sulit tidur.\n2. Pasien yang tampak mengantuk di siang hari.\n3. Pasien dengan gangguan psikotik yang sering terbangun.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "1. Lembar catatan tidur.\n2. Alat tulis.",
+      "prosedur": "1. **Kaji Kuantitas**: Jam mulai tidur dan bangun.\n2. **Kaji Kualitas**: Perasaan segar atau lelah setelah bangun.\n3. **Identifikasi Hambatan**: Faktor lingkungan atau internal (cemas, halusinasi).\n4. **Kaji Kebiasaan**: Ritual tertentu sebelum tidur.",
+      "dokumentasi": "1. Durasi tidur dalam jam.\n2. Keluhan subjektif pasien.\n3. Tindakan yang diberikan."
+    },
+    {
+      "id": "med_adherence",
+      "judul": "SPO Pengkajian Kepatuhan Minum Obat",
+      "pengertian": "Evaluasi perilaku pasien terhadap instruksi pengobatan psikofarmaka yang diberikan.",
+      "tujuan": "1. Mencegah kegagalan terapi dan kekambuhan.\n2. Mengidentifikasi hambatan dalam mematuhi rejimen pengobatan.\n3. Meningkatkan kesadaran pasien akan pentingnya pengobatan.",
+      "indikasikasi": "1. Semua pasien dengan terapi psikofarmaka.\n2. Pasien yang baru memulai pengobatan.\n3. Pasien dengan riwayat sering putus obat.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "1. Catatan pemberian obat.\n2. Format pengkajian kepatuhan.\n3. Alat tulis.",
+      "prosedur": "1. **Wawancara**: Tanyakan pemahaman fungsi dan nama obat.\n2. **Identifikasi Penolakan**: Kaji alasan enggan minum obat.\n3. **Observasi Langsung**: Pastikan obat ditelan di depan perawat.\n4. **Kaji Efek Samping Subjektif**: Perasaan setelah minum obat.",
+      "dokumentasi": "1. Jumlah dosis yang diminum.\n2. Respon pasien dan alasan penolakan."
+    },
+    {
+      "id": "family_support",
+      "judul": "SPO Pengkajian Dukungan Keluarga",
+      "pengertian": "Penilaian keterlibatan dan kapasitas keluarga dalam mendukung proses kesembuhan pasien.",
+      "tujuan": "1. Menyiapkan kemandirian pasien setelah pulang.\n2. Mengurangi tingkat kekambuhan.\n3. Mengidentifikasi kebutuhan edukasi keluarga.",
+      "indikasikasi": "1. Pasien mendekati fase pemulangan.\n2. Adanya konflik antara pasien dan keluarga.\n3. Keluarga tampak kurang antusias atau sangat cemas.",
+      "petugas": "Perawat Jiwa, Pekerja Sosial Medik.",
+      "alat": "1. Format pengkajian keluarga.\n2. Alat tulis.",
+      "prosedur": "1. **Identifikasi Caregiver**: Anggota keluarga penanggung jawab utama.\n2. **Kaji Pengetahuan**: Pemahaman cara merawat pasien di rumah.\n3. **Kaji Beban**: Stres atau lelah selama merawat pasien.\n4. **Kaji Ketersediaan Sumber Daya**: Finansial dan akses transportasi.",
+      "dokumentasi": "1. Nama penanggung jawab dan kontak.\n2. Tingkat kesiapan keluarga.\n3. Rencana pertemuan keluarga."
+    }
+  ],
+  "B": [
+    {
+      "id": "tak_social",
+      "judul": "SPO Terapi Aktivitas Kelompok (TAK) Sosialisasi",
+      "pengertian": "Kegiatan terapi kelompok yang terstruktur untuk melatih kemampuan interaksi sosial pasien.",
+      "tujuan": "1. Meningkatkan kemampuan komunikasi verbal dan non-verbal.\n2. Melatih keterampilan berkenalan.\n3. Meningkatkan rasa percaya diri dalam kelompok.",
+      "indikasikasi": "Pasien isolasi sosial atau menarik diri.",
+      "petugas": "Leader (Perawat Jiwa), Co-Leader, Fasilitator, Observer.",
+      "alat": "1. Bola musik.\n2. Speaker.\n3. Name tag.\n4. Reinforcement.",
+      "prosedur": "1. **Sesi 1: Perkenalan Diri**: Menyebutkan nama dan hobi.\n2. **Sesi 2: Berkenalan**: Menanamkan keterampilan bertanya nama teman.\n3. **Sesi 3: Bercakap Topik Tertentu**: Diskusi hobi bersama.\n4. **Tahap Terminasi**: Evaluasi perasaan dan kontrak waktu.",
+      "dokumentasi": "Catat kemampuan interaksi dan tingkat partisipasi."
+    },
+    {
+      "id": "tak_stimuli",
+      "judul": "SPO Terapi Aktivitas Kelompok Stimulasi Persepsi",
+      "pengertian": "Terapi kelompok untuk melatih klien mengontrol gangguan persepsi (halusinasi).",
+      "tujuan": "1. Kien mampu mengenal karakteristik halusinasi.\n2. Klien mampu menguasai teknik kontrol halusinasi.",
+      "indikasikasi": "Pasien dengan masalah halusinasi.",
+      "petugas": "Tim Keperawatan Jiwa.",
+      "alat": "Format latihan, daftar materi.",
+      "prosedur": "1. **Sesi 1: Mengenal Gejala**: Bercerita pengalaman halusinasi.\n2. **Sesi 2: Menghardik**: Praktik cara menolak halusinasi.\n3. **Sesi 3: Nyusun Jadwal**: Mengisi waktu dengan aktivitas.\n4. **Sesi 4: Obat**: Diskusi pentingnya obat.",
+      "dokumentasi": "Catat kemampuan praktis menghardik."
+    },
+    {
+      "id": "tak_orientation",
+      "judul": "SPO Terapi Aktivitas Kelompok Orientasi Realita",
+      "pengertian": "Terapi untuk meningkatkan kesadaran klien terhadap diri sendiri dan lingkungan nyata.",
+      "tujuan": "1. Mengurangi kebingungan dan disorientasi.\n2. Membantu klien kembali ke realitas.\n3. Meningkatkan kemampuan interaksi kelompok.",
+      "indikasikasi": "Pasien dengan gangguan orientasi realita atau demensia.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "1. Kalender, Jam.\n2. Name tag.\n3. Alat bantu visual.",
+      "prosedur": "1. **Sesi Orang**: Perkenalan diri dan orang lain.\n2. **Sesi Tempat**: Mengenali ruangan dan bangsal.\n3. **Sesi Waktu**: Mendiskusikan hari dan tanggal.",
+      "dokumentasi": "Status orientasi klien pasca terapi."
+    },
+    {
+      "id": "tak_selfesteem",
+      "judul": "SPO Terapi Aktivitas Kelompok Peningkatan Harga Diri",
+      "pengertian": "Terapi kelompok untuk menggali potensi diri dan meningkatkan rasa syukur.",
+      "tujuan": "1. Identifikasi aspek positif diri.\n2. Meningkatkan kepercayaan diri.\n3. Pengalaman keberhasilan di depan publik.",
+      "indikasikasi": "Pasien dengan Harga Diri Rendah.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Kertas, alat tulis, alat pendukung hobi.",
+      "prosedur": "1. **Sesi 1: Identifikasi**: Menuliskan kemampuan diri.\n2. **Sesi 2: Demonstrasi**: Mempraktikkan hobi di depan teman.\n3. **Sesi 3: Apresiasi**: Saling memberikan pujian.",
+      "dokumentasi": "Daftar aspek positif diri klien."
+    },
+    {
+      "id": "tak_emotion",
+      "judul": "SPO Terapi Aktivitas Kelompok Pengendalian Emosi",
+      "pengertian": "Latihan berkelompok untuk mengidentifikasi pemicu amarah secara aman.",
+      "tujuan": "1. Memahami pemicu kemarahan.\n2. Menguasai manajemen marah fisik/verbal.\n3. Menurunkan risiko perilaku kekerasan.",
+      "indikasikasi": "Pasien dengan Resiko Perilaku Kekerasan.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Bantal, kartu pemicu, papan tulis.",
+      "prosedur": "1. **Identifikasi**: Membahas alasan kesal.\n2. **Latihan Fisik**: Napas dalam dan pukul bantal.\n3. **Latihan Verbal**: Komunikasi asertif.\n4. **Latihan Spiritual**: Berdoa/Wudhu.",
+      "dokumentasi": "Kemampuan koping adaptif klien."
+    },
+    {
+      "id": "therapeutic_comm",
+      "judul": "SPO Komunikasi Terapeutik",
+      "pengertian": "Teknik komunikasi sadar untuk membantu proses kesembuhan pasien.",
+      "tujuan": "1. Membangun saling percaya.\n2. Mengeksplorasi perasaan.\n3. Memfasilitasi perubahan perilaku.",
+      "indikasikasi": "Semua interaksi perawat-pasien.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Lingkungan tenang.",
+      "prosedur": "1. **Pra-Orientasi**: Persiapan diri perawat.\n2. **Orientasi**: Salam, perkenalan, validasi, kontrak.\n3. **Kerja**: Diskusi masalah dan latihan baru.\n4. **Terminasi**: Evaluasi dan rencana lanjut.",
+      "dokumentasi": "Ringkasan format S-O-A-P."
+    },
+    {
+      "id": "distraction",
+      "judul": "SPO Terapi Distraksi",
+      "pengertian": "Pengalihan fokus pikiran dari stimulus mengganggu ke aktivitas menyenangkan.",
+      "tujuan": "1. Turunkan intensitas halusinasi.\n2. Kurangi fokus pada cemas.\n3. Rasa kontrol terhadap gejala.",
+      "indikasikasi": "Pasien halusinasi atau kecemasan sedang.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Musik, Buku, Alat olah raga.",
+      "prosedur": "1. **Identifikasi Pemicu**: Kapan gejala muncul.\n2. **Pilih Aktivitas**: Hobi yang disukai.\n3. **Latih Pengalihan**: Instruksi melakukan hobi segera.\n4. **Dampingi**: Temani selama pengalihan.",
+      "dokumentasi": "Jenis distraksi efektif dan durasi bebas gejala."
+    },
+    {
+      "id": "deep_breathing",
+      "judul": "SPO Terapi Relaksasi Napas Dalam",
+      "pengertian": "Intervensi keperawatan mandiri untuk menurunkan ketegangan fisik.",
+      "tujuan": "1. Kondisi rileks dan tenang.\n2. Turunkan vital signs (nadi, TD).\n3. Atasi serangan panik.",
+      "indikasikasi": "Pasien ansietas atau gangguan tidur.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Kursi nyaman.",
+      "prosedur": "1. **Posisi**: Atur kenyamanan klien.\n2. **Inhalasi**: Tarik napas lewat hidung.\n3. **Retensi**: Tahan 3 detik.\n4. **Ekshalasi**: Hembuskan perlahan lewat mulut.\n5. **Repetisi**: Ulangi 5-10 kali.",
+      "dokumentasi": "Skala ansietas sebelum/sesudah."
+    },
+    {
+      "id": "music_therapy",
+      "judul": "SPO Terapi Musik pada Pasien Gangguan Jiwa",
+      "pengertian": "Penggunaan musik untuk memodifikasi suasana hati.",
+      "tujuan": "1. Meningkatkan mood.\n2. Alihkan dari halusinasi.\n3. Turunkan ketegangan otot.",
+      "indikasikasi": "Pasien Depresi atau ansietas.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Speaker/Headphone, Playlist.",
+      "prosedur": "1. **Asesmen**: Minat musik pasien.\n2. **Setting**: Volume sedang selama 20 menit.\n3. **Evaluasi**: Diskusi perasaan pasca lagu.",
+      "dokumentasi": "Respon afektif selama intervensi."
+    },
+    {
+      "id": "occupational",
+      "judul": "SPO Terapi Okupasi",
+      "pengertian": "Penggunaan aktivitas produktif untuk melatih fokus dan motorik.",
+      "tujuan": "1. Alihkan energi negatif.\n2. Tingkatkan kepercayaan diri.\n3. Persiapan kemandirian.",
+      "indikasikasi": "Pasien fase rehabilitasi.",
+      "petugas": "Terapis Okupasi.",
+      "alat": "Bahan kerajinan, lem, gunting.",
+      "prosedur": "1. **Persiapan**: Sediakan bahan sesuai hobi.\n2. **Bimbingan**: Instruksi bertahap.\n3. **Penghargaan**: Pajang hasil karya.",
+      "dokumentasi": "Jenis karya dan ketekunan klien."
+    }
+  ],
+  "C": [
+    {
+      "id": "rage_management",
+      "judul": "SPO Penanganan Pasien Amuk",
+      "pengertian": "Tindakan gawat darurat psikiatri untuk mengendalikan perilaku kekerasan aktif.",
+      "tujuan": "1. Keselamatan nyawa.\n2. Cegah kerusakan.\n3. Turunkan agitasi.",
+      "indikasikasi": "Pasien menyerang fisik atau melempar barang.",
+      "petugas": "Tim Krisis (minimal 5 orang).",
+      "alat": "Tali pengikat, bantal, sedasi injeksi.",
+      "prosedur": "1. **Mobilisasi**: Code Blue Psikiatri.\n2. **Show of Force**: Dekati secara serentak.\n3. **Pengamanan**: Amankan semua ekstremitas.\n4. **Farmakologi**: Injeksi penenang.",
+      "dokumentasi": "Kronologi, petugas, dan medikasi."
+    },
+    {
+      "id": "suicide_attempt",
+      "judul": "SPO Penanganan Percobaan Bunuh Diri",
+      "pengertian": "Intervensi medis darurat pada pasien yang mencoba mengakhiri hidup.",
+      "tujuan": "1. Selamatkan nyawa.\n2. Cegah upaya susulan.\n3. Stabilitas emosional.",
+      "indikasikasi": "Pasien kedapatan mencoba bunuh diri.",
+      "petugas": "Perawat Jiwa, Dokter Jaga.",
+      "alat": "Emergency Kit, Alat pemotong/bilas lambung.",
+      "prosedur": "1. **Penyelamatan**: Cek vital signs (ABC).\n2. **Eliminasi**: Singkirkan alat pemicu.\n3. **Pengawasan**: Observasi 1:1 di HCU.\n4. **Supportif**: Dukungan emosional pasca stabil.",
+      "dokumentasi": "Monitoring TTV dan kronologi."
+    },
+    {
+      "id": "aggressive_handling",
+      "judul": "SPO Penanganan Pasien Agresif",
+      "pengertian": "Manajemen pada pasien di ambang kemarahan besar.",
+      "tujuan": "1. Cegah kekerasan fisik.\n2. Penyaluran emosi adaptif.\n3. Hindari cidera.",
+      "indikasikasi": "Tanda-tanda kemarahan akut (verbal/non-verbal).",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Kartu kontrol emosi.",
+      "prosedur": "1. **Komunikasi**: Bicara tenang dan rendah.\n2. **Limit Setting**: Beri batasan perilaku.",
+      "dokumentasi": "Respon verbal pasien."
+    },
+    {
+      "id": "deescalation",
+      "judul": "SPO De-eskalasi Pasien Agitatif",
+      "pengertian": "Penenangan psikologis untuk turunkan ketegangan.",
+      "tujuan": "1. Turunkan agitasi damai.\n2. Hindari restraint.\n3. Kerjasama terapeutik.",
+      "indikasikasi": "Pasien dengan agitasi psikomotor.",
+      "petugas": "Perawat terlatih.",
+      "alat": "Ruang tenang.",
+      "prosedur": "1. **Lingkungan**: Kurangi kebisingan.\n2. **Jarak**: Berikan ruang pribadi.\n3. **Validasi**: Dengarkan keluhan.",
+      "dokumentasi": "Level agitasi sebelum/sesudah."
+    },
+    {
+      "id": "psych_security",
+      "judul": "SPO Pengamanan Pasien Psikiatri",
+      "pengertian": "Pengecekan rutin sistem keamanan fisik.",
+      "tujuan": "1. Mencegah cidera diri.\n2. Mencegah kabur.\n3. Lingkungan aman.",
+      "indikasikasi": "Semua area perawatan.",
+      "petugas": "Keamanan & Perawat.",
+      "alat": "Checklist harian.",
+      "prosedur": "1. **Struktur**: Cek jendela dan ventilasi.\n2. **Pengecekan**: Cek barang bawaan pengunjung.\n3. **Absensi**: Pastikan jumlah pasien tiap shift.",
+      "dokumentasi": "Checklist harian keamanan."
+    },
+    {
+      "id": "restraint_full",
+      "judul": "SPO Pengikatan Fisik (Restraint)",
+      "pengertian": "Penggunaan alat mekanik untuk membatasi pergerakan.",
+      "tujuan": "1. Lindungi keselamatan diri.\n2. Fasilitasi terapi medis.\n3. Kurangi stimulasi.",
+      "indikasikasi": "Pasien amuk yang tak terkendali oral/injeksi.",
+      "petugas": "Tim Keperawatan.",
+      "alat": "Sabuk pengikat, bantal.",
+      "prosedur": "1. **Instruksi**: Jelaskan tujuan ke pasien.\n2. **Pemasangan**: Ikat 4 titik pada kerangka bed.\n3. **Keamanan**: Cek sirkulasi (2 jari).",
+      "dokumentasi": "Monitoring sirkulasi tiap 15 menit."
+    },
+    {
+      "id": "isolation",
+      "judul": "SPO Isolasi Pasien Psikiatri",
+      "pengertian": "Penempatan di ruang khusus minim stimulus.",
+      "tujuan": "1. Beri waktu penenangan diri.\n2. Kurangi risiko serangan.\n3. Kurangi stimulus pemicu.",
+      "indikasikasi": "Agitasi yang tak terkelola di ruang publik.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Ruang isolasi standar.",
+      "prosedur": "1. **Prosedur Masuk**: Lepas semua benda berbahaya.\n2. **Monitoring**: Pantau tiap 10 menit.\n3. **Kebutuhan**: Siapkan makan dalam pengawasan.",
+      "dokumentasi": "Jam masuk/keluar dan perilaku."
+    },
+    {
+      "id": "delirium_handling",
+      "judul": "SPO Penanganan Pasien Delirium",
+      "pengertian": "Penanganan gangguan kesadaran akut.",
+      "tujuan": "1. Keselamatan fisik.\n2. Pemulihan orientasi.\n3. Stabilisasi medis.",
+      "indikasikasi": "Disorientasi mendadak dan meracau.",
+      "petugas": "Dokter & Perawat.",
+      "alat": "Kalender besar, jam dinding.",
+      "prosedur": "1. **Reorientasi**: Jelaskan posisi pasien terus menerus.\n2. **Lingkungan**: Pencahayaan cukup malam hari.\n3. **Medis**: Rehidrasi dan nutrisi.",
+      "dokumentasi": "Status kesadaran (GCS)."
+    },
+    {
+      "id": "intoxication",
+      "judul": "SPO Penanganan Pasien Intoksikasi Zat",
+      "pengertian": "Manajemen kedaruratan kelebihan dosis zat.",
+      "tujuan": "1. Stabilisasi fungsi vital.\n2. Cegah depresi napas.\n3. Detoksifikasi awal.",
+      "indikasikasi": "Penurunan kesadaran akibat zat/alkohol.",
+      "petugas": "Dokter IGD, Perawat Jiwa.",
+      "alat": "Monitor, cairan infus, antidotum.",
+      "prosedur": "1. **ABC**: Jalan napas, napas, sirkulasi.\n2. **Detoks**: Berikan cairan penunjang.\n3. **Monitoring**: Pantau tanda fatal.",
+      "dokumentasi": "Jenis zat dan respon kesadaran."
+    },
+    {
+      "id": "withdrawal",
+      "judul": "SPO Penanganan Pasien Putus Obat",
+      "pengertian": "Manajemen gejala Sakau.",
+      "tujuan": "1. Redakan derita fisik.\n2. Cegah kejang.\n3. Jaga motivasi pulih.",
+      "indikasikasi": "Gejala tremor, cemas, nyeri pasca henti zat.",
+      "petugas": "Dokter Spesialis Adiksi.",
+      "alat": "Skala putus zat.",
+      "prosedur": "1. **Hidrasi**: Cukupi sirkulasi cairan.\n2. **Ketenangan**: Berikan suasana sejuk.\n3. **Obat**: Analgesik jika diperlukan.",
+      "dokumentasi": "Skala CIWA/COWS harian."
+    }
+  ],
+  "D": [
+    {
+      "id": "ect_standard",
+      "judul": "SPO Terapi Kejang Listrik (ECT)",
+      "pengertian": "Prosedur induksi kejang singkat secara elektrik untuk pengobatan.",
+      "tujuan": "1. Atasi depresi resisten.\n2. Atasi katatonik cepat.\n3. Putus rantai waham kronik.",
+      "indikasikasi": "Depresi mayor, risiko bunuh diri tinggi.",
+      "petugas": "Psikiater, Perawat ECT, Anestesi.",
+      "alat": "Unit ECT, Monitor EKG, Oksigen, Jelly.",
+      "prosedur": "1. **Pra**: Informed consent and puasa.\n2. **Intra**: Induksi anestesi, stimulasi elektrik.\n3. **Post**: Miringkan kepala, pantau kesadaran.",
+      "dokumentasi": "Dosis listrik dan durasi kejang."
+    },
+    {
+      "id": "psychotropic_admin",
+      "judul": "SPO Pemberian Obat Psikotropika",
+      "pengertian": "Pemberian obat pada susunan saraf pusat.",
+      "tujuan": "Efektivitas terapi farmakologi aman.",
+      "indikasikasi": "Pasien dengan terapi obat jiwa.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Wadah obat, gelas minum.",
+      "prosedur": "1. **Cek**: Benar pasien, benar obat, benar dosis.\n2. **Telan**: Pastikan obat benar-benar ditelan.\n3. **Informasi**: Jelaskan efek samping ringan.",
+      "dokumentasi": "Pencatatan MAR (Medication Administration Record)."
+    },
+    {
+      "id": "side_effect_monitor",
+      "judul": "SPO Observasi Efek Samping Antipsikotik",
+      "pengertian": "Pemantauan dampak tak diinginkan obat jiwa.",
+      "tujuan": "Deteksi dini dan cegah komplikasi obat.",
+      "indikasikasi": "Penggunaan antipsikotik jangka panjang.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Checklist efek samping.",
+      "prosedur": "1. **Ortostatik**: Cek pusing saat berdiri.\n2. **Urin**: Cek kelancaran BAK.\n3. **Fisik**: Pantau keluhan nyeri atau kaku.",
+      "dokumentasi": "Checklist efek samping rutin."
+    },
+    {
+      "id": "eps_management",
+      "judul": "SPO Penanganan Sindrom Ekstrapiramidal (EPS)",
+      "pengertian": "Intervensi gangguan motorik akibat obat.",
+      "tujuan": "Redakan kaku otot mendadak.",
+      "indikasikasi": "Mata melotot ke atas atau leher kaku.",
+      "petugas": "Dokter & Perawat.",
+      "alat": "Obat antidotum (SA/Injeksi).",
+      "prosedur": "1. **Identifikasi**: Cek tortikolis atau tremor.\n2. **Antidotum**: Injeksi sesuai saran dokter.\n3. **Edukasi**: Tenangkan pasien agar tak cemas.",
+      "dokumentasi": "Catat respon pasca antidotum."
+    },
+    {
+      "id": "sedation_monitor",
+      "judul": "SPO Monitoring Efek Sedasi Obat Psikiatri",
+      "pengertian": "Monitoring tingkat kantuk berlebih.",
+      "tujuan": "Hindari risiko jatuh karena sedasi.",
+      "indikasikasi": "Terapi obat tidur/penenang dosis tinggi.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Skala sedasi.",
+      "prosedur": "1. **Respon**: Cek kemampuan menjawab bicara.\n2. **Mobilisasi**: Dampingi saat ke toilet.\n3. **Safety**: Pastikan bed terkunci.",
+      "dokumentasi": "Skala sedasi Ramsay harian."
+    }
+  ],
+  "E": [
+    {
+      "id": "rehab_psychosocial",
+      "judul": "SPO Terapi Rehabilitasi Psikososial",
+      "pengertian": "Proses persiapan fungsi mandiri di masyarakat.",
+      "tujuan": "Kemandirian fungsional pasca pulang.",
+      "indikasikasi": "Pasien fase rehabilitasi.",
+      "petugas": "Perawat & Terapis.",
+      "alat": "Alat kebersihan bangsal.",
+      "prosedur": "1. **Aktivitas**: Beri tugas merapikan kasur.\n2. **Inisiatif**: Pantau kemampuan interaksi mandiri.\n3. **Reward**: Berikan pujian atas tiap progres.",
+      "dokumentasi": "Review harian kemandirian."
+    },
+    {
+      "id": "social_skills",
+      "judul": "SPO Pelatihan Keterampilan Sosial",
+      "pengertian": "Latihan teknik komunikasi sosial dasar.",
+      "tujuan": "Pasien mampu bergaul wajar di masyarakat.",
+      "indikasikasi": "Defisit keterampilan sosial.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Buku panduan komunikasi.",
+      "prosedur": "1. **Sapa**: Latihan senyum dan menyapa.\n2. **Maaf**: Latihan berkata jujur dan maaf.\n3. **Kontak Mata**: Melatih tatapan yang sopan.",
+      "dokumentasi": "Skala keterampilan interaksi sosial."
+    },
+    {
+      "id": "selfcare_training",
+      "judul": "SPO Pelatihan Perawatan Diri",
+      "pengertian": "Bimbingan teknis kebersihan badan.",
+      "tujuan": "Kebersihan diri terjaga tanpa bantuan.",
+      "indikasikasi": "Defisit Perawatan Diri (DPD).",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Perlengkapan mandi lengkap.",
+      "prosedur": "1. **Tutorial**: Bimbing cara gosok gigi dan mandi bersih.\n2. **Fashion**: Latihan memadukan pakaian rapi.\n3. **Inpeksi**: Cek kuku dan kebersihan rambut.",
+      "dokumentasi": "Checklist kebersihan diri harian."
+    }
+  ],
+  "F": [
+    {
+      "id": "med_edu",
+      "judul": "SPO Edukasi Kepatuhan Minum Obat",
+      "pengertian": "Edukasi manfaat obat kepada keluarga.",
+      "tujuan": "Cegah putus obat di rumah.",
+      "indikasikasi": "Keluarga pasien rencana pulang.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Brochure/Poster obat.",
+      "prosedur": "1. **Mitos**: Jelaskan bahwa obat bukan candu.\n2. **Jadwal**: Tuliskan jadwal jam minum di rumah.\n3. **Emergency**: Info jika muncul alergi obat.",
+      "dokumentasi": "Lembar edukasi keluarga."
+    },
+    {
+      "id": "relapse_prevention",
+      "judul": "SPO Edukasi Pencegahan Kekambuhan",
+      "pengertian": "Pelatihan kenali gejala awal kumat.",
+      "tujuan": "Penanganan dini cegah amuk kembali.",
+      "indikasikasi": "Pasien dengan risiko kambuh tinggi.",
+      "petugas": "Perawat & Psikolog.",
+      "alat": "Kartu crisis plan.",
+      "prosedur": "1. **Trigger**: Cari tahu hal yang membuat stres.\n2. **Signs**: Catat tanda sebelum marah besar.\n3. **Action**: Ke mana keluarga harus melapor.",
+      "dokumentasi": "Format Crisis Plan Keluarga."
+    }
+  ],
+  "G": [
+    {
+      "id": "psych_doc",
+      "judul": "SPO Dokumentasi Asuhan Keperawatan Jiwa",
+      "pengertian": "Prosedur penulisan akuntabel.",
+      "tujuan": "Legalitas asuhan keperawatan.",
+      "indikasikasi": "Semua tindakan keperawatan.",
+      "petugas": "Perawat Jiwa.",
+      "alat": "Rekam Medis (RM).",
+      "prosedur": "1. **Objektif**: Catat perilaku nyata.\n2. **Time**: Catat sesuai jam kejadian.\n3. **Sign**: Tanda tangan setelah nulis.",
+      "dokumentasi": "Bundel RM Pasien lengkap."
+    },
+    {
+      "id": "discharge_psych",
+      "judul": "SPO Discharge Planning Pasien Psikiatri",
+      "pengertian": "Persiapan pulang ke masyarakat.",
+      "tujuan": "Transisi aman dan sukses.",
+      "indikasikasi": "Pasien yang dinyatakan boleh pulang.",
+      "petugas": "Perawat & Administrasi.",
+      "alat": "Surat kontrol, paket obat.",
+      "prosedur": "1. **Surat**: Berikan resume keperawatan.\n2. **Verifikasi**: Pastikan keluarga penjemput ada.\n3. **Referral**: Info puskesmas setempat jika perlu.",
+      "dokumentasi": "Bukti serah terima dan resume pulang."
+    }
+  ]
+}

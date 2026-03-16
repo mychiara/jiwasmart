@@ -1,0 +1,332 @@
+[
+    {
+        "question": "Seorang laki-laki (35 th) dirawat di RSJ untuk ketiga kalinya. Saat dikaji, pasien tampak duduk menyendiri di pojok ruangan, tangan menutup telinga, dan sesekali berteriak 'Diam! Jangan bicara padaku!'. Pasien mengatakan mendengar suara wanita yang mencaci makinya setiap kali suasana sepi. Apakah tindakan keperawatan pertama yang harus diajarkan?",
+        "options": [
+            "Menjelaskan cara menghardik halusinasi",
+            "Menganjurkan bercakap-cakap dengan pasien lain",
+            "Membantu pasien melakukan aktivitas terjadwal",
+            "Memberikan edukasi manfaat minum obat"
+        ],
+        "answer": 0,
+        "explanation": "Tindakan pertama (SP 1) untuk pasien halusinasi yang sedang mengalami gejala akut adalah mengajarkan cara menghardik. Ini memberikan kontrol segera kepada pasien atas persepsinya yang terganggu."
+    },
+    {
+        "question": "Seorang perempuan (28 th) dibawa ke IGD RSJ karena mengamuk di rumah. Saat pengkajian, mata pasien tampak melotot, tangan mengepal, dan bicara kasar dengan nada tinggi. Keluarga mengatakan pasien memecahkan kaca jendela karena permintaannya ditolak. Apakah diagnosa keperawatan utama pada kasus tersebut?",
+        "options": [
+            "Risiko Perilaku Kekerasan",
+            "Perilaku Kekerasan",
+            "Harga Diri Rendah Kronis",
+            "Koping Keluarga Tidak Efektif"
+        ],
+        "answer": 1,
+        "explanation": "Diagnosa Perilaku Kekerasan ditetapkan karena sudah terjadi tindakan fisik (merusak lingkungan/memecahkan kaca) disertai tanda objektif kemarahan yang jelas."
+    },
+    {
+        "question": "Seorang laki-laki (40 th) dirawat di bangsal jiwa. Pasien tampak selalu menunduk, jarang bicara, dan menolak makan bersama pasien lain. Saat didekati, pasien berkata, 'Saya malu, saya tidak pantas di sini, saya orang gagal karena tidak bisa menjaga istri saya yang meninggal.'. Apakah masalah psikososial utama yang dialami?",
+        "options": [
+            "Isolasi Sosial",
+            "Harga Diri Rendah Kronis",
+            "Gangguan Citra Tubuh",
+            "Ketidakberdayaan"
+        ],
+        "answer": 1,
+        "explanation": "Ungkapan perasaan malu, gagal, dan tidak pantas merupakan indikator kuat masalah Harga Diri Rendah (HDR)."
+    },
+    {
+        "question": "Seorang perempuan (30 th) sudah dirawat selama 2 minggu dengan diagnosa Isolasi Sosial. Perawat telah berhasil melatih pasien cara berkenalan dengan satu orang. Apakah langkah intervensi selanjutnya (SP 2) yang paling tepat?",
+        "options": [
+            "Melatih cara berkenalan dengan dua orang atau lebih",
+            "Mengajarkan cara merapikan tempat tidur",
+            "Mengevaluasi jadwal minum obat pasien",
+            "Menganjurkan keluarga untuk membawa pasien pulang"
+        ],
+        "answer": 0,
+        "explanation": "Sesuai dengan Strategi Pelaksanaan (SP) Isolasi Sosial, setelah mahir berkenalan dengan satu orang, pasien dilatih untuk berinteraksi dengan kelompok yang lebih besar (dua orang atau lebih)."
+    },
+    {
+        "question": "Seorang laki-laki (45 th) dengan Skizofrenia menunjukkan penampilan yang tidak rapi. Rambutnya gimbal, tercium bau badan yang menyengat, kuku panjang dan kotor. Pasien mengatakan malas mandi karena tidak ada yang melihatnya. Apakah tindakan pertama yang harus dilakukan perawat?",
+        "options": [
+            "Menjelaskan pentingnya kebersihan diri",
+            "Melatih pasien cara mandi yang benar",
+            "Membantu pasien mengganti pakaian secara paksa",
+            "Memberikan sabun dan sampo baru kepada pasien"
+        ],
+        "answer": 0,
+        "explanation": "Langkah pertama (SP 1) dalam Defisit Perawatan Diri (DPD) adalah membina motivasi dengan menjelaskan manfaat kebersihan dan kerugian jika tidak menjaga kebersihan diri."
+    },
+    {
+        "question": "Seorang perempuan (25 th) mahasiswi tingkat akhir mengeluh sulit berkonsentrasi, sering merasa berdebar-debar, dan keringat dingin saat memikirkan skripsinya. Pasien tampak gelisah, mondar-mandir, dan bicara dengan nada cepat. Apakah tingkat kecemasan yang dialami pasien?",
+        "options": [
+            "Ansietas Ringan",
+            "Ansietas Sedang",
+            "Ansietas Berat",
+            "Panik"
+        ],
+        "answer": 1,
+        "explanation": "Adanya gejala fisik otonom (debar-debar, keringat dingin) dan perubahan perilaku (gelisah, bicara cepat) dengan fokus yang terbatas pada skripsi menunjukkan Ansietas Sedang."
+    },
+    {
+        "question": "Seorang laki-laki (38 th) meyakini bahwa dirinya adalah titisan raja yang memiliki kekuatan untuk mengendalikan cuaca. Pasien sering berdiri di tengah lapangan sambil menggerakkan tangannya ke langit. Saat perawat menyatakan hal itu tidak mungkin, pasien marah. Apakah respons perawat yang paling terapeutik?",
+        "options": [
+            "Saya mengerti Bapak merasa bisa mengendalikan cuaca, namun saya lihat langit mendung karena memang musim hujan",
+            "Bapak jangan berkhayal terus, nanti orang-orang menganggap Bapak aneh",
+            "Wah, hebat sekali Bapak bisa mengendalikan cuaca, ajarkan saya caranya",
+            "Bapak harus minum obat agar kekuatan Bapak hilang"
+        ],
+        "answer": 0,
+        "explanation": "Teknik terbaik pada pasien waham adalah menghadirkan realitas (reality testing) tanpa membantah secara agresif dan tanpa mendukung isi waham tersebut."
+    },
+    {
+        "question": "Seorang perempuan (34 th) dirawat karena depresi berat. Pasien mengatakan, 'Suara itu kembali, menyuruh saya mengakhiri penderitaan ini dengan gantung diri.'. Pasien tampak melirik ke arah seprai tempat tidurnya dengan tatapan kosong. Apakah diagnosa keperawatan prioritas?",
+        "options": [
+            "Halusinasi Pendengaran",
+            "Risiko Bunuh Diri",
+            "Risiko Perilaku Kekerasan",
+            "Ketidakberdayaan"
+        ],
+        "answer": 1,
+        "explanation": "Meskipun disebabkan halusinasi, adanya ide dan rencana bunuh diri yang spesifik menjadikan Risiko Bunuh Diri sebagai prioritas keselamatan utama."
+    },
+    {
+        "question": "Seorang laki-laki (50 th) baru kehilangan istrinya sebulan lalu. Pasien sering terlihat melamun, nafsu makan menurun tajam, dan sering terbangun tengah malam. Pasien berkata, 'Andai saya tidak membiarkan dia pergi sendiri hari itu, dia pasti masih di sini.'. Apakah tahap berduka yang dialami pasien?",
+        "options": [
+            "Denial",
+            "Anger",
+            "Bargaining",
+            "Depression"
+        ],
+        "answer": 2,
+        "explanation": "Pernyataan 'andai saya...' menunjukkan perilaku tawar-menawar (Bargaining) untuk mencoba menunda atau membatalkan kenyataan kehilangan."
+    },
+    {
+        "question": "Perawat memimpin kelompok pasien dalam Terapi Aktivitas Kelompok (TAK) Sosialisasi. Pada Sessi 1, pasien diminta memperkenalkan diri (Sebut nama, hobi, asal). Manakah fase TAK yang sedang dilakukan perawat?",
+        "options": [
+            "Fase Orientasi",
+            "Fase Kerja",
+            "Fase Terminasi",
+            "Fase Evaluasi"
+        ],
+        "answer": 1,
+        "explanation": "Aktivitas utama dalam TAK (seperti latihan perkenalan) merupakan bagian dari Fase Kerja."
+    },
+    {
+        "question": "Seorang laki-laki (29 th) dirawat dengan keluhan sering mendengar suara bisikan. Perawat mengajarkan cara mengontrol suara tersebut dengan 'bercakap-cakap dengan orang lain'. Apakah rasional dari tindakan tersebut?",
+        "options": [
+            "Memberikan stimulus eksternal yang nyata untuk mengalihkan stimulus internal",
+            "Meningkatkan kemampuan sosialisasi agar pasien punya banyak teman",
+            "Membuat pasien lelah bicara sehingga tidak lagi mendengar suara",
+            "Orang lain akan menakut-nakuti suara bisikan tersebut"
+        ],
+        "answer": 0,
+        "explanation": "Bercakap-cakap dengan orang lain mengharuskan pasien fokus pada dunia luar (realitas), sehingga perhatian terhadap halusinasi berkurang."
+    },
+    {
+        "question": "Seorang laki-laki (31 th) mendapat terapi Klorpromazin (CPZ) 100 mg. Saat ini pasien mengeluh bibirnya gemetar, jalan menyeret (shuffling gait), dan sering mengeluarkan air liur. Apakah efek samping obat yang dialami?",
+        "options": [
+            "Akatisia",
+            "Distonia Akut",
+            "Tardive Diskinesia",
+            "Sindrom Parkinsonisme"
+        ],
+        "answer": 3,
+        "explanation": "Gejala tremor, jalan menyeret, dan hipersalivasi merupakan tanda klinis Parkinsonisme akibat efek ekstrapiramidal obat antipsikotik."
+    },
+    {
+        "question": "Seorang laki-laki (44 th) dirawat di RSJ dengan diagnosa Perilaku Kekerasan. Perawat telah mengajarkan cara fisik 1 (napas dalam). Pasien bertanya, 'Selain napas dalam, apa lagi yang bisa saya lakukan kalau ingin marah?'. Apakah jawaban perawat (SP 2)?",
+        "options": [
+            "Latihan fisik kedua yaitu pukul kasur atau bantal",
+            "Minum obat penenang dosis tinggi",
+            "Meminta perawat untuk mengikat tangan Bapak",
+            "Menghindar dan masuk ke dalam kamar saja"
+        ],
+        "answer": 0,
+        "explanation": "Sesuai SP PK, setelah napas dalam, cara fisik kedua adalah menyalurkan energi kemarahan secara aman melalui benda lunak seperti kasur atau bantal."
+    },
+    {
+        "question": "Seorang perempuan (22 th) korban tsunami setahun lalu. Pasien sering terbangun malam karena mimpi buruk tentang air besar, selalu kaget jika mendengar suara gemuruh, dan menahan diri untuk tidak mendekati pantai. Kondisi ini sudah setahun terjadi. Apakah diagnosa yang tepat?",
+        "options": [
+            "Gangguan Stres Akut",
+            "PTSD (Post-Traumatic Stress Disorder)",
+            "Psikosis Reaktif",
+            "Fobia Air"
+        ],
+        "answer": 1,
+        "explanation": "Gejala intrusi, penghindaran, dan kewaspadaan berlebih yang menetap lebih dari satu bulan setelah trauma disebut PTSD."
+    },
+    {
+        "question": "Seorang laki-laki (72 th) dibawa keluarga ke Poli Jiwa. Keluarga mengeluh pasien sering lupa jalan pulang, lupa waktu shalat, dan emosinya meledak-ledak. Pasien tampak bingung dan disorientasi waktu. Pemeriksaan MMSE skor 14. Apakah diagnosa medis yang paling mungkin?",
+        "options": [
+            "Skizofrenia Lansia",
+            "Demensia",
+            "Depresi Berat",
+            "Delirium"
+        ],
+        "answer": 1,
+        "explanation": "Penurunan memori yang progresif, disorientasi, dan gangguan perilaku pada lansia merupakan tanda khas Demensia."
+    },
+    {
+        "question": "Seorang perempuan (27 th) mengeluh merasa tubuhnya tidak nyata, seperti melayang atau dalam mimpi. Pasien mengatakan seperti orang lain yang melihat dirinya sendiri dari kejauhan. Gejala ini disebut...",
+        "options": [
+            "Derealitasi",
+            "Depersonalisasi",
+            "Disosiasi Identitas",
+            "Halusinasi Kinestetik"
+        ],
+        "answer": 1,
+        "explanation": "Depersonalisasi adalah perasaan subjektif bahwa diri sendiri tidak nyata atau merasa terlepas dari tubuh/jiwa sendiri."
+    },
+    {
+        "question": "Seorang laki-laki (33 th) meyakini bahwa tetangganya menanam alat perekam di dalam perutnya untuk mencuri ide-idenya. Keyakinan ini sangat kuat meskipun hasil USG perut normal. Waham apakah yang dialami?",
+        "options": [
+            "Waham Somatik",
+            "Waham Curiga",
+            "Waham Kejar",
+            "Thought Insertion"
+        ],
+        "answer": 0,
+        "explanation": "Keyakinan yang salah mengenai fungsi atau struktur tubuh yang tidak wajar disebut Waham Somatik."
+    },
+    {
+        "question": "Seorang perempuan (19 th) merasa sangat benci dengan hidungnya yang dianggapnya terlalu besar meskipun orang lain melihatnya normal. Pasien sering mengurung diri karena malu. Komponen konsep diri manakah yang terganggu?",
+        "options": [
+            "Identitas Diri",
+            "Citra Tubuh (Body Image)",
+            "Harga Diri",
+            "Ideal Diri"
+        ],
+        "answer": 1,
+        "explanation": "Citra tubuh berkaitan dengan sikap seseorang terhadap bentuk dan ukuran tubuhnya. Ketidakpuasan mendalam terhadap hidung adalah gangguan citra tubuh."
+    },
+    {
+        "question": "Perawat berinteraksi dengan pasien Skizofrenia. Pasien terhenti bicara di tengah kalimat dan tampak seperti lupa apa yang akan dikatakan. Kejadian ini berulang kali. Gangguan arus pikir ini disebut...",
+        "options": [
+            "Thought Withdrawal",
+            "Blocking",
+            "Tangensial",
+            "Mutisme"
+        ],
+        "answer": 1,
+        "explanation": "Blocking adalah terhentinya arus pikir secara tiba-tiba tanpa sebab eksternal sebelum ide tersebut terselesaikan."
+    },
+    {
+        "question": "Seorang laki-laki (36 th) dirawat di RSJ. Pasien terus menerus mengulangi gerakan memegang kerah bajunya setiap 2 menit tanpa tujuan yang jelas. Istilah klinis untuk gerakan tersebut adalah...",
+        "options": [
+            "Stereotipi",
+            "Manerisme",
+            "Ekoprasia",
+            "Tik"
+        ],
+        "answer": 0,
+        "explanation": "Stereotipi adalah gerakan berulang, teratur, dan tidak bertujuan (non-fungsional)."
+    },
+    {
+        "question": "Seorang perawat mengajarkan teknik relaksasi otot progresif kepada pasien yang sering merasa tegang. Perawat membimbing pasien untuk menegangkan dan melemaskan kelompok otot secara bergantian. Apakah tujuan utama tindakan tersebut?",
+        "options": [
+            "Menurunkan ketegangan fisik dan psikologis secara sistematik",
+            "Meningkatkan kekuatan otot pasien",
+            "Melatih kesabaran pasien dalam bergerak",
+            "Menghilangkan memori buruk secara fisik"
+        ],
+        "answer": 0,
+        "explanation": "Relaksasi otot progresif menurunkan aktivitas sistem saraf simpatis, sehingga menurunkan ansietas dan ketegangan otot."
+    },
+    {
+        "question": "Seorang perempuan (45 th) dengan depresi berat tidak mau bicara sama sekali (mutisme). Perawat duduk di samping pasien selama 15 menit setiap jam tanpa memaksanya bicara. Teknik komunikasi ini disebut...",
+        "options": [
+            "Menyediakan diri (Offering self)",
+            "Memberikan informasi",
+            "Refleksi perasaan",
+            "Memfokuskan"
+        ],
+        "answer": 0,
+        "explanation": "Offering self adalah kehadiran fisik perawat untuk menunjukkan minat dan kepedulian tanpa menuntut respons verbal segera dari pasien."
+    },
+    {
+        "question": "Seorang laki-laki (30 th) didiagnosa Skizofrenia. Pasien meyakini bahwa presenter berita di TV mengirimkan kode-kode rahasia khusus hanya untuknya melalui kedipan mata. Jenis waham ini adalah...",
+        "options": [
+            "Waham Kebesaran",
+            "Waham Rujukan (Referensial)",
+            "Delusi Kontrol",
+            "Erotomania"
+        ],
+        "answer": 1,
+        "explanation": "Waham Rujukan adalah keyakinan bahwa kejadian lingkungan (TV, koran, lagu) memiliki makna pribadi yang bermaksud khusus untuk dirinya."
+    },
+    {
+        "question": "Seorang pasien di poli jiwa mengeluh: 'Saya merasa dunia ini seperti panggung sandiwara, semua orang tampak seperti robot.'. Istilah untuk gangguan persepsi ini adalah...",
+        "options": [
+            "Derealitasi",
+            "Depersonalisasi",
+            "Disfasia",
+            "Ilusi"
+        ],
+        "answer": 0,
+        "explanation": "Derealitasi adalah perasaan bahwa lingkungan luar tidak nyata, berubah, atau terasa asing."
+    },
+    {
+        "question": "Seorang perempuan (21 th) korban pemerkosaan menunjukkan perilaku menyalahkan diri sendiri secara terus menerus. Pasien berkata 'Ini salah saya karena pulang malam'. Intervensi utama yang harus dilakukan adalah...",
+        "options": [
+            "Memvalidasi perasaan pasien dan mengembalikan tanggung jawab kepada pelaku",
+            "Menyetujui ucapan pasien agar dia merasa lega",
+            "Mengalihkan pembicaraan ke hobi pasien",
+            "Menganjurkan pasien untuk tidak memikirkan masa lalu"
+        ],
+        "answer": 0,
+        "explanation": "Pada korban trauma kekerasan seksual, sangat penting untuk menghentikan siklus 'victim blaming' dan memberikan rasa aman serta dukungan psikologis."
+    },
+    {
+        "question": "Perawat sedang melatih pasien Halusinasi cara minum obat yang benar (SP 2). Perawat menjelaskan prinsip '5 Benar'. Apakah komponen paling penting dalam edukasi ini untuk mencegah efek toksik?",
+        "options": [
+            "Benar Waktu dan Benar Dosis",
+            "Benar Cara dan Benar Nama",
+            "Benar Dokumentasi",
+            "Benar Indikasi"
+        ],
+        "answer": 0,
+        "explanation": "Kepatuhan pada dosis dan waktu minum obat sangat krusial dalam terapi psikofarmaka untuk mempertahankan kadar obat terapeutik di otak."
+    },
+    {
+        "question": "Seorang laki-laki (40 th) mengamuk di bangsal, melemparkan kursi ke arah pasien lain. Upaya verbal gagal menenangkannya. Tim memutuskan untuk melakukan restrain. Apakah syarat mutlak saat pasien dalam kondisi restrain?",
+        "options": [
+            "Observasi ketat (minimal tiap 15-30 menit) dan pemenuhan kebutuhan dasar",
+            "Ditinggalkan sendirian agar dia merenungi kesalahannya",
+            "Diberi makan hanya jika dia sudah tenang",
+            "Ikatannya tidak boleh dilepas sampai dokter datang besok pagi"
+        ],
+        "answer": 0,
+        "explanation": "Pasien dalam restrain sangat rentan terhadap cedera fisik dan dehidrasi, sehingga pemantauan ketat dan perawatan dasar adalah kewajiban hukum dan etik."
+    },
+    {
+        "question": "Seorang perempuan (33 th) sering menangis tanpa sebab jelas dan merasa sangat lelah meskipun tidak banyak beraktivitas. Ia merasa masa depannya gelap dan ingin tidur selamanya. Gejala ini paling cocok dengan...",
+        "options": [
+            "Gangguan Depresi Mayor",
+            "Ansietas Berat",
+            "Skizofrenia Residual",
+            "Bipolar Fase Mania"
+        ],
+        "answer": 0,
+        "explanation": "Anhedonia, kelelahan energi (anergia), dan perasaan tanpa harapan merupakan ciri utama depresi."
+    },
+    {
+        "question": "Seorang perawat sedang melakukan pengkajian arus pikir. Pasien menjawab pertanyaan dengan rangkaian kata yang berima (rima-mama-sama-rama) tanpa arti utuh. Gejala ini disebut...",
+        "options": [
+            "Clang Association",
+            "Word Salad",
+            "Neologisme",
+            "Ekolalia"
+        ],
+        "answer": 0,
+        "explanation": "Clang association adalah pemilihan kata berdasarkan bunyi atau rima, bukan maknanya."
+    },
+    {
+        "question": "Seorang pasien mengatakan: 'Saya merasa ada chip di otak saya yang diperintah oleh CIA untuk membunuh presiden.'. Perawat merespons: 'Saya percaya Bapak merasakannya, tetapi saya sendiri tidak melihat chip itu.'. Teknik komunikasi ini bertujuan untuk...",
+        "options": [
+            "Menghadirkan realitas (Reality testing)",
+            "Melakukan konfrontasi",
+            "Memberikan reinforcement positif",
+            "Melakukan distraksi"
+        ],
+        "answer": 0,
+        "explanation": "Pernyataan perawat mengakui pengalaman subjektif pasien namun menegaskan batasan realitas objektif tanpa mendebat ('reality testing')."
+    }
+]
