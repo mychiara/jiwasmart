@@ -218,18 +218,46 @@ window.initASKEPGenerator = function () {
                       .join("")}</ul>
                 </div>
                 <div class="report-section"><h4>B. DIAGNOSA KEPERAWATAN (SDKI)</h4><p><strong>${escapeHTML(sdki.Kode || sdki.kode)} : ${escapeHTML(sdki.Nama || sdki.nama)}</strong></p><div class="clinical-content" style="font-style: italic; margin-bottom: 1rem;">Definisi: ${escapeHTML(sdki.Definisi || sdki.definisi)}</div>${sdki.Penyebab ? `<div><strong>Penyebab:</strong></div><div class="clinical-content">${formatClinicalText(escapeHTML(sdki.Penyebab))}</div>` : ""}</div>
-                <div class="report-section"><h4>C. LUARAN KEPERAWATAN (SLKI)</h4><p><b>${slki ? escapeHTML(slki.Kode || slki.id) + " : " + escapeHTML(slki.Nama || slki.nama) : "Diharapkan Membaik"}</b></p><p><b>Ekspektasi:</b> ${slki ? escapeHTML(slki.Ekspektasi || slki.ekspektasi || "Membaik") : "Membaik"}</p><div style="margin-top:0.5rem;"><table style="width:100%; border:1px solid #ddd; font-size:0.9rem;"><tr style="background:#f1f5f9;"><th>Kriteria Hasil</th><th>Target</th></tr>${
-                  slki && slki["Kriteria Hasil"]
-                    ? slki["Kriteria Hasil"]
-                        .split(";")
-                        .map(
-                          (k) =>
-                            `<tr><td>${escapeHTML(k.trim())}</td><td style="text-align:center;">Meningkat</td></tr>`,
-                        )
-                        .join("")
-                    : '<tr><td colspan="2">Membaik</td></tr>'
-                }</table></div></div>
-                <div class="report-section"><h4>D. INTERVENSI KEPERAWATAN (SIKI)</h4><p><b>${siki ? escapeHTML(siki.Kode || siki.id) + " : " + escapeHTML(siki.Nama || siki.nama) : "-"}</b></p><ul style="font-size: 0.9rem; padding-left: 1.5rem;">${selectedSiki.map((s) => `<li>${s}</li>`).join("")}</ul><p style="margin-top:0.5rem; padding:0.5rem; background:#fef3c7; border-radius:4px; font-size:0.85rem;"><strong>Rasional:</strong> ${escapeHTML(siki.rasional || "Mengoptimalkan kondisi pasien melalui intervensi keperawatan standar.")}</p></div>
+                <div class="report-section"><h4>C. LUARAN KEPERAWATAN (SLKI)</h4>
+                    <p><b>${slki ? escapeHTML(slki.Kode || slki.id) + " : " + escapeHTML(slki.Nama || slki.nama) : "Diharapkan Membaik"}</b></p>
+                    <p><b>Ekspektasi:</b> ${slki ? escapeHTML(slki.Ekspektasi || slki.ekspektasi || "Membaik") : "Membaik"}</p>
+                    <div style="margin-top:0.5rem;">
+                        <table style="width:100%; border:1px solid #ddd; font-size:0.9rem; border-collapse: collapse;">
+                            <tr style="background:#f1f5f9;">
+                                <th style="border:1px solid #ddd; padding:8px;">Kriteria Hasil</th>
+                                <th style="border:1px solid #ddd; padding:8px; text-align:center;">Target Pencapaian</th>
+                            </tr>
+                            ${
+                              slki && slki["Kriteria Hasil"]
+                                ? slki["Kriteria Hasil"]
+                                    .split(";")
+                                    .map(
+                                      (k) =>
+                                        `<tr><td style="border:1px solid #ddd; padding:8px;">${escapeHTML(k.trim())}</td><td style="border:1px solid #ddd; padding:8px; text-align:center; color:var(--success); font-weight:600;">${slki.ekspektasi === "Menurun" ? "Menurun" : "Meningkat"}</td></tr>`,
+                                    )
+                                    .join("")
+                                : '<tr><td colspan="2" style="border:1px solid #ddd; padding:8px; text-align:center;">Data kriteria hasil standar diterapkan.</td></tr>'
+                            }
+                        </table>
+                    </div>
+                </div>
+                <div class="report-section"><h4>D. INTERVENSI KEPERAWATAN (SIKI)</h4>
+                    <p><b>${siki ? escapeHTML(siki.Kode || siki.id) + " : " + escapeHTML(siki.Nama || siki.nama) : "-"}</b></p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+                        <div style="background:#f8fafc; padding:1rem; border-radius:8px; border:1px solid #e2e8f0;">
+                            <h5 style="margin-top:0; color:var(--primary); font-size:0.85rem; border-bottom:1px solid #cbd5e1; padding-bottom:4px;">Tindakan Dipilih:</h5>
+                            <ul style="font-size: 0.8rem; padding-left: 1.2rem; margin-bottom:0;">
+                                ${selectedSiki.map((s) => `<li>${s}</li>`).join("")}
+                            </ul>
+                        </div>
+                        <div style="background:#fff7ed; padding:1rem; border-radius:8px; border:1px solid #fed7aa;">
+                            <h5 style="margin-top:0; color:#c2410c; font-size:0.85rem; border-bottom:1px solid #fdba74; padding-bottom:4px;">Rasional Ilmiah:</h5>
+                            <p style="font-size:0.8rem; line-height:1.5; margin-bottom:0; color:#9a3412;">
+                                ${escapeHTML(siki.rasional || "Intervensi ini dirancang untuk menstabilkan kondisi neurobiologis dan psikologis pasien melalui pendekatan terstandar SIKI.")}
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="report-section">
                     <h4>E. REKOMENDASI PSIKOFARMAKA</h4>
                     <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap:1rem;">

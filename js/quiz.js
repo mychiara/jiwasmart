@@ -152,7 +152,7 @@ window.checkAnswer = function (selectedIndex, btn) {
     <div style="margin-top:0.5rem; font-weight:600; color:var(--text-main); margin-bottom:0.5rem; display:flex; align-items:center; gap:8px;">
         <i data-lucide="book-open" style="width:16px;"></i> Rasional & Pembahasan:
     </div>
-    <div style="opacity:0.9;">${formatClinicalText(q.explanation)}</div>
+    <div style="opacity:0.9;">${formatClinicalText(q.explanation || "Pembahasan untuk soal ini sedang dalam proses pembaruan.")}</div>
   `;
   feedbackArea.style.display = "block";
   if (typeof lucide !== "undefined") lucide.createIcons();

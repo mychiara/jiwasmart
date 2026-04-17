@@ -6,12 +6,23 @@ window.initLPGenerator = function () {
   const lpSelect = document.getElementById("lp-select");
   if (!lpSelect) return;
 
-  // Populate LP Dropdown
-  DATASET.lp.forEach((item) => {
-    const opt = document.createElement("option");
-    opt.value = item.id;
-    opt.textContent = item.nama;
-    lpSelect.appendChild(opt);
+  // Populate LP Dropdown with Categories
+  const categories = [...new Set(DATASET.lp.map((item) => item.kategori))];
+
+  categories.forEach((cat) => {
+    const group = document.createElement("optgroup");
+    group.label = cat || "Lainnya";
+
+    DATASET.lp
+      .filter((item) => item.kategori === cat)
+      .forEach((item) => {
+        const opt = document.createElement("option");
+        opt.value = item.id;
+        opt.textContent = item.nama;
+        group.appendChild(opt);
+      });
+
+    lpSelect.appendChild(group);
   });
 
   document.getElementById("generate-lp-btn").addEventListener("click", () => {
@@ -79,7 +90,19 @@ window.initLPGenerator = function () {
                        `,
                                )
                                .join("")
-                           : "<p>" + lp.pathway + "</p>"
+                           : lp.pathway && lp.pathway.includes("->")
+                             ? lp.pathway
+                                 .split("->")
+                                 .map(
+                                   (step, idx, arr) => `
+                        <div style="display:flex; flex-direction:column; align-items:center;">
+                            <div style="padding:0.6rem 1rem; background:white; border:1px solid #cbd5e1; border-radius:6px; font-size:0.85rem; text-align:center; max-width:300px;">${step.trim()}</div>
+                            ${idx < arr.length - 1 ? '<div style="height:15px; width:1px; background:#cbd5e1; margin:2px 0;"></div><div style="font-size:10px; color:#94a3b8; margin-bottom:2px;">▼</div>' : ""}
+                        </div>
+                       `,
+                                 )
+                                 .join("")
+                             : "<p>" + (lp.pathway || "-") + "</p>"
                        }
                     </div>
                 </div>
@@ -145,7 +168,7 @@ window.initLPGenerator = function () {
                         ${(lp.referensi || ["PPNI (2016). Standar Diagnosis Keperawatan Indonesia", "Stuart, G.W. (2013). Keperawatan Jiwa"]).map((ref) => `<li>${ref}</li>`).join("")}
                     </ul>
                 </div>
-                <div style="margin-top: 3rem; text-align: right; font-style: italic; color: #94a3b8; font-size: 0.85rem;">Dibuat secara otomatis oleh ASKep Jiwa Smart - ${new Date().toLocaleDateString("id-ID")}</div>
+                <div style="margin-top: 3rem; text-align: right; font-style: italic; color: #94a3b8; font-size: 0.85rem;">Dibuat secara otomatis oleh NurseJiwa - ${new Date().toLocaleDateString("id-ID")}</div>
             `;
       outputArea.style.display = "block";
       hideLoader();

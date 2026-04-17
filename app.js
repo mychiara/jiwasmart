@@ -28,7 +28,18 @@ document.addEventListener("DOMContentLoaded", () => {
     initDashboard();
   }
 
-  // 4. Load External Data
+  // 4. Initialize dynamic content for TAK, SPO, and HARS
+  if (typeof renderTAKButtons === "function") {
+    renderTAKButtons();
+  }
+  if (typeof filterSPOCategory === "function") {
+    filterSPOCategory("A");
+  }
+  if (typeof renderHARSItems === "function") {
+    renderHARSItems();
+  }
+
+  // 5. Load External Data
   if (typeof loadData === "function") {
     loadData();
   }

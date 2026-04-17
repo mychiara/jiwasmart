@@ -1,376 +1,533 @@
 {
-  "tak_stimulasi_persepsi": {
-    "judul": "TAK Stimulasi Persepsi",
-    "image": "tak_stimulasi_persepsi.png",
-    "definisi": "Terapi kelompok yang berfokus pada kemampuan klien untuk mengekspresikan pikiran dan perasaan, serta merespon stimulus dari luar secara adekuat. Sangat efektif untuk klien dengan gangguan persepsi sensori (halusinasi) dan isolasi sosial.",
-    "sesi": [
-      {
-        "nama": "Sesi 1: Mengenal Halusinasi",
-        "tujuan": "1. Klien mampu menyebutkan isi halusinasi (suara/bayangan). \n2. Klien mampu menyebutkan waktu dan frekuensi munculnya halusinasi. \n3. Klien mampu menyebutkan situasi pencetus dan respon perasaan saat halusinasi muncul.",
-        "persiapan": "1. Papan tulis/Flipchart. \n2. Spidol/Pulpen. \n3. Jadwal kegiatan harian klien.",
-        "tindakan": "1. Terapis menanyakan pengalaman halusinasi klien satu per satu. \n2. Klien diminta menuliskan atau menyebutkan apa yang didengar/dilihat. \n3. Diskusikan perasaan klien (takut/senang) saat halusinasi tersebut datang. \n4. Berikan reinforcement positif atas keberanian klien bercerita."
-      },
-      {
-        "nama": "Sesi 2: Mengontrol Halusinasi dengan Menghardik",
-        "tujuan": "1. Klien memahami konsep menghardik sebagai cara memutus halusinasi. \n2. Klien mampu mendemonstrasikan teknik menghardik dengan benar dan percaya diri.",
-        "persiapan": "1. Ruang pertemuan yang tenang. \n2. Kursi yang diatur melingkar.",
-        "tindakan": "1. Terapis menjelaskan cara menghardik: Tutup telinga, mata dipejamkan, lalu katakan dengan tegas: 'Pergi kamu! Kamu suara palsu! Saya tidak mau dengar!'. \n2. Terapis memberikan contoh/peragaan. \n3. Klien mempraktikkan secara bergantian di tengah lingkaran. \n4. Evaluasi perasaan klien setelah mempraktikkan teknik tersebut."
-      },
-      {
-        "nama": "Sesi 3: Mengontrol Halusinasi dengan Bercakap-cakap",
-        "tujuan": "1. Klien memahami pentingnya interaksi sosial untuk mengalihkan halusinasi. \n2. Klien mampu mencari teman untuk diajak bicara saat halusinasi muncul.",
-        "persiapan": "1. Name tag untuk setiap anggota.",
-        "tindakan": "1. Terapis menjelaskan bahwa dengan mengobrol, fokus otak akan berpindah dari halusinasi ke realita. \n2. Latih klien menyapa teman: 'Halo, saya sedang mendengar suara, bolehkah saya mengobrol denganmu sebentar?'. \n3. Simulasi percakapan berpasangan selama 5 menit."
-      }
-    ]
-  },
   "tak_sosialisasi": {
-    "judul": "TAK Sosialisasi",
+    "judul": "TAK Sosialisasi (TAKS)",
     "image": "tak_sosialisasi_new.png",
-    "definisi": "Latihan kemampuan bersosialisasi dalam kelompok secara bertahap, mulai dari pengenalan diri hingga kerja sama tim, ditujukan bagi klien dengan isolasi sosial atau menarik diri.",
+    "definisi": "Terapi Aktivitas Kelompok Sosialisasi (TAKS) adalah suatu upaya memfasilitasi kemampuan sosialisasi sejumlah klien dengan masalah hubungan sosial. TAKS merupakan salah satu terapi modalitas yang dilakukan oleh perawat pada sekelompok klien yang mempunyai masalah keperawatan isolasi sosial (menarik diri). Melalui TAKS, klien dilatih untuk berinteraksi dengan orang lain secara bertahap untuk meningkatkan kemampuan interpersonal dan kualitas hidup sosialnya.",
+    "tujuan_detail": "1. Meningkatkan kemampuan klien dalam memperkenalkan diri secara verbal dan non-verbal. \n2. Mengembangkan keterampilan klien dalam bercakap-cakap dengan satu orang (perawat atau teman sebaya). \n3. Melatih kemampuan klien untuk berinteraksi dalam kelompok kecil maupun kelompok besar. \n4. Membangun kepercayaan diri klien dalam menyampaikan pendapat atau kebutuhan kepada orang lain. \n5. Mengurangi perasaan terasing dan meningkatkan sensasi kepemilikan dalam komunitas terapeutik. \n6. Membantu klien memahami norma dan etika sosial yang berlaku dalam interaksi antarmanusia.",
+    "aktivitas_indikasi": "Aktivitas: Program ini mencakup tujuh sesi bertahap yang dimulai dari latihan memperkenalkan diri, berinteraksi dua arah dengan satu orang, bercakap-cakap dalam kelompok kecil, mendiskusikan masalah pribadi secara aman, menyampaikan pendapat di forum terbuka, hingga simulasi kerja sama tim melalui permainan koordinasi. Setiap aktivitas dirancang untuk meningkatkan ambang toleransi sosial pasien. \nIndikasi: Diberikan kepada pasien dengan masalah utama Isolasi Sosial, Menarik diri dari lingkungan, Kerusakan Interaksi Sosial (social impairment), serta pasien dengan Harga Diri Rendah yang mengalami hambatan dalam memulai atau mempertahankan komunikasi. Sangat disarankan untuk pasien dalam fase pemulihan yang sedang dipersiapkan untuk kembali ke fungsi sosial masyarakat.",
     "sesi": [
       {
         "nama": "Sesi 1: Memperkenalkan Diri",
-        "tujuan": "1. Klien mampu menyebutkan nama lengkap dan panggilan. \n2. Klien mampu menyebutkan hobi dan asal daerah.",
-        "persiapan": "1. Bola tenis. \n2. Speaker dan musik ceria. \n3. Hadiah kecil (sebagai motivasi).",
-        "tindakan": "1. Anggota duduk melingkar, musik dimainkan, dan bola diover. \n2. Saat musik berhenti, pemegang bola berdiri dan memperkenalkan diri (Nama, Panggilan, Hobi, Asal). \n3. Anggota lain bertepuk tangan setelah perkenalan selesai."
+        "tujuan": "Klien mampu menyebutkan identitas diri (nama lengkap, nama panggilan, hobi, dan asal) dengan kontak mata yang adekuat.",
+        "metode": "Diskusi, Tanya Jawab, Simulasi",
+        "persiapan": "Tape Recorder/Speaker, Bola Tenis, Papan Nama, Jadwal Kegiatan Pasien.",
+        "tahapan": {
+          "orientasi": "1. Salam terapeutik. \n2. Validasi perasaan klien. \n3. Kontrak: Waktu 45 menit, tempat di ruang TAK, tujuan memperkenalkan diri, aturan: jika ingin keluar harus izin.",
+          "kerja": "1. Hidupkan musik dan over bola tenis searah jarum jam. \n2. Saat musik mati, pemegang bola memperkenalkan diri (Nama, Panggilan, Hobi, Asal). \n3. Berikan pujian (reinforcement) setiap selesai. \n4. Ulangi sampai semua mendapat giliran.",
+          "terminasi": "1. Evaluasi perasaan klien. \n2. Berikan pujian atas keberanian tampil. \n3. Rencana Tindak Lanjut: Masukkan ke jadwal harian perkenalan setiap pagi. \n4. Kontrak waktu sesi berikutnya."
+        },
+        "evaluasi": "Observasi kemampuan verbal (suara jelas) dan non-verbal (kontak mata, senyum).",
+        "dokumentasi": "Catat inisial klien yang mampu dan yang membutuhkan bimbingan lebih lanjut.",
+        "aspek_observasi": ["Kontak mata saat menyapa", "Menyebutkan nama lengkap", "Menyebutkan asal", "Suara terdengar jelas"]
       },
       {
-        "nama": "Sesi 2: Berkenalan dengan Anggota Lain",
-        "tujuan": "1. Klien mampu menanyakan identitas anggota lain. \n2. Klien mampu menjalin komunikasi dua arah sederhana.",
-        "persiapan": "1. Papan nama (Name tag).",
-        "tindakan": "1. Klien diminta berpasangan dengan orang yang belum dikenal dekat. \n2. Lakukan wawancara singkat tentang hal kesukaan (makanan favorit, warna favorit). \n3. Setiap klien memperkenalkan pasangan bicaranya kepada seluruh kelompok."
+        "nama": "Sesi 2: Kemampuan Berkenalan",
+        "tujuan": "Klien mampu mengajak kenalan anggota lain dengan menanyakan nama, hobi, dan asal teman.",
+        "metode": "Role Play / Simulasi Berpasangan",
+        "persiapan": "Speaker, Bola, Name tag.",
+        "tahapan": {
+          "orientasi": "1. Salam terapeutik. 2. Evaluasi kemampuan perkenalan diri sebelumnya. 3. Kontrak tujuan berkenalan.",
+          "kerja": "1. Permainan bola untuk memilih siapa yang akan memulai. 2. Klien yang dipilih mendatangi anggota di sebelahnya. 3. Memperkenalkan diri dan bertanya: 'Siapa nama Anda? Apa hobi Anda?'. 4. Lakukan secara bergantian.",
+          "terminasi": "1. Evaluasi perasaan. 2. Pujian. 3. RTL: Ajak kenalan teman baru di bangsal."
+        },
+        "evaluasi": "Klien mampu bertanya balik dan mendengarkan jawaban teman.",
+        "dokumentasi": "Dokumentasikan pasien yang sudah asertif.",
+        "aspek_observasi": ["Mendatangi teman", "Mengulurkan tangan", "Menanyakan identitas teman", "Mendengarkan jawaban"]
       },
       {
-        "nama": "Sesi 3: Berkomunikasi dalam Kelompok",
-        "tujuan": "1. Klien mampu menyampaikan pendapat dalam forum. \n2. Klien mampu mendengarkan orang lain berbicara tanpa memotong.",
-        "persiapan": "1. Topik diskusi ringan (misal: 'Rencana liburan impian').",
-        "tindakan": "1. Terapis melemparkan satu pertanyaan diskusi. \n2. Setiap klien diberikan waktu 1-2 menit untuk menyampaikan pendapatnya secara bergantian. \n3. Terapis merangkum hasil diskusi kelompok."
+        "nama": "Sesi 3: Bercakap-cakap (Topic Based)",
+        "tujuan": "Klien mampu bercakap-cakap dengan teman tentang topik tertentu yang disukai atau masalah ringan harian.",
+        "metode": "Diskusi Kelompok Kecil",
+        "persiapan": "Daftar topik (makanan, hobi, keluarga).",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Evaluasi sesi 2. 3. Kontrak topik harian.",
+          "kerja": "1. Bagi kelompok menjadi berpasangan. 2. Beri topik 'Makanan Favorit'. 3. Pasangan diskusi selama 5 menit. 4. Satu orang menceritakan kembali favorit temannya.",
+          "terminasi": "1. Evaluasi perasaan. 2. Pujian. 3. RTL: Mengobrol saat jam makan siang."
+        },
+        "evaluasi": "Durasi interaksi minimal 2-3 menit tanpa dialihkan.",
+        "dokumentasi": "Catat kemampuan fokus pasien.",
+        "aspek_observasi": ["Memulai pembicaraan", "Fokus pada topik", "Memberi tanggapan verbal", "Menutup pembicaraan"]
+      },
+      {
+        "nama": "Sesi 4: Menyampaikan Masalah Pribadi",
+        "tujuan": "Klien mampu mengungkapkan perasaan tidak nyaman atau masalah yang sedang dialami kepada anggota kelompok.",
+        "metode": "Sharing / Curah Pendapat",
+        "persiapan": "Kertas, pulpen (opsional).",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Evaluasi kesiapan emosi. 3. Kontrak kerahasiaan kelompok.",
+          "kerja": "1. Terapis mencontohkan menceritakan satu perasaan sedih singkat. 2. Minta klien satu per satu menceritakan hal yang membuat tidak nyaman saat ini. 3. Anggota lain memberikan dukungan.",
+          "terminasi": "1. Evaluasi perasaan (lega/tidak). 2. Pujian atas kejujuran. 3. RTL: Terbuka pada perawat ruangan."
+        },
+        "evaluasi": "Kejujuran dalam berekspresi dan respon empati teman.",
+        "dokumentasi": "Beri catatan khusus pada pasien yang sangat tertutup.",
+        "aspek_observasi": ["Berani mengungkapkan perasaan", "Menggunakan kata 'Saya merasa...'", "Memperhatikan teman bicara", "Memberi empati"]
+      },
+      {
+        "nama": "Sesi 5: Menyampaikan Topik Tertentu dalam Kelompok Besar",
+        "tujuan": "Klien mampu menyampaikan pendapat tentang satu topik di depan seluruh anggota kelompok secara bergiliran.",
+        "metode": "Diskusi Panel / Forum",
+        "persiapan": "Papan tulis.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Evaluasi keberanian bicara. 3. Kontrak topik umum (Kebersihan).",
+          "kerja": "1. Lontarkan pertanyaan: 'Kenapa kita harus mandi?'. 2. Klien bergiliran maju/berdiri memberi satu alasan. 3. Terapis menuliskan point di papan.",
+          "terminasi": "1. Evaluasi. 2. Pujian. 3. RTL: Bicara saat rapat pasien/ruangan."
+        },
+        "evaluasi": "Volume suara, kelancaran bicara, dan kesesuaian logic.",
+        "aspek_observasi": ["Berdiri saat bicara", "Pandangan merata ke audiens", "Point bicara jelas", "Menanggapi pertanyaan"]
+      },
+      {
+        "nama": "Sesi 6: Kerja Sama Kelompok (Permainan Tim)",
+        "tujuan": "Klien mampu bekerja sama dengan anggota lain untuk mencapai tujuan (menang/menyelesaikan permainan).",
+        "metode": "Permainan Estafet / Puzzle",
+        "persiapan": "Puzzle besar atau bola.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Evaluasi kerja sama. 3. Kontrak permainan tim.",
+          "kerja": "1. Bagi tim A dan B. 2. Lakukan lomba estafet bola dengan sendok. 3. Tim harus berkoordinasi agar bola tidak jatuh.",
+          "terminasi": "1. Evaluasi (perjalanan kerja sama). 2. Pujian untuk kekompakan. 3. RTL: Bantu teman merapikan ruangan."
+        },
+        "evaluasi": "Koordinasi motorik dan komunikasi dalam tim.",
+        "aspek_observasi": ["Menunggu giliran", "Membantu teman satu tim", "Tidak saling menyalahkan", "Menaati aturan"]
+      },
+      {
+        "nama": "Sesi 7: Evaluasi Kemampuan Sosialisasi",
+        "tujuan": "Klien mampu menilai kemajuannya sendiri selama mengikuti TAKS dari sesi 1-6.",
+        "metode": "Presentasi Mandiri / Refleksi",
+        "persiapan": "Sertifikat kecil/Penghargaan.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Review seluruh sesi. 3. Kontrak evaluasi akhir.",
+          "kerja": "1. Klien diminta menyebutkan 1 perubahan yang dirasakan (misal: 'Sekarang saya berani menyapa'). 2. Penyerahan simbolis penghargaan.",
+          "terminasi": "1. Evaluasi akhir perasaan. 2. Pesan dan Kesan. 3. Terminasi akhir program TAKS."
+        },
+        "evaluasi": "Insight klien terhadap perbaikan perilakunya.",
+        "aspek_observasi": ["Sadar akan kemajuannya", "Tampak lebih ceria/terbuka", "Kontak mata spontan", "Ingin lanjut bersosialisasi"]
       }
     ]
   },
-  "tak_orientasi_realita": {
-    "judul": "TAK Orientasi Realita",
-    "image": "tak_orientasi_realita_new.png",
-    "definisi": "Membantu klien yang mengalami kebingungan atau disorientasi agar kembali menyadari identitas diri, keberadaan orang lain, serta dimensi waktu dan tempat di lingkungan rumah sakit.",
+  "tak_stimulasi_persepsi_umum": {
+    "judul": "TAK Stimulasi Persepsi Umum",
+    "image": "tak_stimulasi_persepsi.png",
+    "definisi": "Terapi kelompok yang bertujuan melatih kemampuan klien dalam mempersepsikan berbagai stimulus (gambar, suara, benda) secara adekuat untuk meningkatkan orientasi realitas dan daya konsentrasi.",
+    "tujuan_detail": "1. Klien mampu mengidentifikasi stimulus nyata dari panca indera. 2. Klien mampu memberikan respon verbal/non-verbal yang sesuai terhadap stimulus. 3. Mencegah distorsi persepsi yang mengarah pada halusinasi. 4. Meningkatkan kapasitas atensi (fokus) klien yang sering melamun.",
+    "aktivitas_indikasi": "Aktivitas: Fokus utama pada stimulasi kognitif melalui penguatan panca indra. Meliputi identifikasi detail visual pada gambar kompleks, pembedaan sumber audio (suara alam vs buatan), teknik grounding menggunakan tekstur benda (kasar, halus, tajam, tumpul), serta pengamatan video untuk melatih recall memori dan atensi visual. \nIndikasi: Ditujukan bagi pasien yang menunjukkan gejala Disorientasi ringan, Kurang Konsentrasi (Inatensi), fase awal Halusinasi di mana pasien masih bisa membedakan realita, serta pasien dengan perilaku melamun persisten yang membutuhkan rangsangan eksternal untuk kembali ke orientasi realita.",
     "sesi": [
       {
-        "nama": "Sesi 1: Orientasi Orang",
-        "tujuan": "1. Klien mengenal nama perawat/terapi yang bertugas. \n2. Klien mengenal nama minimal 3 orang teman seruangannya.",
-        "persiapan": "1. Foto profil perawat. \n2. Papan nama besar.",
-        "tindakan": "1. Terapis memperkenalkan diri berkali-kali dengan menyebutkan peran masing-masing. \n2. Game tebak-tebakan: 'Siapa nama perawat yang memakai kacamata?'. \n3. Klien diminta memanggil nama temannya sambil bersalaman."
+        "nama": "Sesi 1: Persepsi Visual (Gambar & Warna)",
+        "tujuan": "Klien mampu mendeskripsikan objek visual dengan detail dan benar.",
+        "metode": "Observasi & Deskripsi",
+        "persiapan": "Set gambar buah, hewan, dan pemandangan.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan latihan fokus mata.",
+          "kerja": "1. Tunjukkan gambar selama 5 detik. 2. Tutup gambar. 3. Minta klien menyebutkan apa yang dilihat (warna, jumlah, bentuk).",
+          "terminasi": "1. Evaluasi. 2. RTL: Amati benda di taman RS."
+        },
+        "evaluasi": "Ketepatan menyebutkan 3 item dalam gambar.",
+        "aspek_observasi": ["Fokus pada objek", "Menyebutkan warna benar", "Menyebutkan bentuk benar", "Tidak bingung"]
       },
       {
-        "nama": "Sesi 2: Orientasi Tempat",
-        "tujuan": "1. Klien mengetahui nama ruangan tempat ia dirawat. \n2. Klien mampu menunjukkan letak kamar mandi, ruang makan, dan nurse station.",
-        "persiapan": "1. Tur keliling bangsal (Ward Tour).",
-        "tindakan": "1. Ajak klien berjalan bersama menyusuri koridor bangsal. \n2. Tunjukkan simbol-simbol di pintu (Simbol WC, Ruang Makan, dll). \n3. Latih klien kembali ke tempat tidurnya tanpa bantuan setelah dari ruang makan."
+        "nama": "Sesi 2: Persepsi Auditori (Suara Sekitar)",
+        "tujuan": "Klien mampu membedakan dan menebak asal suara nyata di lingkungan.",
+        "metode": "Guess the Sound",
+        "persiapan": "Rekaman suara alam, kendaraan, hewan.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2 Kontrak. 3. Tujuan latihan fokus telinga.",
+          "kerja": "1. Putarkan suara burung. 2. Minta klien menebak. 3. Diskusikan suara yang mirip dengan halusinasi.",
+          "terminasi": "1. Evaluasi. 2. RTL: Dengarkan musik instrumen."
+        },
+        "evaluasi": "Ketepatan menebak 80% suara yang diputar.",
+        "aspek_observasi": ["Mengarahkan telinga", "Menjawab cepat", "Tidak terdistraksi suara lain", "Mampu membedakan intensitas"]
       },
       {
-        "nama": "Sesi 3: Orientasi Waktu",
-        "tujuan": "1. Klien mampu menyebutkan hari dan tanggal hari ini. \n2. Klien mampu membaca jam dinding atau menyebutkan waktu makan.",
-        "persiapan": "1. Kalender besar. \n2. Jam dinding.",
-        "tindakan": "1. Terapis menunjuk kalender dan menyebutkan hari ini. \n2. Diskusikan jadwal rutin: 'Jam berapa sekarang? Waktunya makan siang atau mandi sore?'. \n3. Klien mencoret tanggal pada kalender sebagai rutinitas harian."
+        "nama": "Sesi 3: Persepsi Taktil (Sentuhan & Tekstur)",
+        "tujuan": "Klien mampu merasakan dan mendeskripsikan tekstur benda (kasar/halus) secara akurat.",
+        "metode": "Mystery Bag Touch",
+        "persiapan": "Kantong gelap berisi batu, kapas, amplas, spons.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan latihan grounding indra peraba.",
+          "kerja": "1. Klien masukkan tangan ke kantong. 2. Raba benda. 3. Sebutkan permukaannya sebelum dikeluarkan.",
+          "terminasi": "1. Evaluasi. 2. RTL: Cuci muka dengan air dingin saat cemas."
+        },
+        "evaluasi": "Sensibilitas taktil dan verbalisasi perasaan.",
+        "aspek_observasi": ["Meraba dengan teliti", "Insting menebak benar", "Berani mencoba", "Bicara saat meraba"]
       }
     ]
   },
-  "tak_stimulasi_sensorik": {
-    "judul": "TAK Stimulasi Sensorik",
+  "tak_stimulasi_persepsi_pk": {
+    "judul": "TAK Stimulasi Persepsi: Perilaku Kekerasan",
+    "image": "tak_manajemen_marah.png",
+    "definisi": "Program terapi kelompok terstruktur untuk klien dengan riwayat agresi guna mempelajari cara-cara konstruktif dalam mengelola emosi marah dan mencegah ledakan kekerasan.",
+    "tujuan_detail": "1. Membantu klien mengenal pemicu marah (stresor). 2. Melatih koping fisik untuk meredam amarah instan. 3. Melatih koping verbal (asertif) untuk negosiasi. 4. Membiasakan kontrol spiritual untuk ketenangan jiwa. 5. Menanamkan kepatuhan obat sebagai faktor stabilisasi emosi.",
+    "aktivitas_indikasi": "Aktivitas: Serangkaian latihan kontrol impuls yang meliputi sesi pengenalan tanda-tanda fisik marah (physiological cues), teknik relaksasi biologis (napas perut/diafragma), penyaluran katarsis agresif yang terkontrol melalui media benda mati (pukul bantal/kasur), latihan komunikasi asertif untuk negosiasi konflik, serta penguatan kontrol internal melalui pendekatan spiritual/religius. \nIndikasi: Pasien dengan masalah keperawatan Perilaku Kekerasan (PK) atau Risiko Perilaku Kekerasan (RPK) yang sudah kooperatif dan tidak dalam kondisi gaduh gelisah akut. Juga cocok untuk pasien dengan manajemen marah yang buruk, impulsifitas tinggi, dan riwayat agresi fisik maupun verbal.",
+    "sesi": [
+      {
+        "nama": "Sesi 1: Mengenal PK (Edukasi & Refleksi)",
+        "tujuan": "Klien mampu menyebutkan penyebab, tanda, dan akibat dari marahnya.",
+        "metode": "Diskusi & Mapping",
+        "persiapan": "Flipchart, Spidol.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak kerahasiaan. 3. Tujuan kontrol diri.",
+          "kerja": "1. Tanyakan: 'Apa yang buat Bapak mengamuk?'. 2. Tuliskan di flipchart. 3. Diskusikan kerugian jika memukul orang.",
+          "terminasi": "1. Evaluasi. 2. RTL: Ingat-ingat janji tidak memukul."
+        },
+        "evaluasi": "Pasien sadar akan kerugian agresi.",
+        "aspek_observasi": ["Koperatif saat diskusi", "Mengakui kesalahan masa lalu", "Menyebutkan 2 tanda marah", "Menyebutkan 2 akibat buruk"]
+      },
+      {
+        "nama": "Sesi 2: Kontrol Fisik I (Napas Dalam)",
+        "tujuan": "Klien mampu melakukan teknik relaksasi napas dalam saat emosi memuncak.",
+        "metode": "Demonstrasi & Redemonstrasi",
+        "persiapan": "Tempat duduk yang nyaman.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Evaluasi sesi 1. 3. Kontrak latihan napas.",
+          "kerja": "1. Ajarkan: Tarik napas lewat hidung (3 detik), tahan (2 detik), buang lewat mulut (4 detik). 2. Ulangi 5 kali. 3. Instruksikan lakukan saat jengkel.",
+          "terminasi": "1. Evaluasi. 2. RTL: Latihan mandiri pagi-sore."
+        },
+        "evaluasi": "Teknik napas benar (perut mengembang).",
+        "aspek_observasi": ["Posisi tubuh rileks", "Tarik napas hidung", "Buang napas mulut", "Jumlah repetisi benar"]
+      },
+      {
+        "nama": "Sesi 3: Kontrol Fisik II (Pukul Kasur/Bantal)",
+        "tujuan": "Klien mampu menyalurkan energi marah ke benda mati (aman) untuk mencegah serangan ke orang.",
+        "metode": "Simulasi Katarsis",
+        "persiapan": "Bantal besar di tengah lingkaran.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Validasi emosi. 3. Kontrak penyaluran energi.",
+          "kerja": "1. Taruh bantal. 2. Instruksikan: 'Bayangkan rasa marah Anda ada di bantal ini, pukul sekuatnya!'. 3. Klien bergantian memukul.",
+          "terminasi": "1. Evaluasi perasaan lega. 2. RTL: Pukul bantal di kamar jika jengkel."
+        },
+        "evaluasi": "Level emosi menurun pasca aktivitas.",
+        "aspek_observasi": ["Bertenaga saat memukul", "Tidak mengejek teman", "Mampu berhenti saat disuruh", "Tampak lebih tenang"]
+      },
+      {
+        "nama": "Sesi 4: Kontrol Verbal (Berbicara Asertif)",
+        "tujuan": "Klien mampu menolak permintaan atau meminta sesuatu dengan kata yang sopan dan tegas.",
+        "metode": "Role Play",
+        "persiapan": "Skenario (Misal: Dipinjam sabunnya).",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan bicara baik.",
+          "kerja": "1. Latih kalimat: 'Saya marah kalau sabun saya dipakai, tolong jangan dipakai lagi ya'. 2. Klien praktikan berpasangan.",
+          "terminasi": "1. Evaluasi. 2. RTL: Bicara baik pada teman ruangan."
+        },
+        "evaluasi": "Tidak ada kata kasar (Anjing, Bangsat, dll).",
+        "aspek_observasi": ["Suara tegas (tidak rendah/tinggi)", "Kata 'Tolong/Maaf' tersampaikan", "Kontak mata mantap", "Tidak tampak mengancam"]
+      },
+      {
+        "nama": "Sesi 5: Kontrol Spiritual (Doa & Wudhu)",
+        "tujuan": "Klien mampu meredam amarah melalui ritual keagamaan yang menenangkan.",
+        "metode": "Simulasi Religi harian",
+        "persiapan": "Alat ibadah.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan koneksi ke Tuhan.",
+          "kerja": "1. Diskusikan: 'Agama apa? Biasa doa apa?'. 2. Praktikkan cuci muka (wudhu) atau doa pendek penenang hati.",
+          "terminasi": "1. Evaluasi. 2. RTL: Zikir saat insomnia/gelisah."
+        },
+        "evaluasi": "Klien merasa lebih damai secara spiritual.",
+        "aspek_observasi": ["Fokus saat berdoa", "Hapal doa pendek", "Wajah tampak bersih (wudhu)", "Mengatakan 'Saya tenang'"]
+      }
+    ]
+  },
+  "tak_stimulasi_persepsi_halusinasi": {
+    "judul": "TAK Stimulasi Persepsi: Halusinasi",
+    "image": "tak_stimulasi_persepsi.png",
+    "definisi": "Upaya terapis melalui kelompok untuk melatih koping fungsional klien dalam melawan dan mengontrol input sensori palsu (halusinasi).",
+    "tujuan_detail": "1. Meningkatkan kesadaran diri klien bahwa suara/bayangan adalah gejala penyakit (tidak nyata). 2. Melatih 4 cara mengontrol halusinasi secara bertahap. 3. Meningkatkan dukungan sosial antar sesama pengidap halusinasi.",
+    "aktivitas_indikasi": "Aktivitas: Terapi kognitif-perilaku yang berfokus pada empat teknik utama kontrol gejala: Metode distraksi fisik (menghardik), teknik farmakologi (kepatuhan 5 benar obat), teknik interaksi sosial (bercakap-cakap dengan orang lain saat gejala muncul), serta teknik struktural (penyusunan dan kepatuhan terhadap jadwal aktivitas harian yang padat). \nIndikasi: Pasien dengan Gangguan Persepsi Sensori: Halusinasi (dengar, lihat, raba, atau penciuman) yang sudah mampu berkomunikasi secara asertif, tidak dalam pengaruh agitasi berat, dan menunjukkan kesadaran awal terhadap gejalanya (insight level moderate).",
+    "sesi": [
+      {
+        "nama": "Sesi 1: Mengenal Halusinasi (Jenis, Isi, Waktu, Respon)",
+        "tujuan": "Klien mampu mengidentifikasi karakteristik halusinasinya sendiri.",
+        "metode": "Brainstorming & Diskusi",
+        "persiapan": "Papan tulis.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan mengenal gejala.",
+          "kerja": "1. Klien cerita: 'Dengar apa? Kapan muncul?'. 2. Terapis rangkum di papan. 3. Beri reinforcement.",
+          "terminasi": "1. Evaluasi. 2. RTL: Catat munculnya suara di buku saku."
+        },
+        "evaluasi": "Klien tidak menyangkal (denial) lagi terhadap halusinasinya.",
+        "aspek_observasi": ["Menyebutkan isi suara", "Mengetahui waktu muncul", "Menyebutkan perasaan saat itu", "Koperatif"]
+      },
+      {
+        "nama": "Sesi 2: Menghardik Halusinasi",
+        "tujuan": "Klien mampu mempraktikkan pengusiran halusinasi dengan metode menghardik.",
+        "metode": "Instruksi Langsung & Praktik",
+        "persiapan": "Ruang tenang.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Evaluasi Sesi 1. 3. Kontrak menghardik.",
+          "kerja": "1. Tutup telinga. 2. Ucapkan: 'Pergi kamu! Kamu suara palsu! Saya tidak mau dengar!'. 3. Klien coba bergiliran.",
+          "terminasi": "1. Evaluasi. 2. RTL: Menghardik setiap suara muncul."
+        },
+        "evaluasi": "Ekspresi tegas saat menghardik.",
+        "aspek_observasi": ["Tangan menutup telinga", "Suara lantang", "Kalimat benar", "Mata terpejam (fokus internal)"]
+      },
+      {
+        "nama": "Sesi 3: Kontrol dengan Patuh Obat",
+        "tujuan": "Klien memahami manfaat minum obat dan kerugian putus obat.",
+        "metode": "Informasi & Diskusi",
+        "persiapan": "Visual bantuan (Warna obat).",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan edukasi farmakologis.",
+          "kerja": "1. Jelaskan: 'Obat putih untuk apa? Pink untuk apa?'. 2. Bahas efek samping (haus/ngantuk) dan cara mengatasinya.",
+          "terminasi": "1. Evaluasi. 2. RTL: Minum obat diawasi perawat."
+        },
+        "evaluasi": "Klien hafal 5 Benar (Pasien, Obat, Dosis, Waktu, Cara).",
+        "aspek_observasi": ["Mengetahui nama obat", "Mengetahui jadwal minum", "Mampu menyebutkan manfaat", "Tidak menolak obat"]
+      },
+      {
+        "nama": "Sesi 4: Kontrol dengan Bercakap-cakap",
+        "tujuan": "Klien mampu meminta orang lain mengobrol dengannya sebagai distraksi halusinasi.",
+        "metode": "Role Play",
+        "persiapan": "Name tag teman.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan pengalihan kognitif.",
+          "kerja": "1. Skenario: Suara muncul. 2. Klien datangi teman. 3. Katakan: 'Mas, suara saya datang, ayo ngobrol sama saya'.",
+          "terminasi": "1. Evaluasi. 2. RTL: Cari teman jika mulai melamun."
+        },
+        "evaluasi": "Inisiatif mendekati orang lain.",
+        "aspek_observasi": ["Inisiatif menyapa", "Jujur tentang kondisi", "Bercakap minimal 2 menit", "Kontak mata adekuat"]
+      },
+      {
+        "nama": "Sesi 5: Kontrol dengan Aktivitas Terjadwal",
+        "tujuan": "Klien mampu mengikuti jadwal kegiatan harian dari bangun tidur hingga tidur kembali.",
+        "metode": "Planning & Scheduling",
+        "persiapan": "Kertas jadwal.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan struktur harian harian.",
+          "kerja": "1. Tulis jam 05.00 Bangun. 2. Tulis jam 06.00 Mandi. 3. Selesaikan sampai jam tidur malam.",
+          "terminasi": "1. Evaluasi. 2. RTL: Tempel jadwal di pintu kamar."
+        },
+        "evaluasi": "Output berupa kertas jadwal fisik yang dipegang pasien.",
+        "aspek_observasi": ["Mampu menyusun urutan", "Memasukkan jam obat", "Memasukkan jam istirahat", "Komitmen melakukan"]
+      }
+    ]
+  },
+  "tak_stimulasi_sensoris": {
+    "judul": "TAK Stimulasi Sensoris",
     "image": "tak_stimulasi_sensorik.png",
-    "definisi": "Memberikan rangsangan pada sistem indera (pendengaran, visual, peraba) untuk meningkatkan kesadaran terhadap lingkungan nyata, memperbaiki respon motorik-emosional, dan membantu klien membedakan antara stimulus internal (halusinasi) dengan stimulus eksternal yang nyata.",
+    "definisi": "Terapi kelompok yang memberikan stimulus eksternal yang terukur pada panca indera untuk memperbaiki respon emosional dan motorik klien.",
+    "tujuan_detail": "1. Memperbaiki konsentrasi terhadap dunia luar. 2. Menurunkan gejala isolasi sosial melalui rangsangan sensorik. 3. Memberikan pengalaman rekreatif yang terapeutik. 4. Menilai kemampuan atensi klien secara objektif.",
+    "aktivitas_indikasi": "Aktivitas: Stimulasi melalui media rekreatif dan ekspresif. Mencakup terapi musik (mendengarkan dan mengikuti ritme), terapi seni (menggambar ekspresif tanpa batasan bentuk), serta stimulasi audiovisual (menonton dan mereview konten video) untuk membangkitkan respon emosional dan afektif yang sesuai dengan konteks lingkungan. \nIndikasi: Pasien dengan kondisi Emosi Datar (Flat affect), Apatis, Menarik diri secara kronis, serta pasien dengan hambatan komunikasi non-verbal yang membutuhkan rangsangan sensorik untuk meningkatkan keterlibatan dengan realitas eksternal.",
     "sesi": [
       {
         "nama": "Sesi 1: Stimulasi Pendengaran (Musik)",
-        "tujuan": "1. Klien mampu merespon irama musik dengan gerakan tubuh secara koordinatif. \n2. Klien mampu mengekspresikan perasaan setelah mendengar lagu. \n3. Klien mampu membedakan bunyi yang berasal dari luar (nyata) dengan bunyi dari dalam pikiran.",
-        "persiapan": "1. Speaker bluetooth portabel. \n2. Playlist lagu dengan tempo berbeda (lambat: instrumental, cepat: dangdut/pop). \n3. Alat perkusi sederhana (tamborin, marakas). \n4. Kursi melingkar.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Ucapkan salam, jelaskan tujuan sesi, tanyakan perasaan klien saat ini. \n2. **Fase Kerja (25 menit):** a. Putarkan musik tempo cepat, ajak klien bertepuk tangan sesuai irama. b. Bagikan alat perkusi, klien memainkan sesuai ritme lagu. c. Putarkan musik tempo lambat/instrumental, ajak klien memejamkan mata dan menarik napas dalam. d. Tanyakan: 'Lagu mana yang membuat Anda merasa lebih tenang?'. e. Diskusikan perbedaan suara musik (nyata) dengan suara yang didengar saat halusinasi. \n3. **Fase Terminasi (10 menit):** a. Evaluasi perasaan klien. b. Anjurkan klien mendengarkan musik saat suara halusinasi muncul sebagai teknik distraksi. c. Kontrak waktu sesi berikutnya."
+        "tujuan": "Klien mampu merespon irama musik dengan gerakan/verbalisasi selaras.",
+        "metode": "Listening & Rhythm",
+        "persiapan": "Speaker, lagu beragam.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan relaksasi suara.",
+          "kerja": "1. Putar lagu ceria. 2. Klien tepuk tangan. 3. Putar lagu sedih. 4. Diskusikan perasaan.",
+          "terminasi": "1. Evaluasi. 2. RTL: Putar radio saat sore hari."
+        },
+        "evaluasi": "Respons afek klien sesuai dengan tempo musik.",
+        "aspek_observasi": ["Tepuk tangan sesuai nada", "Tampak lebih rileks", "Ikut bersenandung", "Menceritakan perasaan"]
       },
       {
-        "nama": "Sesi 2: Stimulasi Visual (Warna & Bentuk)",
-        "tujuan": "1. Klien mampu membedakan berbagai warna primer dan sekunder. \n2. Klien mampu fokus pada objek visual nyata di lingkungan. \n3. Melatih konsentrasi dan daya perhatian klien.",
-        "persiapan": "1. Kertas warna-warni (merah, biru, kuning, hijau, oranye, ungu). \n2. Lampu senter berwarna. \n3. Gambar-gambar objek nyata (buah, hewan, pemandangan). \n4. Papan tulis untuk menuliskan jawaban kelompok.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa latihan visual membantu otak fokus pada realita. \n2. **Fase Kerja (25 menit):** a. Klien diminta mengelompokkan kertas berdasarkan warna yang sama sambil menyebutkan nama warnanya. b. Permainan mengikuti cahaya senter di dinding untuk melatih fokus mata. c. Tunjukkan gambar objek selama 5 detik lalu tutup, minta klien menyebutkan apa yang dilihat. d. Diskusikan: 'Apakah benda yang Anda lihat ini nyata atau hanya bayangan?'. \n3. **Fase Terminasi (10 menit):** a. Evaluasi kemampuan fokus visual klien. b. Berikan pujian atas partisipasi aktif. c. Anjurkan klien mengamati lingkungan sekitar saat merasa bingung untuk membedakan realita."
+        "nama": "Sesi 2: Stimulasi Visual (Menggambar)",
+        "tujuan": "Klien mampu menuangkan persepsi visualnya ke dalam media kertas.",
+        "metode": "Art Therapy",
+        "persiapan": "Kertas, krayon.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan ekspresi warna.",
+          "kerja": "1. Instruksi: 'Gambar bunga mekar'. 2. Klien menggambar bebas selama 15 menit.",
+          "terminasi": "1. Evaluasi (Pameran kecil). 2. RTL: Belajar mewarnai di ruangan."
+        },
+        "evaluasi": "Ketuntasan gambar dan pemilihan warna.",
+        "aspek_observasi": ["Memilih warna kontras", "Gambar selesai utuh", "Tangan tidak tremor", "Menjelaskan arti gambar"]
       },
       {
-        "nama": "Sesi 3: Stimulasi Peraba (Sentuhan & Tekstur)",
-        "tujuan": "1. Klien mampu membedakan berbagai tekstur benda melalui sentuhan. \n2. Klien mampu menggunakan sensasi sentuhan sebagai grounding saat merasa tidak nyata (derealisasi). \n3. Melatih klien merasakan koneksi tubuh dengan lingkungan.",
-        "persiapan": "1. Benda dengan berbagai tekstur: batu halus, kain beludru, amplas halus, es batu, bola karet. \n2. Kantong kain gelap (mystery bag). \n3. Air hangat dan air dingin dalam wadah.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa sentuhan adalah cara paling cepat untuk 'mengembalikan' pikiran ke realita. \n2. **Fase Kerja (25 menit):** a. Masukkan berbagai benda ke dalam mystery bag. b. Klien memasukkan tangan dan menebak benda hanya dengan sentuhan. c. Minta klien mendeskripsikan tekstur: 'Halus atau kasar? Dingin atau hangat?'. d. Latihan kontras: celupkan tangan ke air hangat lalu air dingin. e. Diskusikan sensasi yang dirasakan dan hubungkan dengan teknik grounding. \n3. **Fase Terminasi (10 menit):** a. Evaluasi kemampuan klien membedakan tekstur. b. Anjurkan klien memegang benda bertekstur (batu/kain) saat merasa cemas atau disosiatif. c. Berikan reinforcement positif."
+        "nama": "Sesi 3: Stimulasi Visual & Pendengaran (Menonton Film)",
+        "tujuan": "Klien mampu menyerap informasi dari video dan menceritakannya kembali.",
+        "metode": "Audiovisual Review",
+        "persiapan": "Laptop/TV, video pendek.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan asah memori.",
+          "kerja": "1. Tonton film kartun 10 menit. 2. Tanya: 'Siapa nama tokohnya tadi?'.",
+          "terminasi": "1. Evaluasi. 2. RTL: Nonton berita pagi di bangsal."
+        },
+        "evaluasi": "Recall memori jangka pendek (5-10 menit).",
+        "aspek_observasi": ["Mata fokus ke layar", "Tidak mengantuk saat menonton", "Mampu menyebut tokoh", "Menjelaskan alur cerita"]
+      }
+    ]
+  },
+  "tak_stimulasi_realitas": {
+    "judul": "TAK Stimulasi Realitas (Orientasi Realita)",
+    "image": "tak_orientasi_realita_new.png",
+    "definisi": "Sering disebut TAKOR, bertujuan memulihkan kesadaran klien terhadap dimensi dasar eksistensi: diri, orang lain, tempat, dan waktu.",
+    "tujuan_detail": "1. Memutus rantai kebingungan (disorientasi). 2. Memperkenalkan kembali lingkup sosial RS. 3. Membantu klien mandiri dalam penemuan arah (wayfinding) di ruangan. 4. Menilai fungsi kognitif dasar klien setiap hari.",
+    "aktivitas_indikasi": "Aktivitas: Program penguatan orientasi yang meliputi latihan pengenalan identitas sosial (nama teman/perawat), navigasi spasial lingkungan (ward tour ke titik-titik penting di RS/Bangsal), serta orientasi kronologis (membaca jam, kalender, dan mencocokan dengan jadwal kegiatan harian). \nIndikasi: Pasien dengan kebingungan akut maupun kronis, Disorientasi (orang, tempat, waktu), demensia tahap awal, sindrom otak organik, serta pasien baru yang membutuhkan bantuan adaptasi sosiogeografis di lingkungan perawatan jiwa.",
+    "sesi": [
+      {
+        "nama": "Sesi 1: Pengenalan Orang (Identitas Diri & Sosial)",
+        "tujuan": "Klien mengenal nama kawan sebayanya dan perawat penanggung jawab.",
+        "metode": "Game Perkenalan",
+        "persiapan": "Bola tenis.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan ingat nama.",
+          "kerja": "1. Lempar bola. 2. Yang kena sebut nama Teman di kiri/kanannya.",
+          "terminasi": "1. Evaluasi. 2. RTL: Sapa nama perawat tiap shift."
+        },
+        "evaluasi": "Hapal minimal 3 nama orang terdekat.",
+        "aspek_observasi": ["Menyebut nama benar", "Berani menyapa duluan", "Kontak mata spontan", "Tidak bingung identitas"]
+      },
+      {
+        "nama": "Sesi 2: Pengenalan Tempat (Ward Tour)",
+        "tujuan": "Klien mampu menunjukkan lokasi vital di bangsal secara mandiri.",
+        "metode": "Exploration",
+        "persiapan": "Plang nama ruangan.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan navigasi mandiri.",
+          "kerja": "1. Ajak jalan ke Aula, Kamar Mandi, Ruang Makan. 2. Tanya: 'Mana jalan balik ke kamar?'.",
+          "terminasi": "1. Evaluasi. 2. RTL: Tidak tersesat saat ke WC."
+        },
+        "evaluasi": "Kemampuan orientasi spasial.",
+        "aspek_observasi": ["Jalan tegap (tidak linglung)", "Tahu pintu keluar", "Tahu ruang makan", "Tahu kamar sendiri"]
+      },
+      {
+        "nama": "Sesi 3: Pengenalan Waktu (Tanggal & Jam)",
+        "tujuan": "Klien mampu menyebutkan hari, tanggal, dan bulan terkini.",
+        "metode": "Calendar Review",
+        "persiapan": "Kalender besar, Jam dinding.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan orientasi kronologis.",
+          "kerja": "1. Tunjuk tanggal hari ini. 2. Tanya: 'Besok hari apa?'. 3. Bahas momen hari besar.",
+          "terminasi": "1. Evaluasi. 2. RTL: Cek jam setiap minum obat."
+        },
+        "evaluasi": "Akurasi penyebutan waktu s/d +/- 1 hari.",
+        "aspek_observasi": ["Menyebut hari benar", "Menyebut bulan benar", "Mampu baca jam dinding", "Sadar estimasi waktu"]
       }
     ]
   },
   "tak_harga_diri": {
     "judul": "TAK Peningkatan Harga Diri",
     "image": "tak_sosialisasi_new.png",
-    "definisi": "Upaya terapis melalui kelompok untuk mengeksplorasi sisi positif, bakat, serta keberhasilan masa lalu klien guna membangun kembali rasa percaya diri yang hilang. Klien dibantu menemukan bahwa dirinya masih memiliki nilai, kemampuan, dan peran yang bermakna.",
+    "definisi": "Upaya terapis melalui kelompok untuk mengeksplorasi sisi positif, bakat, serta keberhasilan masa lalu klien guna membangun kembali rasa percaya diri yang hilang. Klien dibantu menemukan bahwa dirinya masih memiliki nilai, kemampuan, dan peran yang bermakna di tengah keterbatasannya.",
+    "tujuan_detail": "1. Membantu klien mengidentifikasi aspek positif dan kemampuan yang dimiliki. \n2. Melatih klien menggunakan kemampuan positif tersebut untuk aktivitas produktif. \n3. Meningkatkan perasaan berharga dan bangga terhadap diri sendiri. \n4. Mengurangi pikiran negatif (negativisme) terhadap diri sendiri. \n5. Mendorong klien untuk merencanakan masa depan berdasarkan potensi nyata yang ada.",
+    "aktivitas_indikasi": "Aktivitas: Fokus pada penggalian potensi internal melalui inventarisasi bakat terpendam, sesi demonstrasi kemampuan positif di hadapan publik, latihan memberikan dan menerima umpan balik positif (apresiasi), serta teknik afirmasi diri dan pembentukan citra tubuh yang sehat melalui diskusi terarah. \nIndikasi: Pasien dengan masalah Harga Diri Rendah (HDR) baik situasional maupun kronis, pasien yang menunjukkan tanda-tanda pesimisme, merasa tidak berguna, atau pasien dengan riwayat kegagalan yang menyebabkan hambatan dalam aktualisasi diri.",
     "sesi": [
       {
         "nama": "Sesi 1: Inventarisasi Aspek Positif Diri",
-        "tujuan": "1. Klien mampu menemukan minimal 3 kebaikan atau potensi pada dirinya. \n2. Klien mampu menghargai prestasi kecil yang dilakukan hari ini. \n3. Klien menyadari bahwa setiap orang pasti memiliki sisi positif.",
-        "persiapan": "1. Kertas A4 yang dibagi dua kolom (Kelebihan | Keberhasilan). \n2. Krayon atau spidol warna. \n3. Contoh daftar kemampuan (memasak, menjahit, menyanyi, menyapu, dll).",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Ucapkan salam, tanyakan perasaan klien hari ini, jelaskan bahwa sesi ini untuk menemukan kembali hal-hal baik dalam diri. \n2. **Fase Kerja (25 menit):** a. Klien diminta menuliskan atau menggambar bakat/kemampuan mereka di kolom kiri. b. Di kolom kanan, tulis hal baik yang sudah dilakukan hari ini (contoh: mandi sendiri, makan habis). c. Diskusikan kegunaan bakat tersebut jika nanti sudah pulang. d. Terapis membantu klien yang kesulitan menemukan aspek positif dengan pertanyaan: 'Apakah Anda bisa merapikan kasur? Itu sudah luar biasa!'. \n3. **Fase Terminasi (10 menit):** a. Setiap klien membacakan satu aspek positifnya. b. Berikan pujian spesifik: 'Tulisan Anda sangat rapi dan bagus'. c. Tempel kertas di dinding loker klien sebagai pengingat."
+        "tujuan": "Klien mampu menyebutkan minimal 3 aspek positif atau kemampuan pada dirinya.",
+        "metode": "Diskusi & Refleksi Individu",
+        "persiapan": "Kertas, Spidol Warna, Contoh daftar kemampuan.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan mencari kebaikan dalam diri.",
+          "kerja": "1. Minta klien menulis/menggambar apa yang mereka bisa (misal: menyapu, menyanyi). 2. Jangan biarkan klien bilang 'Saya tidak bisa apa-apa'. 3. Terapis memberi contoh hal kecil (misal: 'Bapak bisa bicara dengan saya, itu kemampuan').",
+          "terminasi": "1. Evaluasi. 2. RTL: Ucapkan afirmasi 'Saya berharga' sebelum tidur."
+        },
+        "evaluasi": "Klien tampak lebih cerah setelah menemukan kelebihannya.",
+        "aspek_observasi": ["Menyebutkan >2 kemampuan", "Kontak mata positif", "Bicara percaya diri", "Mampu menulis/menggambar"]
       },
       {
         "nama": "Sesi 2: Melatih Kemampuan Positif",
-        "tujuan": "1. Klien berani menunjukkan kemampuannya di depan orang lain tanpa rasa malu. \n2. Klien merasa bangga atas kontribusi yang diberikan pada kelompok. \n3. Membangun rasa percaya diri melalui demonstrasi keberhasilan nyata.",
-        "persiapan": "1. Peralatan sesuai hobi klien (misal: mik untuk menyanyi, sapu untuk merapikan ruangan, alat masak). \n2. Jadwal giliran demonstrasi. \n3. Stiker bintang atau penanda prestasi.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Validasi perasaan klien, sampaikan bahwa sesi ini adalah panggung kebanggaan mereka. \n2. **Fase Kerja (25 menit):** a. Setiap klien mendemonstrasikan satu kemampuan yang dipilih (misal: melipat baju rapi, menyanyi, membersihkan meja). b. Demonstrasi dilakukan selama 3-5 menit per klien. c. Setelah setiap demonstrasi, anggota lain memberikan tepuk tangan dan komentar positif. d. Terapis memberikan stiker bintang pada setiap peserta yang tampil. \n3. **Fase Terminasi (10 menit):** a. Tanyakan perasaan klien setelah tampil. b. Sampaikan bahwa kemampuan kecil pun sangat berarti. c. Masukkan latihan kemampuan ke jadwal harian."
-      },
-      {
-        "nama": "Sesi 3: Apresiasi Antar Anggota (Positive Feedback Circle)",
-        "tujuan": "1. Klien mampu memberikan pujian yang tulus kepada orang lain. \n2. Klien mampu menerima pujian tanpa penolakan atau rasa malu berlebih. \n3. Meningkatkan rasa berharga diri melalui validasi dari teman sebaya.",
-        "persiapan": "1. Kertas berwarna dan spidol. \n2. Amplop untuk setiap anggota. \n3. Kursi melingkar.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa setiap orang berhak mendapat pujian yang tulus, dan memberi pujian juga melatih empati. \n2. **Fase Kerja (25 menit):** a. Setiap klien mendapatkan kertas sebanyak jumlah anggota kelompok. b. Tuliskan satu hal positif tentang setiap teman (contoh: 'Bapak Ali selalu rajin mandi pagi'). c. Masukkan kertas ke amplop masing-masing anggota. d. Setiap klien membuka amplop dan membacakan pujian yang diterima di depan kelompok. e. Terapis membantu klien merespon pujian dengan mengatakan: 'Terima kasih, saya senang mendengarnya'. \n3. **Fase Terminasi (10 menit):** a. Evaluasi perasaan setelah menerima pujian. b. Simpan kertas pujian sebagai pengingat saat perasaan tidak berharga muncul. c. Kontrak waktu sesi selanjutnya."
-      }
-    ]
-  },
-  "tak_emosi": {
-    "judul": "TAK Pengendalian Emosi",
-    "image": "tak_orientasi_realita_new.png",
-    "definisi": "Latihan berkelompok untuk mengenali pemicu kemarahan, memahami tanda-tanda fisik saat emosi meluap, dan mempraktikkan koping yang sehat agar tidak mencederai diri atau orang lain. Klien belajar bahwa emosi marah adalah hal yang normal, tetapi perlu dikelola dengan cara yang tepat.",
-    "sesi": [
-      {
-        "nama": "Sesi 1: Mengenali Pemicu Marah",
-        "tujuan": "1. Klien mampu menyebutkan minimal 2 situasi yang memicu emosi/amarah. \n2. Klien mengetahui tanda fisik marah pada tubuhnya sendiri (jantung berdebar, tangan mengepal, wajah panas). \n3. Klien memahami bahwa marah adalah emosi yang wajar.",
-        "persiapan": "1. Kartu emosi bergambar (wajah marah, sedih, senang, tenang, takut). \n2. Papan tulis dan spidol. \n3. Kertas dan pulpen untuk setiap klien.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Ucapkan salam, perkenalkan tujuan sesi, validasi perasaan klien hari ini. \n2. **Fase Kerja (25 menit):** a. Terapis memancing diskusi: 'Apa yang membuat Bapak/Ibu kesal beberapa hari ini?'. b. Klien bercerita tentang pemicunya (misal: makanan dingin, teman berisik, rindu keluarga). c. Minta klien mengidentifikasi tanda fisik saat marah dan menuliskannya. d. Terapis menjelaskan bahwa marah adalah manusiawi, namun cara menyalurkannya harus benar agar tidak merugikan diri dan orang lain. e. Tunjukkan kartu emosi dan minta klien memilih kartu yang paling menggambarkan perasaannya. \n3. **Fase Terminasi (10 menit):** a. Rangkum pemicu marah yang disebutkan oleh semua anggota. b. Sampaikan bahwa sesi berikutnya akan belajar cara mengungkapkan marah tanpa kekerasan. c. Kontrak waktu."
-      },
-      {
-        "nama": "Sesi 2: Manajemen Emosi Verbal (Asertif)",
-        "tujuan": "1. Klien mampu menolak permintaan secara sopan dan tegas. \n2. Klien mampu mengungkapkan kekesalan tanpa kata-kata kasar atau tindakan fisik. \n3. Klien memahami perbedaan antara perilaku pasif, asertif, dan agresif.",
-        "persiapan": "1. Skenario role play yang sudah disiapkan (misal: dipinjam barangnya tanpa izin, diminta mengerjakan tugas yang bukan miliknya). \n2. Kartu berisi contoh kalimat asertif. \n3. Kursi berpasangan untuk simulasi.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan perbedaan antara pasif ('diam saja'), agresif ('marah dan memukul'), dan asertif ('menyampaikan perasaan dengan sopan tapi tegas'). \n2. **Fase Kerja (25 menit):** a. Terapis memodelkan kalimat asertif: 'Saya merasa terganggu saat Anda mengambil barang saya tanpa izin. Tolong kembalikan ya.' b. Klien berpasangan dan mempraktikkan skenario role play secara bergantian. c. Latih intonasi suara: tegas namun tidak membentak, kontak mata stabil. d. Terapis memberikan umpan balik pada setiap penampilan. \n3. **Fase Terminasi (10 menit):** a. Evaluasi perasaan klien setelah latihan. b. Berikan kartu kalimat asertif untuk dihafal. c. Anjurkan klien mempraktikkannya saat ada konflik nyata."
-      },
-      {
-        "nama": "Sesi 3: Teknik Time-Out dan Penyaluran Emosi Sehat",
-        "tujuan": "1. Klien mampu mengenali kapan harus menghentikan interaksi (time-out) sebelum emosi lepas kendali. \n2. Klien mampu mempraktikkan teknik time-out secara mandiri. \n3. Klien mampu memilih cara penyaluran emosi yang aman (napas dalam, berjalan, minum air).",
-        "persiapan": "1. Timer atau jam tangan. \n2. Area berjalan yang aman di dalam bangsal. \n3. Air minum untuk setiap klien.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan konsep time-out: 'Saat emosi mulai naik, menjauh selama 5-10 menit lebih baik daripada menyesal seumur hidup'. \n2. **Fase Kerja (25 menit):** a. Simulasi skenario: terapis berpura-pura memprovokasi klien dengan situasi yang membuat kesal. b. Klien mempraktikkan teknik time-out: mengangkat tangan tanda 'T' (Time-out), berbalik, dan berjalan ke area tenang. c. Di area tenang: minum air putih perlahan, tarik napas dalam 5 kali. d. Setelah 5 menit, klien kembali dan menyampaikan perasaannya dengan kalimat asertif. \n3. **Fase Terminasi (10 menit):** a. Evaluasi efektivitas teknik time-out bagi setiap klien. b. Sepakati sinyal time-out yang bisa dipakai di ruangan (mengangkat tangan). c. Masukkan ke jadwal koping harian."
-      }
-    ]
-  },
-  "tak_manajemen_marah": {
-    "judul": "TAK Manajemen Marah",
-    "image": "tak_stimulasi_persepsi.png",
-    "definisi": "Latihan fisik dan praktis untuk melepaskan energi negatif dari kemarahan yang terpendam secara aman tanpa merusak lingkungan atau menyakiti orang lain. Klien dilatih menggunakan teknik fisik, pernapasan, dan spiritual untuk mengelola impuls agresi.",
-    "sesi": [
-      {
-        "nama": "Sesi 1: Penyaluran Fisik (Pukul Bantal/Kasur)",
-        "tujuan": "1. Klien mampu meredakan ketegangan otot melalui aktivitas fisik yang aman. \n2. Klien memahami bahwa menyalurkan amarah pada benda mati lebih aman daripada menyerang orang. \n3. Klien merasakan penurunan level ketegangan setelah aktivitas.",
-        "persiapan": "1. Bantal besar atau punching bag manual (kasur gulung). \n2. Area yang cukup luas dan aman. \n3. Tensimeter untuk mengukur TD sebelum dan sesudah. \n4. Air minum.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa marah menghasilkan energi berlebih di tubuh yang perlu disalurkan dengan aman. \n2. **Fase Kerja (25 menit):** a. Ukur nadi klien sebelum latihan. b. Terapis mencontohkan memukul bantal sekuat tenaga sambil berteriak pelan 'AAAHH!' untuk membuang beban. c. Klien diberikan kesempatan 2-3 menit masing-masing untuk melakukan hal yang sama. d. Instruksikan: 'Bayangkan semua kekesalan Anda masuk ke dalam pukulan ini'. e. Setelah selesai, ukur ulang nadi dan bandingkan. \n3. **Fase Terminasi (10 menit):** a. Evaluasi perasaan dan kondisi fisik setelah aktivitas. b. Anjurkan teknik ini sebagai alternatif saat merasa ingin memukul orang. c. Kontrak waktu sesi berikutnya."
-      },
-      {
-        "nama": "Sesi 2: Teknik Tarik Napas Dalam Saat Marah",
-        "tujuan": "1. Klien mampu menenangkan diri secara instan saat mulai kesal menggunakan pernapasan. \n2. Klien mampu menghitung mundur dari 10 sebelum bereaksi. \n3. Klien memahami bahwa jeda 10 detik dapat mencegah tindakan yang disesali.",
-        "persiapan": "1. Musik relaksasi sebagai latar. \n2. Kursi nyaman. \n3. Timer atau jam besar.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa menarik napas mengaktifkan saraf parasimpatis yang menenangkan tubuh. \n2. **Fase Kerja (25 menit):** a. Latihan menghitung mundur 10-9-8...1 sambil tarik napas dalam sebelum membalas ucapan yang menyinggung. b. Simulasi: Terapis berperan sebagai teman yang mengejek, klien mempraktikkan jeda napas dulu sebelum merespon. c. Latih variasi: mengepalkan tangan (5 detik) lalu melepas sambil membuang napas. d. Ulangi 3-5 kali hingga klien merasa nyaman. \n3. **Fase Terminasi (10 menit):** a. Evaluasi kemampuan klien melakukan jeda napas. b. Anjurkan penggunaan teknik ini setiap saat emosi mulai naik. c. Masukkan ke jadwal koping harian."
-      },
-      {
-        "nama": "Sesi 3: Pengendalian Marah Secara Spiritual",
-        "tujuan": "1. Klien mampu menggunakan pendekatan spiritual (doa/wudhu/dzikir) untuk meredam amarah. \n2. Klien memahami bahwa menahan marah adalah kekuatan, bukan kelemahan. \n3. Klien dapat memilih teknik spiritual yang paling cocok untuk dirinya.",
-        "persiapan": "1. Air wudhu atau wastafel. \n2. Sajadah/matras. \n3. Alat penghitung dzikir (tasbih).",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Sampaikan bahwa banyak ajaran agama mengajarkan cara mengelola amarah sebagai bentuk kemuliaan. \n2. **Fase Kerja (25 menit):** a. Diskusikan ajaran masing-masing agama tentang pengendalian marah. b. Latihan wudhu/membasuh wajah dengan air dingin saat mulai marah (evidenced-based: menurunkan suhu tubuh dan detak jantung). c. Latihan dzikir/doa berulang sebagai distraksi kognitif dari pikiran marah. d. Jika memungkinkan, latihan mengubah posisi tubuh (dari berdiri menjadi duduk, dari duduk menjadi berbaring) sebagai teknik de-eskalasi. \n3. **Fase Terminasi (10 menit):** a. Evaluasi teknik mana yang paling efektif untuk setiap klien. b. Buatkan kartu koping personal berisi 3 teknik pilihan klien. c. Berikan pujian atas kesediaan belajar mengendalikan diri."
+        "tujuan": "Klien mampu mendemonstrasikan satu kemampuan yang dipilih di depan kelompok.",
+        "metode": "Demonstrasi Bakat",
+        "persiapan": "Peralatan sesuai hobi (Sapu, Mik, Kertas melipat).",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Evaluasi Sesi 1. 3. Kontrak demonstrasi.",
+          "kerja": "1. Klien maju satu per satu menunjukkan bakatnya. 2. Anggota lain memberi aplaus/tepuk tangan. 3. Terapis memberi stiker bintang.",
+          "terminasi": "1. Evaluasi. 2. RTL: Masukkan bakat tersebut ke jadwal harian."
+        },
+        "evaluasi": "Keberanian tampil dan respon afek bangga.",
+        "aspek_observasi": ["Tampil tanpa ragu", "Menerima pujian", "Wajah tampak bangga", "Kemampuan teknis memadai"]
       }
     ]
   },
   "tak_relaksasi": {
-    "judul": "TAK Relaksasi",
+    "judul": "TAK Relaksasi & Manajemen Kecemasan",
     "image": "tak_stimulasi_sensorik.png",
-    "definisi": "Berbagai metode untuk merilekskan otot dan pikiran, ditujukan untuk menurunkan tingkat ansietas (kecemasan), stres, dan membantu klien yang mengalami gangguan tidur.",
+    "definisi": "Terapi kelompok yang melatih berbagai teknik fisiologis dan psikologis untuk menurunkan tingkat tegangan otot dan ketegangan mental (anxiety) pada klien.",
+    "tujuan_detail": "1. Menurunkan level ansietas (kecemasan). 2. Memperbaiki kualitas tidur klien (insomnia). 3. Menstabilkan tanda-tanda vital (nadi dan pernapasan). 4. Memberikan keterampilan kontrol diri saat menghadapi stresor di bangsal maupun di rumah.",
+    "aktivitas_indikasi": "Aktivitas: Pelatihan teknik regulasi sistem saraf otonom melalui Relaksasi Otot Progresif (mengencangkan dan melepas otot secara bergantian), teknik Pernapasan Diafragma (napas perut dalam), serta metode Guided Imagery (imajinasi terbimbing) untuk menciptakan 'tempat aman' secara kognitif guna menurunkan kecemasan. \nIndikasi: Pasien dengan Ansietas (kecemasan) sedang hingga berat, gangguan pola tidur (insomnia), kegelisahan psikomotor, pasien yang sering mengalami panik serangan, atau pasien dengan keluhan somatik akibat ketegangan mental yang persisten.",
     "sesi": [
       {
-        "nama": "Sesi 1: Relaksasi Otot Progresif (Progressive Muscle Relaxation)",
-        "tujuan": "1. Klien mampu merasakan perbedaan antara otot tegang dan rileks. \n2. Klien mampu merilekskan kelompok otot utama secara mandiri. \n3. Klien dapat menggunakan teknik ini untuk mengatasi insomnia dan ketegangan.",
-        "persiapan": "1. Matras atau kursi bersandar yang nyaman. \n2. Panduan audio relaksasi atau musik instrumental lembut. \n3. Selimut tipis. \n4. Ruangan bersuhu sejuk dan pencahayaan redup.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa otot yang tegang terus-menerus menyebabkan nyeri dan kecemasan; latihan ini melatih otak membedakan tegang dan rileks. \n2. **Fase Kerja (25 menit):** a. Klien berbaring atau duduk nyaman, mata dipejamkan. b. Mulai dari TANGAN: kepalkan tangan sekuat-kuatnya (5 detik), lalu lepaskan pelan-pelan (10 detik). Rasakan perbedaannya. c. LENGAN: tegangkan otot lengan, tahan, lepaskan. d. BAHU: angkat bahu hingga mendekati telinga, tahan, lepaskan. e. WAJAH: kerutkan dahi dan pejamkan mata kuat-kuat, tahan, lepaskan. f. KAKI: tegangkan otot paha dan betis, tahan, lepaskan. g. Ulangi seluruh proses 2 kali. \n3. **Fase Terminasi (10 menit):** a. Minta klien membuka mata perlahan. b. Evaluasi perasaan sebelum dan sesudah latihan. c. Anjurkan latihan setiap malam sebelum tidur."
+        "nama": "Sesi 1: Relaksasi Otot Progresif",
+        "tujuan": "Klien mampu merilekskan 7 kelompok otot utama secara mandiri.",
+        "metode": "Latihan Fisik Terbimbing",
+        "persiapan": "Matras, Audio instrumental.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan membuang tegangan otot.",
+          "kerja": "1. Instruksi: 'Kepalkan tangan kuat-kuat... tahan... rasakan tegangnya... lepaskan... rasakan rileksnya'. 2. Lanjutkan ke lengan, bahu, wajah, perut, dan kaki.",
+          "terminasi": "1. Evaluasi (tanda vital). 2. RTL: Latihan saat merasa cemas."
+        },
+        "evaluasi": "Klien merasa tubuh terasa lebih ringan/hangat.",
+        "aspek_observasi": ["Mampu membedakan tegang-rileks", "Mengikuti instruksi", "Tampak lebih tenang", "Napas lebih teratur"]
       },
       {
-        "nama": "Sesi 2: Relaksasi Napas Perut (Diafragma)",
-        "tujuan": "1. Klien mampu melakukan pernapasan diafragma yang benar dan efektif. \n2. Klien merasakan penurunan detak jantung setelah latihan. \n3. Klien dapat membedakan napas dada (dangkal) dan napas perut (dalam).",
-        "persiapan": "1. Lingkungan yang sangat tenang dan bebas gangguan. \n2. Matras atau kursi bersandar. \n3. Buku kecil (untuk ditaruh di perut sebagai penanda gerakan diafragma).",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa napas perut mengaktifkan saraf vagus yang langsung menenangkan sistem saraf. \n2. **Fase Kerja (25 menit):** a. Klien berbaring, letakkan satu tangan di dada dan satu di perut. b. Tarik napas lewat hidung selama 4 detik — perut mengembung, dada TIDAK bergerak. c. Tahan napas selama 2 detik. d. Hembuskan perlahan lewat bibir yang mencucu selama 6-8 detik. e. Letakkan buku kecil di perut untuk melihat gerakan naik-turun secara visual. f. Ulangi 10-15 kali. \n3. **Fase Terminasi (10 menit):** a. Evaluasi kemampuan klien melakukan napas perut dengan benar. b. Bandingkan detak jantung sebelum dan sesudah. c. Anjurkan latihan 3 kali sehari (pagi, siang, malam)."
-      },
-      {
-        "nama": "Sesi 3: Teknik Hipnotis Lima Jari",
-        "tujuan": "1. Klien mampu menggunakan teknik imajinasi terbimbing dengan bantuan jari tangan. \n2. Klien mampu mengasosiasikan setiap jari dengan memori positif yang menenangkan. \n3. Klien dapat menggunakan teknik ini secara mandiri di mana saja.",
-        "persiapan": "1. Ruangan tenang. \n2. Kursi nyaman. \n3. Musik relaksasi lembut (opsional).",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa teknik ini menghubungkan sentuhan jari dengan memori menyenangkan untuk mengalihkan pikiran dari kecemasan. \n2. **Fase Kerja (25 menit):** a. Klien memejamkan mata, tarik napas dalam 3 kali. b. JEMPOL menyentuh TELUNJUK: bayangkan saat tubuh Anda sangat sehat dan bugar. c. JEMPOL menyentuh JARI TENGAH: bayangkan orang yang paling Anda sayangi tersenyum kepada Anda. d. JEMPOL menyentuh JARI MANIS: bayangkan pujian terbaik yang pernah Anda terima. e. JEMPOL menyentuh KELINGKING: bayangkan tempat terindah yang pernah Anda kunjungi. f. Tahan setiap bayangan selama 1-2 menit sambil bernapas dalam. g. Ulangi seluruh proses 2 kali. \n3. **Fase Terminasi (10 menit):** a. Evaluasi perasaan klien. b. Anjurkan penggunaan teknik ini saat sulit tidur atau saat halusinasi muncul. c. Masukkan ke jadwal koping harian."
-      }
-    ]
-  },
-  "tak_keterampilan_sosial": {
-    "judul": "TAK Keterampilan Sosial",
-    "image": "tak_sosialisasi_new.png",
-    "definisi": "Latihan interaksi sosial tingkat lanjut untuk mempersiapkan klien berfungsi kembali di masyarakat, seperti cara berbelanja, mengantre, dan etika komunikasi umum.",
-    "sesi": [
-      {
-        "nama": "Sesi 1: Etika Meminta Tolong dan Bertanya",
-        "tujuan": "1. Klien mampu memulai pembicaraan dengan orang asing dalam simulasi. \n2. Klien menggunakan kata sopan: 'Permisi', 'Tolong', dan 'Terima Kasih'. \n3. Klien memahami pentingnya bahasa tubuh (kontak mata, senyum).",
-        "persiapan": "1. Setting meja kasir buatan atau toko-tokoan sederhana. \n2. Barang-barang simulasi (kemasan kosong, uang mainan). \n3. Kartu berisi contoh kalimat sopan.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa keterampilan bertanya dan meminta tolong sangat penting saat kembali ke masyarakat. \n2. **Fase Kerja (25 menit):** a. Klien berperan sebagai pembeli yang ingin menanyakan harga barang. b. Terapis bertindak sebagai kasir. c. Latih urutan: 'Permisi, boleh saya bertanya berapa harga ini? Terima kasih.' d. Evaluasi penggunaan kontak mata, senyum, dan intonasi suara. e. Setiap klien mendapat giliran 2-3 kali hingga lancar. \n3. **Fase Terminasi (10 menit):** a. Evaluasi perasaan klien. b. Berikan pujian atas keberanian berbicara. c. Kontrak waktu sesi berikutnya."
-      },
-      {
-        "nama": "Sesi 2: Mengatasi Penolakan dengan Elegan",
-        "tujuan": "1. Klien tidak merasa terpukul atau marah saat permintaannya ditolak. \n2. Klien mampu mencari solusi alternatif dengan tenang. \n3. Klien memahami bahwa penolakan bukan berarti dirinya tidak berharga.",
-        "persiapan": "1. Skenario penolakan (misal: ingin meminjam koran tapi sedang dibaca, ingin masuk antrian tapi penuh). \n2. Kartu contoh respon yang baik.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa penolakan adalah hal biasa dalam kehidupan sehari-hari dan bukan berarti orang tersebut membenci kita. \n2. **Fase Kerja (25 menit):** a. Simulasi: klien meminta pinjam barang, terapis menjawab 'Maaf belum bisa sekarang'. b. Latihan respon positif: 'Oh baiklah, nanti saya pinjam lagi kalau sudah selesai ya'. c. Diskusikan perasaan klien saat menghadapi penolakan. d. Latih alternatif: mencari orang lain untuk dimintai tolong, atau menunggu dengan sabar. \n3. **Fase Terminasi (10 menit):** a. Evaluasi kemampuan klien mengelola perasaan saat ditolak. b. Berikan pesan bahwa ketangguhan menghadapi penolakan adalah kekuatan."
-      },
-      {
-        "nama": "Sesi 3: Simulasi Naik Transportasi Umum",
-        "tujuan": "1. Klien mampu mempraktikkan etika di transportasi umum (mengantri, duduk tertib, bertanya arah). \n2. Klien mampu berinteraksi dengan orang asing secara wajar. \n3. Mempersiapkan klien untuk mandiri saat kembali ke masyarakat.",
-        "persiapan": "1. Kursi disusun seperti deretan kursi bus/angkot. \n2. Papan bertuliskan nama halte atau tujuan. \n3. Uang koin simulasi.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa kemampuan naik transportasi adalah hal penting untuk kemandirian setelah pulang. \n2. **Fase Kerja (25 menit):** a. Simulasi antrian naik bus: klien berlatih berdiri di belakang antrian. b. Latih cara bertanya: 'Pak, apakah bus ini lewat daerah Pasar Rebo?'. c. Latih cara membayar: menyiapkan uang pas dan mengucapkan terima kasih. d. Simulasi situasi: bus penuh, klien harus berdiri — latih kesabaran dan keseimbangan badan. \n3. **Fase Terminasi (10 menit):** a. Evaluasi keberanian klien berinteraksi. b. Diskusikan tantangan yang mungkin dihadapi di situasi nyata. c. Berikan pujian dan reinforcement."
-      }
-    ]
-  },
-  "tak_rehabilitasi": {
-    "judul": "TAK Rehabilitasi Psikososial",
-    "image": "tak_orientasi_realita_new.png",
-    "definisi": "Program persiapan kemandirian menjelang pemulangan (Discharge Planning), mencakup pengelolaan keuangan harian, kepatuhan obat mandiri, dan jadwal harian di rumah. Bertujuan memastikan klien siap secara fungsional untuk kembali ke masyarakat.",
-    "sesi": [
-      {
-        "nama": "Sesi 1: Simulasi Kepatuhan Obat Mandiri",
-        "tujuan": "1. Klien hafal nama, warna, dosis, dan jam minum obatnya sendiri. \n2. Klien tahu cara menggunakan wadah obat mingguan (Pill Box). \n3. Klien memahami akibat jika tidak minum obat teratur.",
-        "persiapan": "1. Wadah obat mingguan (Pill Box) kosong. \n2. Permen warna-warni sebagai simulasi obat. \n3. Kartu jadwal obat berwarna (Pagi = Kuning, Siang = Hijau, Malam = Biru). \n4. Poster 6 Benar Obat.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa kepatuhan minum obat adalah kunci utama mencegah kekambuhan. \n2. **Fase Kerja (25 menit):** a. Terapis menjelaskan prinsip 6 Benar: Benar Pasien, Obat, Dosis, Waktu, Cara, Dokumentasi. b. Klien diminta memasukkan permen (simulasi obat) ke wadah sesuai waktu minum. c. Terapis memeriksa kebenaran pengisian wadah tersebut. d. Diskusikan: 'Apa yang terjadi jika Anda lupa minum obat 3 hari berturut-turut?'. e. Latih klien cara meminta resep ulang di Puskesmas. \n3. **Fase Terminasi (10 menit):** a. Evaluasi pemahaman klien tentang obatnya. b. Berikan kartu obat portabel yang bisa dibawa pulang. c. Anjurkan memasang alarm pengingat obat di HP keluarga."
-      },
-      {
-        "nama": "Sesi 2: Menyusun Rencana Mingguan di Rumah",
-        "tujuan": "1. Klien memiliki agenda rutin agar tidak menganggur dan melamun di rumah. \n2. Klien mampu membagi waktu antara aktivitas produktif, istirahat, dan minum obat. \n3. Keluarga memahami perannya dalam mendampingi jadwal klien.",
-        "persiapan": "1. Lembar jurnal mingguan (Senin-Minggu). \n2. Spidol warna. \n3. Contoh jadwal harian yang sudah diisi.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa waktu kosong yang terlalu banyak meningkatkan risiko kekambuhan. \n2. **Fase Kerja (25 menit):** a. Bersama klien, isi jadwal harian: Bangun pagi → Mandi → Sarapan → Minum obat → Bantu cuci piring → Ibadah → Istirahat → dll. b. Tandai waktu minum obat dengan warna merah agar mudah dilihat. c. Diskusikan siapa di rumah yang akan menemani melakukan kegiatan tersebut. d. Buat jadwal kontrol ke Puskesmas/RS (misal: setiap 2 minggu sekali). \n3. **Fase Terminasi (10 menit):** a. Evaluasi kelengkapan jadwal. b. Minta klien menyebutkan 3 kegiatan paling penting setiap hari. c. Jadwal ditempel di dinding kamar klien setelah pulang."
-      },
-      {
-        "nama": "Sesi 3: Simulasi Pengelolaan Uang Harian",
-        "tujuan": "1. Klien mampu menghitung uang kembalian sederhana. \n2. Klien mampu membuat prioritas belanja kebutuhan pokok. \n3. Mempersiapkan klien untuk mandiri secara ekonomi di tingkat dasar.",
-        "persiapan": "1. Uang mainan dalam berbagai pecahan. \n2. Daftar harga barang kebutuhan sehari-hari. \n3. Kertas dan pulpen untuk mencatat pengeluaran.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa kemampuan mengelola uang adalah bagian penting dari kemandirian. \n2. **Fase Kerja (25 menit):** a. Berikan klien uang mainan sebesar Rp 50.000. b. Tampilkan daftar harga: Nasi Rp 10.000, Air mineral Rp 3.000, Sabun Rp 8.000, dll. c. Minta klien memilih barang yang paling dibutuhkan dan menghitung total belanja. d. Latih cara menghitung kembalian. e. Diskusikan perbedaan antara 'kebutuhan' dan 'keinginan'. \n3. **Fase Terminasi (10 menit):** a. Evaluasi kemampuan hitung klien. b. Berikan pujian atas usaha yang dilakukan. c. Anjurkan keluarga melibatkan klien dalam belanja ringan di rumah."
+        "nama": "Sesi 2: Imajinasi Terbimbing (Guided Imagery)",
+        "tujuan": "Klien mampu mengalihkan pikiran ke tempat yang paling menenangkan dalam imajinasinya.",
+        "metode": "Hypnotic Relaxation",
+        "persiapan": "Ruang redup, Suara alam.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan ketenangan pikiran.",
+          "kerja": "1. Pejamkan mata. 2. Arahan: 'Bayangkan Anda berada di tepi danau yang damai... dengarkan desau angin...'. 3. Berikan waktu 10 menit dlm keheningan.",
+          "terminasi": "1. Buka mata perlahan. 2. Evaluasi perasaan. 3. RTL: Gunakan saat suara halusinasi muncul."
+        },
+        "evaluasi": "Ketenangan afek dan penurunan stimulasi berlebih.",
+        "aspek_observasi": ["Memejamkan mata", "Tidak bicara selama sesi", "Wajah tampak rileks", "Tampak mengantuk positif"]
       }
     ]
   },
   "tak_okupasi": {
-    "judul": "TAK Terapi Okupasi",
+    "judul": "TAK Terapi Okupasi (Kemandirian)",
     "image": "tak_stimulasi_sensorik.png",
-    "definisi": "Kegiatan produktif yang melibatkan motorik halus dan kasar untuk melatih konsentrasi, ketekunan, dan membangkitkan rasa berdaya klien melalui hasil karya nyata. Klien merasakan pencapaian konkret yang meningkatkan harga diri dan kepercayaan diri.",
+    "definisi": "Kegiatan produktif yang melibatkan motorik halus dan kasar untuk melatih konsentrasi, ketekunan, dan fungsionalitas klien dalam kehidupan sehari-hari.",
+    "tujuan_detail": "1. Melatih koordinasi mata dan tangan. 2. Meningkatkan fokus pada satu tugas hingga selesai. 3. Memberikan rasa bangga atas hasil karya fisik. 4. Mempersiapkan kemandirian ekonomi/keterampilan pasca pulang.",
+    "aktivitas_indikasi": "Aktivitas: Kegiatan produktif yang melatih koordinasi motorik dan ketahanan mental (endurance). Meliputi pembuatan kerajinan tangan (origami, anyaman, atau manik-manik), latihan kerapihan diri (merapikan loker/tempat tidur), hingga aktivitas hortikultura (berkebun ringan) yang dirancang untuk meningkatkan rasa berdaya pasien. \nIndikasi: Pasien dalam fase rehabilitasi yang sedang dipersiapkan untuk Discharge (pemulangan), pasien yang membutuhkan evaluasi tingkat ketajaman motorik, serta pasien dengan defisit perawatan diri yang membutuhkan latihan penjadwalan aktivitas produktif secara mandiri.",
     "sesi": [
       {
-        "nama": "Sesi 1: Keterampilan Melipat dan Merapikan",
-        "tujuan": "1. Melatih motorik kasar, ketelitian, dan kesabaran klien. \n2. Klien mampu bertanggung jawab atas kerapihan area pribadinya. \n3. Klien merasakan kepuasan setelah menyelesaikan tugas sederhana.",
-        "persiapan": "1. Tumpukan handuk atau pakaian bersih (10-15 lembar). \n2. Loker atau lemari contoh untuk menyusun. \n3. Contoh lipatan handuk yang rapi sebagai referensi.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa kerapihan adalah salah satu bentuk perawatan diri yang bisa membanggakan. \n2. **Fase Kerja (25 menit):** a. Terapis mencontohkan lipatan handuk gaya hotel yang seragam langkah demi langkah. b. Klien mempraktikkan pada 5 handuk masing-masing. c. Klien memasukkan ke loker secara tertata sesuai jenis (handuk mandi, handuk wajah). d. Terapis memberikan umpan balik: 'Lipatan Bapak sudah sangat rapi!'. \n3. **Fase Terminasi (10 menit):** a. Evaluasi hasil lipatan setiap klien. b. Berikan tanggung jawab merapikan loker pribadi sebagai tugas harian. c. Berikan reinforcement positif."
-      },
-      {
-        "nama": "Sesi 2: Keterampilan Kreatif (Membuat Kerajinan)",
-        "tujuan": "1. Melatih motorik halus, imajinasi, dan kesabaran. \n2. Menghasilkan barang yang memiliki nilai fungsi dan keindahan. \n3. Klien merasa produktif dan memiliki kontribusi nyata.",
-        "persiapan": "1. Kertas origami warna-warni atau benang wol. \n2. Lem kertas dan gunting aman (ujung tumpul). \n3. Contoh hasil kerajinan jadi sebagai inspirasi.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa membuat kerajinan melatih fokus dan kesabaran, sekaligus menghasilkan karya yang membanggakan. \n2. **Fase Kerja (30 menit):** a. Terapis mendemonstrasikan cara membuat gantungan kunci atau pembatas buku dari kertas origami. b. Klien mengikuti langkah demi langkah. c. Bantu klien yang kesulitan tanpa mengambil alih pekerjaannya. d. Setiap karya diberi nama pembuat dan dipajang di dinding motivasi. \n3. **Fase Terminasi (10 menit):** a. Pamerkan semua karya dan berikan apresiasi. b. Diskusikan kemungkinan menjual karya serupa setelah pulang (livelihood). c. Berikan pujian: 'Karya Anda sangat kreatif!'."
-      },
-      {
-        "nama": "Sesi 3: Berkebun Terapeutik (Horticultural Therapy)",
-        "tujuan": "1. Klien mampu merawat tanaman sebagai bentuk tanggung jawab. \n2. Klien merasakan koneksi dengan alam yang menenangkan. \n3. Melatih kesabaran dan rutinitas melalui proses perawatan tanaman.",
-        "persiapan": "1. Pot kecil dan tanah. \n2. Benih tanaman yang cepat tumbuh (misal: kangkung, bayam, atau bunga matahari). \n3. Penyiram tanaman kecil. \n4. Area terbuka atau teras.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa merawat tanaman melatih kesabaran dan memberikan ketenangan batin. \n2. **Fase Kerja (25 menit):** a. Setiap klien mendapat pot dan benih. b. Terapis mendemonstrasikan cara menanam: isi tanah, tanam benih, siram secukupnya. c. Klien menanam dengan tangan sendiri. d. Beri label nama pada setiap pot. e. Buat jadwal penyiraman: klien bertanggung jawab menyiram tanamannya setiap pagi. \n3. **Fase Terminasi (10 menit):** a. Diskusikan perasaan klien saat menanam. b. Sampaikan bahwa merawat tanaman yang tumbuh = merawat harapan hidup. c. Evaluasi pertumbuhan tanaman di sesi berikutnya."
-      }
-    ]
-  },
-  "tak_musik": {
-    "judul": "TAK Terapi Musik",
-    "image": "tak_stimulasi_sensorik.png",
-    "definisi": "Penggunaan elemen musik (ritme, harmoni, vokal) untuk memperbaiki afek/emosi klien, mengurangi kegelisahan, meningkatkan keakraban antar anggota kelompok, dan merangsang memori positif yang mendukung proses pemulihan.",
-    "sesi": [
-      {
-        "nama": "Sesi 1: Bernyanyi Bersama (Vocal Therapy)",
-        "tujuan": "1. Klien mampu mengekspresikan emosi riang dan kebersamaan melalui vokal. \n2. Meningkatkan kapasitas paru-paru, fokus, dan koordinasi. \n3. Membangun keakraban dan rasa memiliki dalam kelompok.",
-        "persiapan": "1. Mesin karaoke, video klip lyric, atau speaker bluetooth. \n2. Daftar lagu penuh semangat yang familiar (lagu nasional, daerah, pop). \n3. Mik jika tersedia. \n4. Kursi melingkar.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Ucapkan salam, jelaskan bahwa menyanyi adalah cara yang menyenangkan untuk melatih napas dan mengekspresikan perasaan. \n2. **Fase Kerja (25 menit):** a. Mulai dengan lagu kebangsaan atau lagu daerah yang mudah diikuti bersama-sama. b. Klien yang berani boleh menyanyi solo di depan teman-teman. c. Berikan standing ovation dan tepuk tangan untuk setiap penampilan. d. Minta kelompok menyanyi lagu rohani sebagai penutup untuk ketenangan. \n3. **Fase Terminasi (10 menit):** a. Evaluasi perasaan klien setelah bernyanyi. b. Tanyakan lagu apa yang paling membuat mereka senang. c. Anjurkan klien bersenandung saat merasa sedih atau gelisah."
-      },
-      {
-        "nama": "Sesi 2: Tebak Nada dan Lagu (Music Quiz)",
-        "tujuan": "1. Melatih daya ingat jangka panjang dan pendengaran selektif. \n2. Meningkatkan fungsi kognitif melalui recall memori. \n3. Menciptakan suasana kompetisi yang sehat dan menyenangkan.",
-        "persiapan": "1. Potongan intro lagu (3-5 detik per lagu) dari genre berbeda. \n2. Papan skor. \n3. Hadiah kecil (buah, snack sehat).",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan aturan permainan dan bagi kelompok menjadi 2 tim. \n2. **Fase Kerja (25 menit):** a. Putarkan nada awal lagu selama 3-5 detik lalu hentikan. b. Tim yang bisa menebak judul lagu terlebih dahulu mendapat poin. c. Jika bisa menyanyikan bait pertama, mendapat poin bonus. d. Mainkan 10-15 lagu dengan tingkat kesulitan bertahap. e. Hitung skor akhir dan umumkan pemenang. \n3. **Fase Terminasi (10 menit):** a. Berikan hadiah kepada tim pemenang dan tepuk tangan untuk semua peserta. b. Evaluasi perasaan dan tingkat kegembiraan klien. c. Kontrak waktu sesi berikutnya."
-      },
-      {
-        "nama": "Sesi 3: Membuat Irama dengan Alat Perkusi (Drum Circle)",
-        "tujuan": "1. Klien mampu berkolaborasi membuat irama bersama kelompok. \n2. Melatih koordinasi motorik dan pendengaran secara simultan. \n3. Klien merasakan kebersamaan dan koneksi dengan anggota kelompok melalui musik.",
-        "persiapan": "1. Alat perkusi sederhana: tamborin, marakas, drum kecil, atau botol berisi beras. \n2. Meja sebagai pengganti drum jika alat tidak tersedia. \n3. Metronom atau ketukan dasar dari speaker.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa membuat musik bersama melatih kerja sama dan meningkatkan mood. \n2. **Fase Kerja (25 menit):** a. Bagikan alat perkusi satu per klien. b. Terapis mendemonstrasikan ketukan dasar: TUK-TUK-TAK (1-2-3). c. Klien mengikuti ketukan bersama-sama hingga seirama. d. Tingkatkan kompleksitas: bagi kelompok menjadi 2 — satu ketukan bass, satu ketukan treble. e. Biarkan klien bereksperimen membuat variasi irama sendiri. \n3. **Fase Terminasi (10 menit):** a. Rekam hasil jamming terakhir dan putar ulang untuk didengarkan bersama. b. Evaluasi perasaan klien: 'Apa yang Anda rasakan saat bermain musik bersama?'. c. Berikan pujian atas kerja sama tim yang luar biasa."
-      }
-    ]
-  },
-  "tak_seni": {
-    "judul": "TAK Terapi Seni",
-    "image": "tak_sosialisasi_new.png",
-    "definisi": "Media terapi non-verbal bagi klien yang sulit mengungkapkan perasaan melalui kata-kata, di mana garis, warna, dan bentuk menjadi representasi kondisi psikologis mereka.",
-    "sesi": [
-      {
-        "nama": "Sesi 1: Menggambar Harapan (Future Drawing)",
-        "tujuan": "1. Klien mampu memvisualisasikan keinginan dan harapan masa depan melalui gambar. \n2. Klien mampu mengekspresikan emosi terpendam (katarsis) melalui media non-verbal. \n3. Terapis mendapatkan gambaran kondisi psikologis klien melalui interpretasi warna dan bentuk.",
-        "persiapan": "1. Kertas gambar ukuran A3 atau lebih besar. \n2. Krayon, cat air, atau spidol warna (minimal 12 warna). \n3. Kuas dan wadah air. \n4. Meja yang cukup luas dan alas pelindung. \n5. Tisu dan lap tangan.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Ucapkan salam terapeutik, jelaskan tujuan sesi menggambar, dan sampaikan bahwa tidak ada gambar yang salah. \n2. **Fase Kerja (30 menit):** a. Berikan instruksi: 'Gambarlah tempat yang ingin Anda kunjungi setelah sehat, atau gambarlah impian Anda'. b. Biarkan klien bereksperimen bebas dengan warna dan bentuk tanpa intervensi. c. Amati ekspresi wajah klien selama menggambar (tenang, tegang, atau menangis). d. Jangan mengomentari gambar selama proses berlangsung. \n3. **Fase Terminasi (10 menit):** a. Minta klien menceritakan gambarnya secara sukarela. b. Berikan pujian spesifik: 'Warna yang Anda pilih sangat cerah, menunjukkan harapan yang besar'. c. Simpan karya untuk dipajang di dinding motivasi ruangan."
-      },
-      {
-        "nama": "Sesi 2: Kolase Perasaan (Feeling Collage)",
-        "tujuan": "1. Klien mampu mengidentifikasi dan menempelkan gambar yang merepresentasikan perasaannya saat ini. \n2. Klien mampu membedakan emosi positif dan negatif melalui pilihan visual. \n3. Melatih pengambilan keputusan dan ekspresi diri secara kreatif.",
-        "persiapan": "1. Majalah bekas, koran, atau print-out gambar beragam. \n2. Gunting aman (ujung tumpul). \n3. Lem kertas dan kertas karton sebagai alas kolase. \n4. Spidol untuk menuliskan keterangan.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Validasi perasaan klien hari ini, jelaskan konsep kolase sebagai cermin perasaan. \n2. **Fase Kerja (25 menit):** a. Klien memilih dan menggunting gambar dari majalah yang menggambarkan perasaannya (misal: gambar awan = sedih, matahari = senang). b. Tempelkan pada karton dan berikan judul kolase. c. Terapis berkeliling memberikan dukungan tanpa menghakimi pilihan gambar klien. \n3. **Fase Terminasi (10 menit):** a. Setiap klien presentasikan kolasenya dalam 1-2 menit. b. Diskusikan tema emosi yang muncul dari seluruh kelompok. c. Kontrak waktu sesi berikutnya."
-      },
-      {
-        "nama": "Sesi 3: Mewarnai Mandala (Mindfulness Coloring)",
-        "tujuan": "1. Klien mampu menurunkan tingkat kecemasan melalui aktivitas mewarnai yang meditatif dan berirama. \n2. Klien mampu meningkatkan konsentrasi dan ketenangan pikiran. \n3. Klien merasa bangga atas hasil karya yang estetis.",
-        "persiapan": "1. Lembar pola mandala yang sudah dicetak (berbagai tingkat kesulitan). \n2. Pensil warna atau spidol warna. \n3. Musik instrumental lembut sebagai latar. \n4. Timer untuk mengatur durasi sesi.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa mewarnai mandala adalah bentuk meditasi aktif yang membantu menenangkan pikiran. \n2. **Fase Kerja (30 menit):** a. Bagikan lembar mandala sesuai tingkat kemampuan klien. b. Putar musik instrumental lembut. c. Instruksikan klien memilih warna sesuai perasaan dan mewarnai perlahan dari tengah ke luar. d. Jangan terburu-buru, fokus pada proses bukan hasil. \n3. **Fase Terminasi (10 menit):** a. Evaluasi perasaan sebelum dan sesudah mewarnai. b. Pajang hasil karya terbaik. c. Berikan reinforcement positif kepada seluruh peserta."
+        "nama": "Sesi 1: Membuat Kerajinan Tangan (Origami/Manik-manik)",
+        "tujuan": "Klien mampu menyelesaikan satu produk kerajinan sederhana.",
+        "metode": "Work Therapy",
+        "persiapan": "Kertas lipat, Benang, Gunting.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan melatih ketekunan.",
+          "kerja": "1. Terapis beri contoh buat bunga. 2. Klien mengikuti langkah demi langkah. 3. Bantu klien yang kesulitan motorik halus.",
+          "terminasi": "1. Pameran karya. 2. RTL: Buat lagi di kamar."
+        },
+        "evaluasi": "Ketuntasan produk (Finishing).",
+        "aspek_observasi": ["Ketelitian lipatan", "Kesabaran", "Menggunakan alat dengan aman", "Fokus tidak teralih"]
       }
     ]
   },
   "tak_spiritual": {
-    "judul": "TAK Spiritual",
-    "image": "tak_stimulasi_persepsi.png",
-    "definisi": "Pendekatan kelompok untuk meningkatkan makna hidup, rasa syukur, dan kedamaian batin melalui doa, dzikir, atau meditasi sesuai keyakinan masing-masing klien. Terapi ini membantu klien menemukan kembali harapan (Hope) dan tujuan hidup sebagai fondasi proses pemulihan (recovery).",
+    "judul": "TAK Spiritual (Kedamaian Batin)",
+    "image": "tak_spiritual.png",
+    "definisi": "Pendekatan kelompok untuk meningkatkan makna hidup, rasa syukur, dan kedamaian batin melalui ritual keagamaan, doa, atau meditasi yang disesuaikan dengan keyakinan masing-masing klien.",
+    "tujuan_detail": "1. Membantu klien menemukan kembali harapan (hope) dan makna hidup di tengah sakitnya. \n2. Mengurangi rasa bersalah, putus asa, atau kemarahan terhadap Tuhan/Keadaan. \n3. Memberikan ketenangan batin melalui koneksi spiritual yang mendalam. \n4. Melatih disiplin ritual harian sebagai bagian dari struktur koping. \n5. Menguatkan keyakinan bahwa kesembuhan adalah bagian dari rencana besar yang positif.",
+    "aktivitas_indikasi": "Aktivitas: Sesi doa bersama, zikir/meditasi penenang jiwa, penulisan surat syukur (gratitude letter), diskusi makna penderitaan dari sudut pandang religi, serta latihan memaafkan diri sendiri dan orang lain. \nIndikasi: Pasien dengan Distres Spiritual, Perasaan putus asa (Hopelessness), Depresi, merasa ditinggalkan Tuhan, serta pasien yang membutuhkan penguatan moral-religius sebagai fondasi pemulihan jangka panjang.",
     "sesi": [
       {
-        "nama": "Sesi 1: Doa dan Makna Hidup",
-        "tujuan": "1. Klien merasa memiliki harapan (Hope) untuk sembuh melalui dimensi spiritual. \n2. Klien merasa didengar oleh Sang Pencipta dan tidak sendirian dalam penderitaannya. \n3. Klien mampu mengidentifikasi minimal satu hal yang disyukuri hari ini.",
-        "persiapan": "1. Alat ibadah sesuai agama klien (Sajadah, Kitab Suci, Tasbih, dll). \n2. Ruangan bersih dengan pencahayaan lembut. \n3. Aromaterapi (lavender/cendana) untuk menciptakan suasana khusyuk. \n4. Kursi melingkar atau matras.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Ucapkan salam, sampaikan tujuan sesi spiritual, tanyakan perasaan klien saat ini. \n2. **Fase Kerja (25 menit):** a. Pembacaan ayat-ayat penyejuk jiwa secara bergantian sesuai keyakinan masing-masing. b. Sesi hening / meditasi doa selama 5 menit (klien memejamkan mata dan berdoa dalam hati). c. Terapis memandu: 'Ucapkan dalam hati hal yang paling Anda syukuri hari ini'. d. Setiap klien berbagi cerita tentang keajaiban kecil yang dialami selama dirawat. \n3. **Fase Terminasi (10 menit):** a. Evaluasi perasaan setelah berdoa bersama. b. Berikan pesan bahwa kesembuhan adalah bagian dari rencana Tuhan. c. Kontrak waktu sesi selanjutnya."
-      },
-      {
-        "nama": "Sesi 2: Dzikir dan Relaksasi Spiritual",
-        "tujuan": "1. Klien mampu menggunakan dzikir atau doa berulang sebagai teknik menenangkan pikiran. \n2. Klien mampu merasakan ketenangan batin setelah sesi. \n3. Klien dapat menggunakan teknik ini secara mandiri saat gelisah atau halusinasi muncul.",
-        "persiapan": "1. Tasbih atau alat bantu hitung doa. \n2. Audio murottal/musik religius lembut. \n3. Ruangan tenang dan bebas gangguan.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa mengulang doa/dzikir dapat menenangkan gelombang otak (seperti meditasi). \n2. **Fase Kerja (25 menit):** a. Klien duduk nyaman, mata dipejamkan. b. Terapis memandu pengulangan doa/kalimat penyejuk secara perlahan dan berirama. c. Lakukan selama 15 menit dengan ritme yang semakin pelan. d. Minta klien merasakan detak jantung yang melambat. \n3. **Fase Terminasi (10 menit):** a. Tanyakan perbedaan perasaan sebelum dan sesudah sesi. b. Anjurkan klien melakukan dzikir/doa setiap sebelum tidur. c. Masukkan ke jadwal kegiatan harian."
-      },
-      {
-        "nama": "Sesi 3: Menulis Surat Syukur (Gratitude Letter)",
-        "tujuan": "1. Klien mampu mengidentifikasi orang-orang yang berarti dalam hidupnya. \n2. Klien mampu mengekspresikan rasa terima kasih secara tertulis. \n3. Meningkatkan perasaan bermakna dan terhubung dengan orang lain.",
-        "persiapan": "1. Kertas surat dan amplop. \n2. Pulpen/spidol warna. \n3. Musik religi lembut sebagai latar.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa menulis surat syukur terbukti meningkatkan kebahagiaan dan menurunkan depresi. \n2. **Fase Kerja (25 menit):** a. Minta klien memikirkan satu orang yang paling berjasa dalam hidupnya. b. Tuliskan surat berisi ucapan terima kasih sederhana (3-5 kalimat cukup). c. Terapis membantu klien yang kesulitan menulis. d. Klien boleh membacakan suratnya di depan kelompok secara sukarela. \n3. **Fase Terminasi (10 menit):** a. Evaluasi perasaan setelah menulis. b. Diskusikan rencana pengiriman surat kepada keluarga. c. Berikan pujian atas keberanian mengungkapkan perasaan."
+        "nama": "Sesi 1: Doa & Makna Hidup",
+        "tujuan": "Klien mampu mengidentifikasi satu hal yang disyukuri dan berdoa dengan khusyuk.",
+        "metode": "Diskusi Spiritual & Meditasi",
+        "persiapan": "Alat ibadah (Sajadah, Tasbih, Alkitab/Al-Qur'an).",
+        "tahapan": {
+          "orientasi": "1. Salam Religi. 2. Kontrak. 3. Tujuan mencari ketenangan dalam doa.",
+          "kerja": "1. Klien duduk melingkar. 2. Ceritakan satu kebaikan Tuhan hari ini. 3. Berdoa dalam hening selama 5 menit sesuai keyakinan.",
+          "terminasi": "1. Evaluasi perasaan (ketenangan). 2. RTL: Berdoa setiap sebelum makan dan tidur."
+        },
+        "evaluasi": "Relaksasi wajah dan penurunan ketegangan mental.",
+        "aspek_observasi": ["Khusyuk saat sesi", "Mampu menyebutkan syukur", "Wajah tampak damai", "Tidak gelisah"]
       }
     ]
   },
   "tak_manajemen_stres": {
-    "judul": "TAK Manajemen Stres",
-    "image": "tak_stimulasi_sensorik.png",
-    "definisi": "Kumpulan strategi praktis untuk mengatasi tekanan pikiran harian selama di rumah sakit, agar klien tidak mengalami eskalasi kecemasan atau depresi yang lebih dalam. Mengajarkan teknik-teknik coping yang dapat digunakan secara mandiri.",
+    "judul": "TAK Manajemen Stres (Psikopedukasi)",
+    "image": "tak_manajemen_stres.png",
+    "definisi": "Program edukasi dan latihan praktis berkelompok untuk membekali klien dengan teknik-teknik mengatasi tekanan psikologis (stresor) harian.",
+    "tujuan_detail": "1. Melatih klien mengidentifikasi sumber stresor (internal & eksternal) secara dini. \n2. Mengajarkan strategi koping yang adaptif (sehat) vs maladaptif. \n3. Mempraktikkan teknik 'Grounding' untuk memutus rantai pikiran negatif. \n4. Meningkatkan resiliensi (daya lentur) psikologis klien menghadapi konflik di bangsal maupun keluarga. \n5. Memberikan wadah berbagi solusi antar anggota kelompok (peer support).",
+    "aktivitas_indikasi": "Aktivitas: Sesi identifikasi stresor (mapping), latihan koping distraksi sehat, teknik grounding 5-4-3-2-1, diskusi pemecahan masalah (problem solving), serta penyusunan 'Emergency Coping Card' portabel. \nIndikasi: Pasien dengan koping individu tidak efektif, riwayat stresor keluarga yang berat, kecenderungan melarikan diri dari masalah, serta pasien dengan gejala kecemasan yang dipicu oleh konflik interpersonal harian.",
     "sesi": [
       {
-        "nama": "Sesi 1: Imajinasi Terbimbing (Guided Imagery)",
-        "tujuan": "1. Klien mampu mengalihkan pikiran dari trauma/masalah ke tempat yang aman di pikiran (safe place). \n2. Klien mampu merasakan penurunan ketegangan saraf otonom setelah sesi. \n3. Klien dapat menggunakan teknik ini secara mandiri saat merasa tertekan.",
-        "persiapan": "1. Audio suara alam (gemericik air, kicauan burung, ombak pantai). \n2. Lampu ruangan yang diredupkan. \n3. Matras atau kursi bersandar yang nyaman. \n4. Selimut tipis jika diperlukan.",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Ucapkan salam, jelaskan bahwa imajinasi terbimbing adalah cara melatih otak berpindah ke tempat yang menenangkan. \n2. **Fase Kerja (20 menit):** a. Klien diminta memejamkan mata dan mengikuti instruksi suara terapis. b. 'Bayangkan Anda berjalan di pantai yang sejuk... rasakan pasir hangat di telapak kaki Anda... dengarkan ombak yang berirama...'. c. Panduan berlanjut selama 15 menit dengan suara yang makin lembut dan pelan. d. Akhiri dengan instruksi: 'Perlahan buka mata Anda, tarik napas dalam, dan sadari Anda berada di tempat yang aman sekarang'. \n3. **Fase Terminasi (10 menit):** a. Diskusikan pengalaman setiap klien (tempat apa yang mereka bayangkan). b. Evaluasi tingkat ketenangan sebelum dan sesudah latihan. c. Anjurkan klien melakukan ini secara mandiri sebelum tidur."
-      },
-      {
-        "nama": "Sesi 2: Jurnal Stres Harian (Stress Diary)",
-        "tujuan": "1. Klien mampu mengidentifikasi sumber stres utama dalam kehidupan sehari-hari selama rawat inap. \n2. Klien mampu mengenali pola pikir negatif yang memperparah stres. \n3. Klien mampu menuliskan solusi alternatif untuk setiap sumber stres.",
-        "persiapan": "1. Buku tulis kecil sebagai jurnal pribadi. \n2. Pulpen. \n3. Contoh format jurnal stres (Situasi → Pikiran → Perasaan → Solusi).",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa menuliskan pikiran dapat mengurangi beban mental hingga 40%. \n2. **Fase Kerja (25 menit):** a. Bagi format jurnal stres kepada klien. b. Minta klien menuliskan 1 situasi yang paling membuat stres minggu ini. c. Tulis pikiran yang muncul saat situasi itu terjadi. d. Tulis perasaan yang dirasakan. e. Bersama kelompok, diskusikan solusi alternatif yang realistis. \n3. **Fase Terminasi (10 menit):** a. Setiap klien membacakan satu insight yang didapat dari latihan ini. b. Anjurkan menulis jurnal setiap malam sebelum tidur. c. Simpan jurnal di loker masing-masing."
-      },
-      {
-        "nama": "Sesi 3: Teknik Grounding 5-4-3-2-1",
-        "tujuan": "1. Klien mampu menggunakan teknik grounding untuk kembali ke realita saat cemas berlebih. \n2. Klien mampu mengaktifkan kelima indra secara sadar untuk memutus siklus pikiran negatif. \n3. Klien dapat mempraktikkan teknik ini di mana saja tanpa alat bantu.",
-        "persiapan": "1. Ruangan dengan berbagai objek yang bisa dilihat, disentuh, dan didengar. \n2. Makanan ringan dengan rasa dan aroma berbeda (jeruk, permen mint). \n3. Benda bertekstur (batu halus, kain).",
-        "tindakan": "1. **Fase Orientasi (5 menit):** Jelaskan bahwa grounding membantu 'mengembalikan' pikiran ke saat ini ketika pikiran terlalu jauh melayang ke masa lalu atau khawatir masa depan. \n2. **Fase Kerja (25 menit):** a. Panduan terapis: 'Sebutkan 5 benda yang bisa Anda LIHAT di ruangan ini'. b. 'Sentuh 4 benda dan rasakan TEKSTUR-nya'. c. 'Dengarkan 3 SUARA yang ada di sekitar Anda saat ini'. d. 'Cium 2 AROMA yang berbeda (misal: jeruk dan sabun)'. e. 'Rasakan 1 RASA di lidah Anda (misal: permen mint)'. f. Ulangi proses ini 2-3 kali dengan klien yang berbeda memimpin. \n3. **Fase Terminasi (10 menit):** a. Evaluasi efektivitas teknik bagi setiap klien. b. Anjurkan penggunaan kapan saja saat merasa panik atau tidak nyata. c. Masukkan ke dalam kartu koping portabel yang bisa dibawa klien."
+        "nama": "Sesi 1: Teknik Grounding 5-4-3-2-1",
+        "tujuan": "Klien mampu mempraktikkan teknik grounding untuk kembali ke realitas saat merasa tertekan.",
+        "metode": "Latihan Panca Indera",
+        "persiapan": "Benda dengan aroma, tekstur, dan warna berbeda.",
+        "tahapan": {
+          "orientasi": "1. Salam. 2. Kontrak. 3. Tujuan memutus pikiran buruk.",
+          "kerja": "1. Sebutkan 5 benda yang Dilihat. 2. Sebutkan 4 benda yang Disentuh. 3. Sebutkan 3 suara yang Didengar. 4. Sebutkan 2 aroma yang Cium. 5. Sebutkan 1 rasa di lidah.",
+          "terminasi": "1. Evaluasi kejernihan pikiran. 2. RTL: Pakai teknik ini saat mulai merasa bingung/panik."
+        },
+        "evaluasi": "Klien mampu fokus pada lingkungan 'saat ini' (here and now).",
+        "aspek_observasi": ["Menyebutkan 5 item visual", "Mampu mendeteksi aroma", "Fokus tidak terpecah", "Pikiran tampak lebih jernih"]
       }
     ]
   }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ASKep Jiwa Smart - Generator LP & ASKEP Otomatis</title>
+    <title>NurseJiwa - Solusi Cerdas Keperawatan Jiwa</title>
     <link rel="stylesheet" href="style.css" />
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -33,7 +33,7 @@
             <span>Inovasi Keperawatan Jiwa</span>
           </div>
           <h1>
-            Selamat Datang di <span class="text-gradient">JiwaSmart</span>
+            Selamat Datang di <span class="text-gradient">NurseJiwa</span>
           </h1>
           <p class="landing-description">
             Solusi cerdas berbasis data untuk membantu mahasiswa dan perawat
@@ -59,7 +59,7 @@
             Buka Aplikasi <i data-lucide="arrow-right"></i>
           </button>
           <div class="landing-footer">
-            &copy; 2026 JiwaSmart - Developed by Masandigital.com for Excellence
+            &copy; 2026 NurseJiwa - Developed by Masandigital.com for Excellence
             in Nursing
           </div>
         </div>
@@ -71,7 +71,7 @@
     <div class="mobile-header">
       <div class="brand" style="margin-bottom: 0; display: flex">
         <i data-lucide="brain-circuit"></i>
-        <span>JiwaSmart</span>
+        <span>NurseJiwa</span>
       </div>
       <button class="btn btn-ghost" id="menu-toggle">
         <i data-lucide="menu"></i>
@@ -86,7 +86,7 @@
       <nav class="sidebar">
         <div class="brand">
           <i data-lucide="brain-circuit"></i>
-          <span>JiwaSmart</span>
+          <span>NurseJiwa</span>
         </div>
         <ul class="nav-links">
           <li class="nav-item">
@@ -115,6 +115,12 @@
             <a href="#mse-digital" class="nav-link" data-view="mse-digital">
               <i data-lucide="user-check"></i>
               <span>Status Mental (MSE)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#hars-scale" class="nav-link" data-view="hars-scale">
+              <i data-lucide="activity"></i>
+              <span>Skala HARS (Cemas)</span>
             </a>
           </li>
           <li class="nav-divider" style="height: 1px; background: var(--border); margin: 0.5rem 1rem; opacity: 0.5;"></li>
@@ -261,7 +267,7 @@
               "
             >
               <div>
-                <h2>Selamat Datang di JiwaSmart!</h2>
+                <h2>Selamat Datang di NurseJiwa!</h2>
                 <p>
                   Platform asisten cerdas untuk dokumentasi keperawatan jiwa
                   yang sistematis, cepat, dan akurat berdasarkan standar SDKI,
@@ -313,7 +319,7 @@
                 <i data-lucide="stethoscope"></i>
               </div>
               <div class="stat-info">
-                <h3>Diagnosa SDKI</h3>
+                <h5>SPO NurseJiwa</h5>
                 <p id="stat-sdki">0</p>
               </div>
             </div>
@@ -563,9 +569,7 @@
         <section id="assessment-digital" class="view-section">
           <div class="card">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; border-bottom: 2px solid var(--primary-soft); padding-bottom: 1rem;">
-                <h2 class="card-title" style="margin-bottom: 0;">
-                    <i data-lucide="form-input"></i> Pengkajian Keperawatan Kesehatan Jiwa
-                </h2>
+                <h2 class="text-gradient">Diagnosis Digital NurseJiwa</h2>
                 <div style="display: flex; gap: 0.75rem; align-items: center;">
                     <button class="btn btn-ghost" onclick="showAssessmentGuide()" style="padding: 0.5rem 1rem; font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; border: 1px solid var(--primary); color: var(--primary);">
                         <i data-lucide="help-circle" style="width: 16px; height: 16px;"></i> Panduan Pengisian
@@ -865,7 +869,7 @@
                 id="recommended-diagnoses-list"
                 class="grid"
                 style="display: grid; grid-template-columns: 1fr; gap: 1rem"
-              ></div>
+              </div>
             </div>
           </div>
         </section>
@@ -954,9 +958,7 @@
             </h2>
             <div class="report-section">
               <h4 class="section-badge">FORMULIR MSE</h4>
-              <div
-                class="grid-2"
-              >
+              <div class="grid-2">
                 <div class="form-group">
                   <label>Nama Pasien</label>
                   <input type="text" id="mse-px-nama" placeholder="Auto-fill dari pengkajian..." />
@@ -967,29 +969,14 @@
                 </div>
               </div>
               
-              <div
-                class="grid"
-                style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-top: 1rem;"
-              >
+              <div class="grid" style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-top: 1rem;">
                 <div class="form-group">
-                  <label
-                    ><b>1. Penampilan</b> (Kebersihan, cara berpakaian, postur,
-                    kontak mata)</label
-                  >
-                  <textarea
-                    id="mse-penampilan"
-                    rows="2"
-                    placeholder="Contoh: Penampilan rapi, rambut disisir, kontak mata adekuat."
-                  ></textarea>
+                  <label><b>1. Penampilan</b> (Kebersihan, cara berpakaian, postur, kontak mata)</label>
+                  <textarea id="mse-penampilan" rows="2" placeholder="Contoh: Penampilan rapi, rambut disisir, kontak mata adekuat."></textarea>
                 </div>
                 <div class="form-group">
-                  <label
-                    ><b>2. Mood & Afek</b> (Suasana hati dan ekspresi
-                    wajah)</label
-                  >
-                  <div
-                    class="grid-2"
-                  >
+                  <label><b>2. Mood & Afek</b> (Suasana hati dan ekspresi wajah)</label>
+                  <div class="grid-2">
                     <div class="form-group">
                       <label style="font-size: 0.8rem">Mood</label>
                       <select id="mse-mood" style="width: 100%">
@@ -1015,14 +1002,8 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <label
-                    ><b>3. Proses Pikir</b> (Arus pikir dan bentuk pikir)</label
-                  >
-                  <textarea
-                    id="mse-proses-pikir"
-                    rows="2"
-                    placeholder="Contoh: Arus pikir koheren, tidak ada flight of ideas atau blocking."
-                  ></textarea>
+                  <label><b>3. Proses Pikir</b> (Arus pikir dan bentuk pikir)</label>
+                  <textarea id="mse-proses-pikir" rows="2" placeholder="Contoh: Arus pikir koheren, tidak ada flight of ideas atau blocking."></textarea>
                 </div>
                 <div class="form-group">
                   <label><b>4. Insight / Daya Nilai Diri</b></label>
@@ -1037,28 +1018,46 @@
                   </select>
                 </div>
                 <div class="form-group">
-                  <label
-                    ><b>5. Catatan Tambahan (Kognitif/Memori/Orientasi)</b></label
-                  >
-                  <textarea
-                    id="mse-catatan"
-                    rows="2"
-                    placeholder="Catatan tambahan mengenai orientasi waktu/tempat dan daya ingat."
-                  ></textarea>
+                  <label><b>5. Catatan Tambahan (Kognitif/Memori/Orientasi)</b></label>
+                  <textarea id="mse-catatan" rows="2" placeholder="Catatan tambahan mengenai orientasi waktu/tempat dan daya ingat."></textarea>
                 </div>
               </div>
             </div>
             <div class="form-actions" style="margin-top: 2rem;">
-              <button class="btn btn-primary" onclick="processMSEReport()">
-                Simpan & Cetak MSE
-              </button>
-              <button class="btn btn-ghost" onclick="resetMSEForm()">
-                Reset Form
-              </button>
+              <button class="btn btn-primary" onclick="processMSEReport()">Simpan & Cetak MSE</button>
+              <button class="btn btn-ghost" onclick="resetMSEForm()">Reset Form</button>
             </div>
           </div>
-          <div id="mse-output-area" style="display: none; margin-top: 2rem">
-            <div class="report-container" id="mse-result"></div>
+        </section>
+
+        <!-- HARS Scale Section -->
+        <section id="hars-scale" class="view-section">
+          <div class="card standard-form">
+            <h2 class="card-title">
+              <i data-lucide="activity"></i> Hamilton Anxiety Rating Scale (HARS)
+              <span class="badge" style="background:#0ea5e9; color:white; font-size:0.75rem; margin-left:8px;">Clinical Scale</span>
+            </h2>
+            <div class="report-section">
+              <div id="hars-form-items">
+                <!-- HARS items injected here -->
+              </div>
+            </div>
+            <div id="hars-result-container" style="margin-top: 2rem; padding: 1.5rem; border-radius: 12px; background: white; border: 2px dashed var(--border); text-align: center; display: none;">
+                <div style="font-size: 0.9rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">Skor HARS</div>
+                <div id="hars-score" style="font-size: 3rem; font-weight: 800; color: var(--primary); margin: 0.5rem 0;">0</div>
+                <div id="hars-label" style="font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem;">Tingkat Kecemasan</div>
+                <div id="hars-recommendation" style="font-size: 0.95rem; color: var(--text-main); line-height: 1.5; padding: 1rem; border-radius: 8px; background: #f0f9ff;">
+                    Hasil analisis cemas akan muncul di sini.
+                </div>
+            </div>
+            <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                <button class="btn btn-primary" onclick="calculateHARS()" style="flex: 1;">
+                    <i data-lucide="check-circle"></i> Hitung Skor HARS
+                </button>
+                <button class="btn btn-ghost" onclick="resetHARS()" style="border: 1px solid var(--border);">
+                    <i data-lucide="refresh-cw"></i> Reset
+                </button>
+            </div>
           </div>
         </section>
 
@@ -2146,7 +2145,7 @@ Lanjutkan intervensi...</textarea
         <section id="app-guide" class="view-section">
           <div class="card standard-form">
             <h2 class="card-title">
-              <i data-lucide="help-circle"></i> Panduan Penggunaan Aplikasi JiwaSmart
+              <i data-lucide="help-circle"></i> Panduan Penggunaan Aplikasi NurseJiwa
               <span class="badge" style="background:var(--secondary); color:white; font-size:0.7rem; margin-left:8px;">User Guide v1.0</span>
             </h2>
 
@@ -2236,7 +2235,7 @@ Lanjutkan intervensi...</textarea
 
         <footer class="app-footer no-print">
           <p>
-            &copy; 2026 JiwaSmart - Developed by Masandigital.com for Excellence
+            &copy; 2026 NurseJiwa - Developed by Masandigital.com for Excellence
             in Nursing
           </p>
         </footer>
@@ -2296,6 +2295,7 @@ Lanjutkan intervensi...</textarea
     <script src="js/generator-askep.js"></script>
     <script src="js/mse.js"></script>
     <script src="js/assessment.js"></script>
+    <script src="js/hars.js"></script>
     <script src="js/tak-spo.js"></script>
     <script src="js/quiz.js"></script>
     <script src="app.js"></script>

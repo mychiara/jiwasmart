@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NurseJiwa - Solusi Cerdas Keperawatan Jiwa</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- html2pdf -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Landing Page / Welcome Screen -->
+    <section id="landing-screen">
+      <div class="glow-orb orb-1"></div>
+      <div class="glow-orb orb-2"></div>
+      <div class="glow-orb orb-3"></div>
+      <div class="glass-decoration glass-1"></div>
+      <div class="glass-decoration glass-2"></div>
+      <div class="landing-content">
+        <div class="landing-card">
+          <div class="landing-badge">
+            <i data-lucide="sparkles"></i>
+            <span>Inovasi Keperawatan Jiwa</span>
+          </div>
+          <h1>
+            Selamat Datang di <span class="text-gradient">NurseJiwa</span>
+          </h1>
+          <p class="landing-description">
+            Solusi cerdas berbasis data untuk membantu mahasiswa dan perawat
+            profesional dalam menyusun Laporan Pendahuluan (LP), Asuhan
+            Keperawatan (ASKEP), serta persiapan kompetensi klinis keperawatan
+            jiwa secara otomatis, cepat, dan akurat.
+          </p>
+          <div class="landing-features">
+            <div class="feature-item">
+              <i data-lucide="zap"></i>
+              <span>Generator LP & ASKEP Otomatis</span>
+            </div>
+            <div class="feature-item">
+              <i data-lucide="book-open"></i>
+              <span>Bank Soal & Tryout Nasional</span>
+            </div>
+            <div class="feature-item">
+              <i data-lucide="shield-check"></i>
+              <span>Standar SPO & Panduan TAK</span>
+            </div>
+          </div>
+          <button class="btn-landing" id="enter-app-btn">
+            Buka Aplikasi <i data-lucide="arrow-right"></i>
+          </button>
+          <div class="landing-footer">
+            &copy; 2026 NurseJiwa - Developed by Masandigital.com for Excellence
+            in Nursing
+          </div>
+        </div>
+      </div>
+      <div class="landing-overlay"></div>
+    </section>
+
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+      <div class="brand" style="margin-bottom: 0; display: flex">
+        <i data-lucide="brain-circuit"></i>
+        <span>NurseJiwa</span>
+      </div>
+      <button class="btn btn-ghost" id="menu-toggle">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <div class="app-container">
+      <!-- Sidebar Navigation -->
+      <nav class="sidebar">
+        <div class="brand">
+          <i data-lucide="brain-circuit"></i>
+          <span>NurseJiwa</span>
+        </div>
+        <ul class="nav-links">
+          <li class="nav-item">
+            <a href="#dashboard" class="nav-link active" data-view="dashboard">
+              <i data-lucide="layout-dashboard"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#assessment-digital"
+              class="nav-link"
+              data-view="assessment-digital"
+            >
+              <i data-lucide="form-input"></i>
+              <span>Pengkajian Awal</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#sad-persons" class="nav-link" data-view="sad-persons">
+              <i data-lucide="shield-alert"></i>
+              <span>Risiko Bunuh Diri</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#mse-digital" class="nav-link" data-view="mse-digital">
+              <i data-lucide="user-check"></i>
+              <span>Status Mental (MSE)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#hars-scale" class="nav-link" data-view="hars-scale">
+              <i data-lucide="activity"></i>
+              <span>Skala HARS (Cemas)</span>
+            </a>
+          </li>
+          <li class="nav-divider" style="height: 1px; background: var(--border); margin: 0.5rem 1rem; opacity: 0.5;"></li>
+          <li class="nav-item">
+            <a href="#generator-lp" class="nav-link" data-view="generator-lp">
+              <i data-lucide="file-plus"></i>
+              <span>Buat LP</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#generator-askep"
+              class="nav-link"
+              data-view="generator-askep"
+            >
+              <i data-lucide="clipboard-list"></i>
+              <span>Buat ASKEP</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#history" class="nav-link" data-view="history">
+              <i data-lucide="history"></i>
+              <span>Riwayat ASKEP</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#tak-guide" class="nav-link" data-view="tak-guide">
+              <i data-lucide="users"></i>
+              <span>Panduan TAK</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#spo-jiwa" class="nav-link" data-view="spo-jiwa">
+              <i data-lucide="shield-check"></i>
+              <span>SPO Keperawatan</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#database-obat" class="nav-link" data-view="database-obat">
+              <i data-lucide="pill"></i>
+              <span>Referensi Obat</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#dosage-calculator"
+              class="nav-link"
+              data-view="dosage-calculator"
+            >
+              <i data-lucide="calculator"></i>
+              <span>Kalkulator Dosis</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#latihan-soal" class="nav-link" data-view="latihan-soal">
+              <i data-lucide="brain"></i>
+              <span>Latihan Soal</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#app-guide" class="nav-link" data-view="app-guide">
+              <i data-lucide="help-circle"></i>
+              <span>Panduan Aplikasi</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#settings" class="nav-link" data-view="settings">
+              <i data-lucide="settings"></i>
+              <span>Pengaturan</span>
+            </a>
+          </li>
+        </ul>
+        <div class="sidebar-footer" id="sidebar-footer" style="padding-top: 1rem; border-top: 1px solid var(--border); margin-top: auto; display: none; align-items: center; justify-content: center;">
+          <button class="btn btn-ghost" id="sidebar-scroll-down" title="Scroll ke bawah" style="width: 100%; font-size: 0.8rem; padding: 0.5rem; color: var(--primary); display: flex; align-items: center; justify-content: center; gap: 8px;">
+            <i data-lucide="chevron-down" style="width: 14px;"></i>
+            <span>Scroll Menu</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Main Content Area -->
+      <main class="main-content">
+        <header class="top-header">
+          <h1 class="page-title" id="current-title">Dashboard</h1>
+          <div class="header-actions">
+            <nav class="header-nav no-print">
+              <a
+                href="#dashboard"
+                class="header-nav-item active"
+                data-view="dashboard"
+              >
+                <i data-lucide="layout-grid"></i>
+                <span>Beranda</span>
+              </a>
+              <a
+                href="#generator-lp"
+                class="header-nav-item"
+                data-view="generator-lp"
+              >
+                <i data-lucide="file-plus"></i>
+                <span>LP</span>
+              </a>
+              <a
+                href="#generator-askep"
+                class="header-nav-item"
+                data-view="generator-askep"
+              >
+                <i data-lucide="clipboard-list"></i>
+                <span>ASKEP</span>
+              </a>
+              <a href="#history" class="header-nav-item" data-view="history">
+                <i data-lucide="history"></i>
+                <span>Riwayat</span>
+              </a>
+            </nav>
+            <span
+              id="current-date"
+              style="
+                font-weight: 600;
+                color: var(--secondary);
+                font-size: 0.95rem;
+              "
+            ></span>
+            <button
+              class="theme-toggle"
+              id="theme-btn"
+              style="width: 34px; height: 34px"
+            >
+              <i data-lucide="sun"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="view-section active">
+          <!-- Welcome Banner -->
+          <div class="welcome-banner no-print">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 2rem;
+              "
+            >
+              <div>
+                <h2>Selamat Datang di NurseJiwa!</h2>
+                <p>
+                  Platform asisten cerdas untuk dokumentasi keperawatan jiwa
+                  yang sistematis, cepat, dan akurat berdasarkan standar SDKI,
+                  SLKI, dan SIKI.
+                </p>
+              </div>
+              <div
+                class="banner-icon-hide"
+                style="font-size: 5rem; opacity: 0.2; transform: rotate(15deg)"
+              >
+                <i
+                  data-lucide="brain-circuit"
+                  style="width: 120px; height: 120px"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card" style="border-bottom: 4px solid #3b82f6">
+              <div
+                class="stat-icon"
+                style="background: rgba(59, 130, 246, 0.1); color: #3b82f6"
+              >
+                <i data-lucide="file-text"></i>
+              </div>
+              <div class="stat-info">
+                <h3>Bank LP</h3>
+                <p id="stat-lp">0</p>
+              </div>
+            </div>
+            <div class="stat-card" style="border-bottom: 4px solid #10b981">
+              <div
+                class="stat-icon"
+                style="background: rgba(16, 185, 129, 0.1); color: #10b981"
+              >
+                <i data-lucide="history"></i>
+              </div>
+              <div class="stat-info">
+                <h3>Riwayat ASKEP</h3>
+                <p id="stat-history">0</p>
+              </div>
+            </div>
+            <div class="stat-card" style="border-bottom: 4px solid #6366f1">
+              <div
+                class="stat-icon"
+                style="background: rgba(99, 102, 241, 0.1); color: #6366f1"
+              >
+                <i data-lucide="stethoscope"></i>
+              </div>
+              <div class="stat-info">
+                <h5>SPO NurseJiwa</h5>
+                <p id="stat-sdki">0</p>
+              </div>
+            </div>
+            <div class="stat-card" style="border-bottom: 4px solid #f97316">
+              <div
+                class="stat-icon"
+                style="background: rgba(249, 115, 22, 0.1); color: #f97316"
+              >
+                <i data-lucide="shield-check"></i>
+              </div>
+              <div class="stat-info">
+                <h3>Standar Prosedur (SPO)</h3>
+                <p id="stat-spo">0</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="grid"
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+              gap: 1.5rem;
+            "
+          >
+            <div class="card">
+              <h2 class="card-title">
+                <i data-lucide="zap"></i> Peluncur Cepat
+              </h2>
+              <div
+                class="grid"
+                style="
+                  display: grid;
+                  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+                  gap: 1rem;
+                "
+              >
+                <button class="btn btn-ghost" onclick="showView('assessment-digital')">
+                  <i data-lucide="form-input"></i>
+                  <span>Pengkajian</span>
+                </button>
+                <button class="btn btn-ghost" onclick="showView('generator-lp')">
+                  <i data-lucide="file-plus"></i>
+                  <span>Buat LP</span>
+                </button>
+                <button class="btn btn-ghost" onclick="showView('generator-askep')">
+                  <i data-lucide="clipboard-list"></i>
+                  <span>Buat ASKEP</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Assessment Section -->
+        <section id="assessment-digital" class="view-section">
+           <div class="card">
+             <h2 class="text-gradient">Diagnosis Digital NurseJiwa</h2>
+             <div id="assessment-form-container" class="standard-form">
+                <!-- Content same as before, simplified for breath -->
+                <p>Memuat formulir pengkajian...</p>
+             </div>
+           </div>
+        </section>
+
+        <!-- HARS Section -->
+        <section id="hars-scale" class="view-section">
+          <div class="card">
+             <h2 class="card-title"><i data-lucide="activity"></i> Skala HARS</h2>
+             <p>Instrumen pengukur tingkat kecemasan.</p>
+             <div id="hars-form"></div>
+             <button class="btn btn-primary" onclick="calculateHARS()">Hitung</button>
+          </div>
+        </section>
+        
+        <!-- Other sections will be added back carefully or kept if not corrupted -->
+      </main>
+    </div>
+    <script src="dataset.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

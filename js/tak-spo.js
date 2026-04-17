@@ -72,86 +72,156 @@ window.renderTAKButtons = function (filter = "") {
 };
 
 window.renderTAK = function (type) {
-  const tak = EXTERNAL_TAK[type] || DATASET.tak[type];
+  const takData =
+    window.EXTERNAL_TAK && Object.keys(window.EXTERNAL_TAK).length > 0
+      ? window.EXTERNAL_TAK
+      : DATASET.tak;
+  const tak = takData[type];
   const contentDiv = document.getElementById("tak-content");
   if (!tak) return;
 
   contentDiv.innerHTML = `
         <div style="text-align:center; margin-bottom: 2rem;">
-            ${tak.image ? `<img src="${tak.image}" alt="${tak.judul}" style="width:100%; object-fit:contain; border-radius:12px; margin-bottom:1.5rem; border:1px solid var(--border); background:#f8fafc;">` : ""}
+            ${tak.image ? `<img src="${tak.image}" alt="${tak.judul}" style="width:100%; max-height:300px; object-fit:contain; border-radius:12px; margin-bottom:1.5rem; border:1px solid var(--border); background:#f8fafc;">` : ""}
             <h3 style="color:var(--primary); font-size:1.8rem; margin-bottom:0.5rem;">${tak.judul}</h3>
-            <p style="font-style: italic; color:var(--text-muted); max-width: 600px; margin: 0 auto;">${tak.definisi}</p>
         </div>
+
+        <div class="grid" style="display:grid; grid-template-columns: 1fr; gap:1.5rem; margin-bottom: 2rem;">
+            <div class="card" style="border-left: 5px solid var(--primary);">
+                <h4 style="color:var(--primary); margin-bottom:10px; display:flex; align-items:center; gap:8px;">
+                    <i data-lucide="info" style="width:18px;"></i> Pengertian (Maksud)
+                </h4>
+                <div class="clinical-content" style="font-size:0.95rem; line-height:1.6;">${formatClinicalText(tak.definisi)}</div>
+            </div>
+            <div class="card" style="border-left: 5px solid var(--accent); background: #fdf2f8;">
+                <h4 style="color:var(--accent); margin-bottom:10px; display:flex; align-items:center; gap:8px;">
+                    <i data-lucide="target" style="width:18px;"></i> Tujuan Terapi (Detail)
+                </h4>
+                <div class="clinical-content" style="font-size:0.95rem; line-height:1.6;">${formatClinicalText(tak.tujuan_detail || "Tujuan belum didefinisikan secara naratif.")}</div>
+            </div>
+            <div class="card" style="border-left: 5px solid #10b981; background: #f0fdf4;">
+                <h4 style="color:#047857; margin-bottom:10px; display:flex; align-items:center; gap:8px;">
+                    <i data-lucide="activity" style="width:18px;"></i> Aktivitas & Indikasi
+                </h4>
+                <div class="clinical-content" style="font-size:0.95rem; line-height:1.6;">${formatClinicalText(tak.aktivitas_indikasi || "Indikasi belum didefinisikan.")}</div>
+            </div>
+        </div>
+
+        <h3 style="color:var(--secondary); border-bottom: 2px solid var(--border); padding-bottom: 10px; margin-bottom: 1.5rem; display:flex; align-items:center; gap:10px;">
+            <i data-lucide="layers"></i> Rincian Sesi TAK
+        </h3>
+
         <div class="tak-sessions">
             ${tak.sesi
               .map(
                 (s, idx) => `
-                <div class="card" style="margin-bottom: 1.5rem; background: #fff; border: 1px solid var(--border);">
-                    <div style="display:flex; align-items:center; gap:10px; margin-bottom:1rem; border-bottom:1px solid #f1f5f9; padding-bottom:0.75rem;">
-                        <span style="background:var(--primary); color:white; width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.8rem;">${idx + 1}</span>
-                        <h4 style="margin:0; color:var(--secondary); font-size:1.1rem;">${s.nama}</h4>
-                    </div>
-                    <div class="grid" style="display:grid; grid-template-columns: 1fr 1fr; gap:1.5rem; margin-bottom:1rem;">
-                        <div style="background:#f8fafc; padding:1rem; border-radius:8px;">
-                            <h5 style="margin:0 0 0.5rem; font-size:0.85rem; color:var(--primary); display:flex; align-items:center; gap:5px;"><i data-lucide="target" style="width:14px;"></i> Tujuan</h5>
-                            <p style="margin:0; font-size:0.85rem; line-height:1.4;">${s.tujuan}</p>
+                <div class="card" style="margin-bottom: 2.5rem; background: #fff; border: 1px solid var(--border); padding: 1.5rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                    <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:1.5rem; border-bottom:1px solid #f1f5f9; padding-bottom:1rem;">
+                        <div style="display:flex; align-items:center; gap:12px;">
+                            <span style="background:var(--primary); color:white; width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:1rem;">${idx + 1}</span>
+                            <h4 style="margin:0; color:var(--secondary); font-size:1.25rem;">${s.nama}</h4>
                         </div>
-                        <div style="background:#fff7ed; padding:1rem; border-radius:8px;">
-                            <h5 style="margin:0 0 0.5rem; font-size:0.85rem; color:#c2410c; display:flex; align-items:center; gap:5px;"><i data-lucide="package" style="width:14px;"></i> Persiapan Alat</h5>
-                            <p style="margin:0; font-size:0.85rem; line-height:1.4;">${s.persiapan || "-"}</p>
+                        <span style="background:var(--primary-soft); color:var(--primary); padding:4px 12px; border-radius:20px; font-size:0.75rem; font-weight:600;">Metode: ${s.metode || "Diskusi & Simulasi"}</span>
+                    </div>
+
+                    <div class="grid" style="display:grid; grid-template-columns: 1fr 1fr; gap:1.5rem; margin-bottom:1.5rem;">
+                        <div style="background:#f8fafc; padding:1.2rem; border-radius:10px; border:1px solid #e2e8f0;">
+                            <h5 style="margin:0 0 0.8rem; font-size:0.9rem; color:var(--primary); display:flex; align-items:center; gap:8px;"><i data-lucide="check-circle" style="width:16px;"></i> Tujuan Sesi</h5>
+                            <div class="clinical-content" style="font-size:0.85rem; line-height:1.5;">${formatClinicalText(s.tujuan)}</div>
+                        </div>
+                        <div style="background:#fff7ed; padding:1.2rem; border-radius:10px; border:1px solid #fed7aa;">
+                            <h5 style="margin:0 0 0.8rem; font-size:0.9rem; color:#c2410c; display:flex; align-items:center; gap:8px;"><i data-lucide="package" style="width:16px;"></i> Persiapan Alat</h5>
+                            <div class="clinical-content" style="font-size:0.85rem; line-height:1.5;">${formatClinicalText(s.persiapan || "-")}</div>
                         </div>
                     </div>
-                    <div style="background:#f0f9ff; padding:1rem; border-radius:8px; border-left:4px solid #0ea5e9;">
-                        <h5 style="margin:0 0 0.75rem; font-size:0.85rem; color:#0369a1; display:flex; align-items:center; gap:5px;"><i data-lucide="play-circle" style="width:14px;"></i> Langkah Tindakan</h5>
-                        <div class="clinical-content" style="font-size:0.85rem; line-height:1.6;">${formatClinicalText(s.tindakan)}</div>
+
+                    <div style="margin-bottom: 1.5rem;">
+                        <h5 style="background:var(--secondary); color:white; padding:8px 15px; border-radius:8px 8px 0 0; margin:0; font-size:0.9rem; display:flex; align-items:center; gap:10px;">
+                            <i data-lucide="clipboard-list" style="width:18px;"></i> Tahapan Kerja Rinci
+                        </h5>
+                        <div style="border:1px solid var(--secondary); border-top:none; border-radius:0 0 8px 8px; padding:1.2rem; background:#fff;">
+                            ${
+                              s.tahapan
+                                ? `
+                                <div style="margin-bottom:1rem;">
+                                    <b style="color:var(--primary); font-size:0.85rem; text-transform:uppercase;">A. Fase Orientasi</b>
+                                    <div class="clinical-content" style="margin-top:5px; font-size:0.85rem;">${formatClinicalText(s.tahapan.orientasi)}</div>
+                                </div>
+                                <div style="margin-bottom:1rem;">
+                                    <b style="color:var(--primary); font-size:0.85rem; text-transform:uppercase;">B. Fase Kerja</b>
+                                    <div class="clinical-content" style="margin-top:5px; font-size:0.85rem;">${formatClinicalText(s.tahapan.kerja)}</div>
+                                </div>
+                                <div style="margin-bottom:0.5rem;">
+                                    <b style="color:var(--primary); font-size:0.85rem; text-transform:uppercase;">C. Fase Terminasi</b>
+                                    <div class="clinical-content" style="margin-top:5px; font-size:0.85rem;">${formatClinicalText(s.tahapan.terminasi)}</div>
+                                </div>
+                            `
+                                : `<div class="clinical-content" style="font-size:0.85rem;">${formatClinicalText(s.tindakan)}</div>`
+                            }
+                        </div>
+                    </div>
+
+                    <div class="grid" style="display:grid; grid-template-columns: 1fr 1fr; gap:1.5rem;">
+                        <div style="background:#f0fdfa; padding:1.2rem; border-radius:10px; border:1px solid #99f6e4;">
+                            <h5 style="margin:0 0 0.8rem; font-size:0.9rem; color:#0d9488; display:flex; align-items:center; gap:8px;"><i data-lucide="bar-chart-3" style="width:16px;"></i> Evaluasi</h5>
+                            <div class="clinical-content" style="font-size:0.85rem; line-height:1.5;">${formatClinicalText(s.evaluasi || "Lakukan evaluasi subjektif dan objektif setelah sesi.")}</div>
+                        </div>
+                        <div style="background:#f5f3ff; padding:1.2rem; border-radius:10px; border:1px solid #ddd6fe;">
+                            <h5 style="margin:0 0 0.8rem; font-size:0.9rem; color:#7c3aed; display:flex; align-items:center; gap:8px;"><i data-lucide="file-text" style="width:16px;"></i> Dokumentasi</h5>
+                            <div class="clinical-content" style="font-size:0.85rem; line-height:1.5;">${formatClinicalText(s.dokumentasi || "Dokumentasikan respon kemampuan pasien pada catatan keperawatan.")}</div>
+                        </div>
+                    </div>
+
+                    <!-- Lembar Observasi Spesifik Sesi -->
+                    <div style="margin-top: 1.5rem; padding: 1rem; border: 1px dashed var(--primary); border-radius: 8px; background: #fafafa;">
+                        <h5 style="margin:0 0 1rem; font-size:0.9rem; color:var(--primary); display:flex; align-items:center; gap:8px;"><i data-lucide="user-check" style="width:16px;"></i> Lembar Observasi: ${s.nama}</h5>
+                        <div style="overflow-x: auto;">
+                            <table style="width:100%; border-collapse: collapse; font-size: 0.75rem; background:white;">
+                                <thead>
+                                    <tr style="background:#f1f5f9;">
+                                        <th style="padding:8px; border:1px solid #cbd5e1; width:30px;">No</th>
+                                        <th style="padding:8px; border:1px solid #cbd5e1;">Aspek yang Dinilai</th>
+                                        ${[1, 2, 3, 4, 5]
+                                          .map(
+                                            (n) =>
+                                              `<th style="padding:8px; border:1px solid #cbd5e1; width:45px; text-align:center;">Peserta ${n}</th>`,
+                                          )
+                                          .join("")}
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${(
+                                      s.aspek_observasi || [
+                                        "Mengikuti kegiatan dari awal-akhir",
+                                        "Memberi respon verbal",
+                                        "Kontak mata adekuat",
+                                        "Mampu mempraktikkan",
+                                      ]
+                                    )
+                                      .map(
+                                        (aspek) => `
+                                        <tr>
+                                            <td style="padding:8px; border:1px solid #cbd5e1; text-align:center;">•</td>
+                                            <td style="padding:8px; border:1px solid #cbd5e1;">${aspek}</td>
+                                            ${[1, 2, 3, 4, 5].map(() => `<td style="padding:8px; border:1px solid #cbd5e1; text-align:center;"><input type="checkbox"></td>`).join("")}
+                                        </tr>
+                                    `,
+                                      )
+                                      .join("")}
+                                </tbody>
+                            </table>
+                            <p style="margin: 8px 0 0; font-size: 0.7rem; color: #64748b;">* Ceklis (✓) jika pasien mampu melakukan aspek tersebut.</p>
+                        </div>
                     </div>
                 </div>`,
               )
               .join("")}
         </div>
-        
-        <!-- Checklist Observasi TAK -->
-        <div class="card" style="margin-top: 2rem; border: 2px solid var(--primary-soft);">
-            <h3 style="color:var(--primary); display:flex; align-items:center; gap:10px; margin-bottom:1rem;">
-                <i data-lucide="clipboard-check"></i> Lembar Observasi Peserta TAK
-            </h3>
-            <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.5rem;">
-                Gunakan tabel ini untuk mencatat perkembangan setiap peserta selama sesi berlangsung.
-            </p>
-            <div style="overflow-x: auto;">
-                <table id="tak-obs-table" style="width:100%; border-collapse: collapse; font-size: 0.85rem;">
-                    <thead>
-                        <tr style="background:var(--primary-soft); color:var(--primary);">
-                            <th style="padding:10px; border:1px solid var(--border); width:50px;">No</th>
-                            <th style="padding:10px; border:1px solid var(--border);">Nama Peserta</th>
-                            <th style="padding:10px; border:1px solid var(--border); text-align:center;">Aktif</th>
-                            <th style="padding:10px; border:1px solid var(--border); text-align:center;">Pasif</th>
-                            <th style="padding:10px; border:1px solid var(--border); text-align:center;">Mengganggu</th>
-                            <th style="padding:10px; border:1px solid var(--border);">Keterangan</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tak-obs-body">
-                        <!-- Rows will be added here -->
-                        <tr>
-                            <td style="padding:10px; border:1px solid var(--border); text-align:center;">1</td>
-                            <td style="padding:10px; border:1px solid var(--border);"><input type="text" placeholder="Inisial Pasien" style="width:100%; border:none; background:transparent; outline:none;"></td>
-                            <td style="padding:10px; border:1px solid var(--border); text-align:center;"><input type="radio" name="obs-1"></td>
-                            <td style="padding:10px; border:1px solid var(--border); text-align:center;"><input type="radio" name="obs-1"></td>
-                            <td style="padding:10px; border:1px solid var(--border); text-align:center;"><input type="radio" name="obs-1"></td>
-                            <td style="padding:10px; border:1px solid var(--border);"><input type="text" placeholder="..." style="width:100%; border:none; background:transparent; outline:none;"></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div style="margin-top:1rem; display:flex; gap:1rem;">
-                <button class="btn btn-ghost" onclick="addTAKRow()" style="font-size:0.8rem; border:1px solid var(--border);">
-                    <i data-lucide="plus"></i> Tambah Peserta
-                </button>
-            </div>
-        </div>
 
         <div style="margin-top: 3rem; text-align: center; display:flex; gap:1rem; justify-content:center;" class="no-print">
-            <button class="btn btn-primary" onclick="window.print()"><i data-lucide="printer"></i> Cetak Panduan & Observasi</button>
+            <button class="btn btn-primary" onclick="window.print()" style="padding: 0.8rem 2rem; font-size: 1rem; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.3);">
+                <i data-lucide="printer"></i> Cetak Panduan TAK Lengkap
+            </button>
         </div>
     `;
   contentDiv.style.display = "block";

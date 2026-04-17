@@ -47,7 +47,10 @@ window.hideLoader = function () {
 window.formatClinicalText = function (text) {
   if (!text) return "-";
 
-  let trimmed = text.trim();
+  // Handle markdown bold first
+  let processedText = text.replace(/\*\*(.*?)\*\*/g, "<b>$1</b>");
+
+  let trimmed = processedText.trim();
   let lines = trimmed.split(/\n/);
   let finalHtml = "";
 
