@@ -123,6 +123,18 @@
               <span>Skala HARS (Cemas)</span>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="#clinical-screening" class="nav-link" data-view="clinical-screening">
+              <i data-lucide="stethoscope"></i>
+              <span>Skrining Klinis (PHQ/GAD)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#e-psych-edu" class="nav-link" data-view="e-psych-edu">
+              <i data-lucide="book-open"></i>
+              <span>E-Psikoedukasi</span>
+            </a>
+          </li>
           <li class="nav-divider" style="height: 1px; background: var(--border); margin: 0.5rem 1rem; opacity: 0.5;"></li>
           <li class="nav-item">
             <a href="#generator-lp" class="nav-link" data-view="generator-lp">
@@ -1057,6 +1069,257 @@
                 <button class="btn btn-ghost" onclick="resetHARS()" style="border: 1px solid var(--border);">
                     <i data-lucide="refresh-cw"></i> Reset
                 </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="clinical-screening" class="view-section">
+          <div class="card">
+            <h2 class="card-title text-gradient">
+              <i data-lucide="stethoscope"></i> Skrining Klinis Pasien
+            </h2>
+            <p style="color: var(--text-muted); margin-bottom: 2rem">
+              Gunakan instrumen standar klinis (WHO/APA) untuk deteksi profil
+              psikososial pasien secara akurat.
+            </p>
+
+            <div
+              class="grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 1.5rem;
+                margin-bottom: 2rem;
+              "
+            >
+              <div
+                class="instrument-card card"
+                onclick="startClinicalScreening('srq20')"
+                style="
+                  cursor: pointer;
+                  transition: all 0.3s ease;
+                  border: 1px solid var(--border);
+                  padding: 1.5rem;
+                "
+              >
+                <div style="display: flex; align-items: center">
+                  <div
+                    class="stat-icon"
+                    style="background: rgba(59, 130, 246, 0.1); color: #3b82f6"
+                  >
+                    <i data-lucide="clipboard-list"></i>
+                  </div>
+                  <div class="stat-info" style="margin-left: 1rem">
+                    <h4 style="margin: 0">SRQ-20 (Umum)</h4>
+                    <p
+                      style="
+                        font-size: 0.8rem;
+                        color: var(--text-muted);
+                        margin-top: 0.25rem;
+                      "
+                    >
+                      Gejala Mental Emosional
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="instrument-card card"
+                onclick="startClinicalScreening('gad7')"
+                style="
+                  cursor: pointer;
+                  transition: all 0.3s ease;
+                  border: 1px solid var(--border);
+                  padding: 1.5rem;
+                "
+              >
+                <div style="display: flex; align-items: center">
+                  <div
+                    class="stat-icon"
+                    style="background: rgba(16, 185, 129, 0.1); color: #10b981"
+                  >
+                    <i data-lucide="activity"></i>
+                  </div>
+                  <div class="stat-info" style="margin-left: 1rem">
+                    <h4 style="margin: 0">GAD-7 (Ansietas)</h4>
+                    <p
+                      style="
+                        font-size: 0.8rem;
+                        color: var(--text-muted);
+                        margin-top: 0.25rem;
+                      "
+                    >
+                      Gangguan Kecemasan Umum
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="instrument-card card"
+                onclick="startClinicalScreening('phq9')"
+                style="
+                  cursor: pointer;
+                  transition: all 0.3s ease;
+                  border: 1px solid var(--border);
+                  padding: 1.5rem;
+                "
+              >
+                <div style="display: flex; align-items: center">
+                  <div
+                    class="stat-icon"
+                    style="background: rgba(239, 68, 68, 0.1); color: #ef4444"
+                  >
+                    <i data-lucide="frown"></i>
+                  </div>
+                  <div class="stat-info" style="margin-left: 1rem">
+                    <h4 style="margin: 0">PHQ-9 (Depresi)</h4>
+                    <p
+                      style="
+                        font-size: 0.8rem;
+                        color: var(--text-muted);
+                        margin-top: 0.25rem;
+                      "
+                    >
+                      Skrining Tingkat Depresi
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="clin-screening-workflow"
+              style="
+                display: none;
+                border-top: 1px solid var(--border);
+                padding-top: 2.5rem;
+                animation: fadeIn 0.4s ease;
+              "
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-bottom: 1rem;
+                "
+              >
+                <h4 id="clin-instr-title" style="color: var(--primary)">
+                  SRQ-20
+                </h4>
+                <div class="badge" id="clin-progress-text">1/20</div>
+              </div>
+              <div
+                class="progress-bar-container"
+                style="
+                  height: 8px;
+                  background: var(--bg-light);
+                  border-radius: 4px;
+                  margin-bottom: 2.5rem;
+                  overflow: hidden;
+                "
+              >
+                <div
+                  id="clin-progress-bar"
+                  style="
+                    height: 100%;
+                    background: var(--primary);
+                    width: 0%;
+                    transition: width 0.3s;
+                  "
+                ></div>
+              </div>
+              <div
+                id="clin-question-box"
+                style="
+                  min-height: 120px;
+                  font-size: 1.25rem;
+                  font-weight: 600;
+                  text-align: center;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-bottom: 2rem;
+                "
+              >
+                Pertanyaan...
+              </div>
+              <div
+                id="clin-options"
+                style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem"
+              ></div>
+            </div>
+
+            <div
+              id="clin-result-display"
+              style="display: none; animation: scaleIn 0.3s ease; text-align: center"
+            >
+              <div
+                id="clin-status-badge"
+                class="badge"
+                style="
+                  padding: 0.5rem 1.5rem;
+                  font-size: 1rem;
+                  margin-bottom: 1.5rem;
+                  background: var(--primary);
+                  color: white;
+                "
+              >
+                Normal
+              </div>
+              <div
+                style="
+                  font-size: 4rem;
+                  font-weight: 800;
+                  color: var(--primary);
+                  margin-bottom: 0.5rem;
+                "
+                id="clin-final-score"
+              >
+                0
+              </div>
+              <p style="color: var(--text-muted); margin-bottom: 2rem">
+                Skor Total Interpretasi
+              </p>
+              <div
+                id="clin-analysis-box"
+                style="
+                  text-align: left;
+                  background: var(--bg-light);
+                  padding: 1.5rem;
+                  border-radius: 16px;
+                  margin-bottom: 2rem;
+                  border-left: 5px solid var(--primary);
+                "
+              ></div>
+              <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <button class="btn btn-primary" onclick="clinGenerateSBAR()"><i data-lucide="message-square"></i> SBAR Report</button>
+                <button class="btn btn-accent" onclick="bridgeToAskep()" style="background: var(--accent); color: white;"><i data-lucide="file-text"></i> Lanjutkan ke ASKEP</button>
+                <button class="btn btn-outline" onclick="resetClinicalScreening()">Tes Ulang</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="e-psych-edu" class="view-section">
+          <div class="card">
+            <h2 class="card-title text-gradient">
+              <i data-lucide="book-open"></i> E-Psikoedukasi Perpustakaan
+            </h2>
+            <p style="color: var(--text-muted); margin-bottom: 2rem">
+              Materi edukasi kesehatan jiwa terstandar untuk meningkatkan
+              literasi pasien dan keluarga.
+            </p>
+            <div
+              id="nj-edu-grid"
+              class="grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                gap: 1.5rem;
+              "
+            >
+              <!-- Cards from edu_data.js -->
             </div>
           </div>
         </section>
@@ -2298,6 +2561,9 @@ Lanjutkan intervensi...</textarea
     <script src="js/hars.js"></script>
     <script src="js/tak-spo.js"></script>
     <script src="js/quiz.js"></script>
+    <script src="js/dataset-new-modules.js"></script>
+    <script src="js/clinical-screening.js"></script>
+    <script src="js/e-psikoedukasi.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

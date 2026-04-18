@@ -200,10 +200,10 @@ const DATASET = {
       referensi: ["PPNI (2016)"],
     },
 
-    // === ASKEP JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK === (10 Items)
+    // === ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK === (10 Items)
     {
       id: "fisik-nyeri-akut",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK",
       nama: "Nyeri Akut",
       sdki: "D.0077",
       definisi:
@@ -214,7 +214,7 @@ const DATASET = {
     },
     {
       id: "fisik-risiko-jatuh",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK",
       nama: "Risiko Jatuh",
       sdki: "D.0143",
       definisi:
@@ -224,7 +224,7 @@ const DATASET = {
     },
     {
       id: "fisik-hipertermia",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK",
       nama: "Hipertermia",
       sdki: "D.0130",
       definisi: "Suhu tubuh meningkat di atas rentang normal tubuh.",
@@ -234,7 +234,7 @@ const DATASET = {
     },
     {
       id: "fisik-defisit-cairan",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK",
       nama: "Defisit Volume Cairan",
       sdki: "D.0023",
       definisi:
@@ -245,7 +245,7 @@ const DATASET = {
     },
     {
       id: "fisik-nutrisi-kurang",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK",
       nama: "Ketidakseimbangan Nutrisi: Kurang dari Kebutuhan Tubuh",
       sdki: "D.0019",
       definisi:
@@ -255,7 +255,7 @@ const DATASET = {
     },
     {
       id: "fisik-bersihan-jalan-napas",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK",
       nama: "Ketidakefektifan Bersihan Jalan Napas",
       sdki: "D.0001",
       definisi:
@@ -264,7 +264,7 @@ const DATASET = {
     },
     {
       id: "fisik-pola-napas",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK",
       nama: "Ketidakefektifan Pola Napas",
       sdki: "D.0005",
       definisi: "Inspirasi/ekspirasi yang tidak memberikan ventilasi adekuat.",
@@ -272,7 +272,7 @@ const DATASET = {
     },
     {
       id: "fisik-perfusi-jaringan",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK",
       nama: "Risiko Ketidakefektifan Perfusi Jaringan Seksual",
       sdki: "D.0017",
       definisi: "Berisiko mengalami penurunan sirkulasi darah.",
@@ -280,7 +280,7 @@ const DATASET = {
     },
     {
       id: "fisik-intoleran-aktivitas",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK",
       nama: "Intoleran Aktivitas",
       sdki: "D.0056",
       definisi:
@@ -289,17 +289,17 @@ const DATASET = {
     },
     {
       id: "fisik-mobilitas-fisik",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS FISIK",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO - DIAGNOSIS FISIK",
       nama: "Hambatan Mobilitas Fisik",
       sdki: "D.0054",
       definisi: "Keterbatasan dalam gerakan fisik dari satu/lebih ekstremitas.",
       referensi: ["PPNI (2016)"],
     },
 
-    // === ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS RISIKO === (9 Items)
+    // === ASKEP JIWA DIAGNOSIS RISIKO === (9 Items)
     {
       id: "ansietas",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS RISIKO",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO",
       nama: "Ansietas / Kecemasan",
       sdki: "D.0080",
       definisi:
@@ -312,7 +312,7 @@ const DATASET = {
     },
     {
       id: "gangguan-citra-tubuh",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS RISIKO",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO",
       nama: "Gangguan Citra Tubuh",
       sdki: "D.0083",
       definisi:
@@ -323,7 +323,7 @@ const DATASET = {
     },
     {
       id: "risiko-hdr-situasional",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS RISIKO",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO",
       nama: "Harga Diri Rendah Situasional",
       sdki: "D.0094",
       definisi:
@@ -332,7 +332,7 @@ const DATASET = {
     },
     {
       id: "risiko-ketidakberdayaan",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS RISIKO",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO",
       nama: "Ketidakberdayaan",
       sdki: "D.0092",
       definisi:
@@ -341,7 +341,7 @@ const DATASET = {
     },
     {
       id: "risiko-keputusasaan",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS RISIKO",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO",
       nama: "Keputusasaan",
       sdki: "D.0088",
       definisi:
@@ -350,7 +350,7 @@ const DATASET = {
     },
     {
       id: "risiko-koping-individu-tidak-efektif",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS RISIKO",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO",
       nama: "Ketidakefektifan Koping Individu",
       sdki: "D.0096",
       definisi: "Ketidakmampuan dalam menilai dan merespon stresor.",
@@ -358,7 +358,7 @@ const DATASET = {
     },
     {
       id: "risiko-dukacita",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS RISIKO",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO",
       nama: "Dukacita",
       sdki: "D.0081",
       definisi: "Suatu proses adaptif yang normal terhadap kehilangan.",
@@ -366,7 +366,7 @@ const DATASET = {
     },
     {
       id: "risiko-manajemen-kesehatan-tidak-efektif",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS RISIKO",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO",
       nama: "Ketidakefektifan Manajemen Kesehatan",
       sdki: "D.0116",
       definisi:
@@ -375,7 +375,7 @@ const DATASET = {
     },
     {
       id: "risiko-distres-spiritual",
-      kategori: "ASKES JIWA DIAGNOSIS RISIKO – DIAGNOSIS RISIKO",
+      kategori: "ASKEP JIWA DIAGNOSIS RISIKO",
       nama: "Distres Spiritual",
       sdki: "D.0082",
       definisi:

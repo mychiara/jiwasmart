@@ -39,7 +39,12 @@ document.addEventListener("DOMContentLoaded", () => {
     renderHARSItems();
   }
 
-  // 5. Load External Data
+  // 5. Initialize New Core Modules (Clinical & Edu)
+  if (typeof initEPsychoeducation === "function") {
+    initEPsychoeducation();
+  }
+
+  // 6. Load External Data
   if (typeof loadData === "function") {
     loadData();
   }

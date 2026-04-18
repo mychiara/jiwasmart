@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Dataset for NurseJiwa - ULTIMATE CLINICAL EDITION
  * Berisi Diagnosis Keperawatan Jiwa Lengkap (Sehat, Risiko, Gangguan)
  * Sinkron dengan SDKI, SLKI, dan SIKI PPNI
