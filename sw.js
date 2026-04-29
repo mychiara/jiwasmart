@@ -5,6 +5,7 @@ const ASSETS = [
   "app.js",
   "dataset.js",
   "manifest.json",
+  "icon.png",
   "js/utils.js",
   "js/state.js",
   "js/license.js",
