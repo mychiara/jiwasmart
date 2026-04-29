@@ -20,26 +20,30 @@ window.initNavigation = function () {
   if (enterAppBtn && landingScreen) {
     enterAppBtn.addEventListener("click", () => {
       landingScreen.classList.add("hidden");
-      if (appContainer) appContainer.classList.remove("blur");
 
-      // Save entry to session so it doesn't show on every internal navigation/refresh in same session if desired
-      // sessionStorage.setItem("has_entered", "true");
+      // After landing page hides, show license screen
+      // (showLicenseScreen will auto-skip if already licensed)
+      setTimeout(() => {
+        if (typeof showLicenseScreen === "function") {
+          showLicenseScreen();
+        } else {
+          // Fallback if license module not loaded
+          if (appContainer) appContainer.classList.remove("blur");
+        }
+      }, 400);
     });
   }
 
-  // Check if already entered (optional, but good for UX)
-  // if (sessionStorage.getItem("has_entered") === "true" && landingScreen) {
-  //   landingScreen.style.display = "none";
-  // } else if (appContainer) {
-  //   appContainer.classList.add("blur");
-  // }
-
+  // Keep app blurred while landing is visible
   if (
     appContainer &&
     landingScreen &&
     !landingScreen.classList.contains("hidden")
   ) {
     appContainer.classList.add("blur");
+    // Hide mobile header while on landing/license
+    const mhdr = document.querySelector(".mobile-header");
+    if (mhdr) mhdr.style.visibility = "hidden";
   }
 
   // === Mobile Menu Logic ===

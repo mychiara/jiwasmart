@@ -1,0 +1,226 @@
+[
+    {
+        "nama": "Keluarga Tidak Sehat",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Keluarga Tidak Sehat merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Keluarga Tidak Sehat bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Koping Keluarga Tidak Efektif",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Koping Keluarga Tidak Efektif merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Koping Keluarga Tidak Efektif bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Peran Keluarga Tidak Efektif",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Peran Keluarga Tidak Efektif merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Peran Keluarga Tidak Efektif bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Keluarga dengan Penyakit Kronis",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Keluarga dengan Penyakit Kronis merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Keluarga dengan Penyakit Kronis bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Keluarga dengan Anggota Sakit Jiwa",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Keluarga dengan Anggota Sakit Jiwa merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Keluarga dengan Anggota Sakit Jiwa bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Dukungan keluarga dalam pengawasan minum obat (PMO), pengenalan tanda kekambuhan awal, serta rehabilitasi sosial untuk integrasi kembali ke lingkungan masyarakat."
+        },
+        "diagnosa": [
+            {
+                "nama": "Gangguan Persepsi Sensori",
+                "kode": "D.0085"
+            },
+            {
+                "nama": "Isolasi Sosial",
+                "kode": "D.0121"
+            },
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Keluarga dengan Anak Berkebutuhan Khusus",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Keluarga dengan Anak Berkebutuhan Khusus merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Keluarga dengan Anak Berkebutuhan Khusus bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Penguatan pemberian ASI eksklusif/nutrisi lanjutan, jadwal imunisasi rutin, pemantauan kurva tumbuh kembang di posyandu, dan instruksi penanganan demam awal di rumah."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Keluarga Risiko Tinggi",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Keluarga Risiko Tinggi merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Keluarga Risiko Tinggi bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Kurang Dukungan Sosial",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Kurang Dukungan Sosial merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Kurang Dukungan Sosial bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Komunikasi Keluarga Buruk",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Komunikasi Keluarga Buruk merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Komunikasi Keluarga Buruk bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    }
+]

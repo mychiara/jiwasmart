@@ -548,39 +548,45 @@ window.showAssessmentGuide = function () {
   Swal.fire({
     title: "Panduan Pengisian Pengkajian Jiwa",
     html: `
-            <div style="text-align: left; font-size: 0.9rem; max-height: 500px; overflow-y: auto; padding: 15px; line-height: 1.6; background: #f8fafc; border-radius: 8px;">
-                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px;">I. IDENTITAS KLIEN</h4>
-                <p>Isi inisial nama pasien (untuk privasi), No. RM yang valid, dan tanggal mulai dilakukan pengkajian.</p>
+            <div style="text-align: left; font-size: 0.9rem; max-height: 550px; overflow-y: auto; padding: 20px; line-height: 1.7; background: #f8fafc; border-radius: 8px; color: #334155; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
+                <div style="background: #e0e7ff; color: #3730a3; padding: 10px 15px; border-radius: 6px; margin-bottom: 20px; border-left: 4px solid #4f46e5; font-weight: 500;">
+                    Panduan komprehensif ini dirancang untuk membimbing perawat dan mahasiswa dalam menyusun laporan pengkajian psikiatri yang mendalam, akurat, dan memenuhi standar akademik keperawatan jiwa nasional.
+                </div>
 
-                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 15px;">II. ALASAN MASUK</h4>
-                <p>Tuliskan apa yang menyebabkan pasien/keluarga membawa ke rumah sakit. Fokus pada keluhan utama saat ini dan perubahan perilaku yang paling menonjol.</p>
+                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 15px; font-weight: 800; font-size: 1.05rem;">I. IDENTITAS KLIEN</h4>
+                <p style="text-align: justify; margin-top: 5px;">Bagian ini merupakan fondasi administratif yang sangat vital. Pengkaji diwajibkan untuk merekam data demografi pasien dengan prinsip kerahasiaan penuh, disarankan menggunakan inisial untuk nama pasien demi melindungi privasi sesuai etika keperawatan. Pastikan identitas sekunder seperti usia, jenis kelamin, serta Nomor Rekam Medis (RM) terisi secara presisi. Data identitas ini nantinya akan tersinkronisasi dan otomatis berpindah ke lembar Laporan Asuhan Keperawatan (ASKEP).</p>
 
-                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 15px;">III. FAKTOR PREDISPOSISI</h4>
-                <p>Gali riwayat masa lalu (minimal 6 bulan terakhir). Tanyakan apakah pernah mengalami gangguan jiwa sebelumnya, riwayat trauma (aniaya, penolakan), dan apakah ada anggota keluarga inti yang memiliki riwayat serupa (genetik).</p>
+                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 20px; font-weight: 800; font-size: 1.05rem;">II. ALASAN MASUK (KELUHAN UTAMA)</h4>
+                <p style="text-align: justify; margin-top: 5px;">Berisi narasi deskriptif dan kronologis yang menceritakan secara detail apa sebenarnya stresor atau pemicu utama yang menyebabkan pasien harus dilarikan ke fasilitas kesehatan jiwa pada saat itu. Pengkaji sangat disarankan untuk menuliskan keluhan utama dalam format kutipan langsung (menggunakan tanda kutip) berdasarkan penuturan subjektif dari pasien itu sendiri atau keluarga (informan). Gambarkan dengan jelas perubahan perilaku, ancaman kekerasan, atau gejala penarikan diri yang terjadi di rumah sebelum admisi.</p>
 
-                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 15px;">IV. PEMERIKSAAN FISIK</h4>
-                <p>Lakukan pengukuran objektif TTV. Berikan perhatian khusus pada keluhan fisik (seperti keluhan somatis) yang sering menyertai gangguan kecemasan atau depresi.</p>
+                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 20px; font-weight: 800; font-size: 1.05rem;">III. FAKTOR PREDISPOSISI & PRESIPITASI</h4>
+                <p style="text-align: justify; margin-top: 5px;">Lakukan anamnesa mendalam untuk menggali riwayat masa lalu pasien (faktor predisposisi). Evaluasi secara komprehensif apakah pasien pernah mengalami gangguan kejiwaan di masa lampau dan sejauh mana keberhasilan pengobatan sebelumnya (misal: apakah putus obat?). Eksplorasi riwayat trauma psikologis traumatis seperti penolakan, kekerasan fisik, kekerasan seksual, maupun trauma kriminal. Selain itu, Anda harus menelusuri rantai genetik (herediter) dengan menanyakan apakah ada anggota keluarga sedarah yang memiliki riwayat gangguan mental serupa.</p>
 
-                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 15px;">V. PSIKOSOSIAL</h4>
-                <p><b>Konsep Diri:</b> Observasi cara pandang pasien terhadap dirinya sendiri.<br>
-                   <b>Hubungan Sosial:</b> Identifikasi orang terdekat (support system) dan bagaimana pasien berinteraksi di lingkungannya.<br>
-                   <b>Spiritual:</b> Tanyakan keyakinan dan apakah gangguan ini menghambat ibadahnya.</p>
+                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 20px; font-weight: 800; font-size: 1.05rem;">IV. PEMERIKSAAN FISIK</h4>
+                <p style="text-align: justify; margin-top: 5px;">Pengkajian jiwa tidak boleh mengabaikan kondisi medis pasien. Lakukan pengukuran objektif Tanda-Tanda Vital (Tekanan Darah, Nadi, Suhu, Pernapasan) secara akurat. Berikan perhatian khusus pada observasi keluhan fisik atau somatik yang sering kali menyertai gangguan kecemasan akut, depresi berat, atau efek samping obat psikofarmaka (misal: tremor, kaku otot, pusing ekstrem, takikardia).</p>
 
-                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 15px;">VI. STATUS MENTAL (PENTING)</h4>
-                <p><b>Penampilan:</b> Observasi kebersihan dan cara berpakaian.<br>
-                   <b>Pembicaraan:</b> Apakah cepat, keras, gagap, atau membisu.<br>
-                   <b>Persepsi:</b> Identifikasi adanya Halusinasi (Denar, Lihat, Raba, dll).<br>
-                   <b>Proses Pikir:</b> Observasi arus pikir (koheren/incoherent) dan isi pikir (ada waham/phobia?).<br>
-                   <b>Insight:</b> Apakah pasien sadar dirinya sedang sakit?</p>
+                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 20px; font-weight: 800; font-size: 1.05rem;">V. STATUS PSIKOSOSIAL</h4>
+                <p style="text-align: justify; margin-top: 5px;">Kaji seluruh lapisan psikososial pasien yang meliputi:<br>
+                • <b>Konsep Diri:</b> Observasi bagaimana pasien memandang dirinya secara utuh, mencakup citra tubuh (body image), identitas personal, serta peran sosial yang mungkin hilang atau terganggu akibat penyakit.<br>
+                • <b>Hubungan Sosial:</b> Identifikasi figur terdekat yang menjadi sistem pendukung (support system) utama pasien. Tanyakan sejauh mana pasien mampu berpartisipasi dalam interaksi lingkungan masyarakat sekitar.<br>
+                • <b>Spiritual & Nilai Keyakinan:</b> Tanyakan nilai-nilai keagamaan pasien, dan kaji apakah kondisi penyakit kejiwaannya menghambat ia dalam melakukan praktik ibadah harian.</p>
 
-                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 15px;">VII. PERSIAPAN PULANG</h4>
-                <p>Evaluasi kemampuan ADL (Activities of Daily Living). Apakah pasien mampu mandi, makan, dan membersihkan diri secara mandiri jika kembali ke rumah.</p>
+                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 20px; font-weight: 800; font-size: 1.05rem;">VI. STATUS MENTAL (INSPEKSI KLINIS PUSAT)</h4>
+                <p style="text-align: justify; margin-top: 5px;">Ini adalah inti dari pengkajian keperawatan jiwa. Perawat diwajibkan melakukan observasi tajam mengenai elemen-elemen berikut:<br>
+                • <b>Penampilan Visual:</b> Evaluasi tingkat kebersihan diri (hygiene), kerapian pakaian, dan postur fisik pasien.<br>
+                • <b>Gaya Pembicaraan:</b> Analisis apakah pasien berbicara dengan intonasi lambat, meledak-ledak, inkoheren (tidak nyambung), atau bahkan mutisme (membisu).<br>
+                • <b>Gangguan Persepsi Sensori:</b> Identifikasi kuat adanya halusinasi (Pendengaran, Penglihatan, Penciuman, Pengecapan, atau Perabaan). Catat frekuensi dan isi halusinasi tersebut.<br>
+                • <b>Proses Pikir & Waham:</b> Observasi adanya lompatan ide (flight of ideas) dan temukan apakah pasien memiliki waham kebesaran, waham curiga, atau waham agama yang kokoh namun tidak realistis.<br>
+                • <b>Tingkat Kesadaran & Insight:</b> Apakah pasien memiliki tilikan (insight) yang baik? Yaitu kesadaran bahwa dirinya saat ini sedang sakit dan benar-benar membutuhkan pertolongan medis.</p>
 
-                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 15px;">VIII. MEKANISME KOPING</h4>
-                <p>Tanyakan bagaimana cara pasien menghadapi stres. Bedakan antara koping adaptif (bicara dengan orang lain, olahraga) dan maladaptif (mencederai diri, konsumsi zat).</p>
+                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 20px; font-weight: 800; font-size: 1.05rem;">VII. KEBUTUHAN PERSIAPAN PULANG (DISCHARGE PLANNING)</h4>
+                <p style="text-align: justify; margin-top: 5px;">Untuk merencanakan kepulangan, perawat harus mengevaluasi secara ketat kemampuan ADL (Activities of Daily Living) pasien. Kaji sejauh mana pasien mandiri dalam melakukan aktivitas esensial harian seperti menyiapkan dan memakan makanan, mandi, berdandan, proses eliminasi (BAB/BAK), serta rutinitas penggunaan obat oral secara mandiri di rumah.</p>
 
-                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 15px;">IX. ASPEK MEDIK</h4>
-                <p>Tuliskan diagnosa medis dari dokter dan daftar obat psikofarmaka yang sedang dikonsumsi beserta dosisnya.</p>
+                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 20px; font-weight: 800; font-size: 1.05rem;">VIII. MEKANISME KOPING</h4>
+                <p style="text-align: justify; margin-top: 5px;">Tanyakan secara mendalam bagaimana refleks pertahanan pasien ketika dihadapkan pada masalah berat. Anda harus mampu membedakan apakah pasien terbiasa menggunakan <b>Koping Adaptif</b> (seperti berdiskusi dengan orang kepercayaan, olahraga, atau berdoa) atau justru terjerumus dalam <b>Koping Maladaptif</b> (seperti amuk, merusak barang berharga, menyakiti diri sendiri, hingga penyalahgunaan NAPZA).</p>
+
+                <h4 style="color: var(--primary); border-bottom: 2px solid var(--primary-soft); padding-bottom: 5px; margin-top: 20px; font-weight: 800; font-size: 1.05rem;">IX. ASPEK MEDIK & PSIKOFARMAKA</h4>
+                <p style="text-align: justify; margin-top: 5px;">Tahap terakhir melibatkan kolaborasi rekam jejak medis. Tuliskan secara akurat diagnosa medis Axis I hingga Axis V yang telah ditegakkan oleh psikiater (Dokter Spesialis Kedokteran Jiwa). Lampirkan pula daftar regimen obat psikofarmaka (Antipsikotik, Antidepresan, Anti-ansietas) yang sedang dikonsumsi, lengkap beserta indikasi klinis dan dosis administrasinya.</p>
             </div>
         `,
     width: "650px",

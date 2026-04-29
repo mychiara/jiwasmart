@@ -126,11 +126,12 @@ function fallbackCopy(el) {
 window.exportPDF = function (elId, filename) {
   const element = document.getElementById(elId);
   const opt = {
-    margin: 1,
+    margin: [0.3, 0.3, 0.3, 0.3], // top, left, bottom, right in inches
     filename: `${filename}_${new Date().getTime()}.pdf`,
-    image: { type: "jpeg", quality: 0.98 },
-    html2canvas: { scale: 2 },
+    image: { type: "jpeg", quality: 1.0 },
+    html2canvas: { scale: 2, useCORS: true, logging: false },
     jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
+    pagebreak: { mode: ["avoid-all", "css", "legacy"] },
   };
 
   html2pdf().set(opt).from(element).save();

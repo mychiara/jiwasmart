@@ -1,0 +1,488 @@
+[
+    {
+        "nama": "Syok Hipovolemik",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Syok Hipovolemik merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Syok Hipovolemik bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "Cek Hemoglobin/Hematokrit, elektrolit, analisa gas darah, dan monitoring CVP.",
+            "penatalaksanaan": "Strategi tatalaksana terpadu melibatkan pendekatan farmakologis dan non-farmakologis. Berfokus pada stabilisasi hemodinamik melalui monitoring tekanan darah invasif/non-invasif, pemberian inotropik atau vasopressor jika diperlukan, restriksi cairan yang ketat, serta terapi anti-platelet dan anti-koagulan untuk mencegah oklusi vaskular lebih lanjut.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Hipovolemia",
+                "kode": "D.0023"
+            }
+        ]
+    },
+    {
+        "nama": "Syok Kardiogenik",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Syok Kardiogenik merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Syok Kardiogenik bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "EKG 12-lead (ST Elevasi), Enzim jantung (Troponin I/T), Ekokardiografi (LVEF rendah), dan Rontgen Thoraks (kardiomegali/edema paru).",
+            "penatalaksanaan": "Pemberian oksigen konsentrasi tinggi, inotropik (Dobutamine), vasopressor (Norepinephrine), diuretik jika TDS stabil, dan persiapan Intra-Aortic Balloon Pump (IABP) atau revaskularisasi emergensi (PCI).",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Penurunan Curah Jantung",
+                "kode": "D.0008"
+            },
+            {
+                "nama": "Risiko Perfusi Serebral Tidak Efektif",
+                "kode": "D.0017"
+            }
+        ]
+    },
+    {
+        "nama": "Syok Septik",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Syok Septik merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Syok Septik bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "Kultur darah (aerob/anaerob), kadar Laktat darah, Prokalsitonin, dan analisis gas darah.",
+            "penatalaksanaan": "Resusitasi cairan kristaloid (30ml/kgBB), pemberian antibiotik spektrum luas dalam 1 jam pertama, vasopressor untuk menjaga MAP >65 mmHg, dan kontrol sumber infeksi (source control).",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Penurunan Curah Jantung",
+                "kode": "D.0008"
+            },
+            {
+                "nama": "Risiko Perfusi Serebral Tidak Efektif",
+                "kode": "D.0017"
+            }
+        ]
+    },
+    {
+        "nama": "Syok Anafilaktik",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Syok Anafilaktik merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Syok Anafilaktik bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "Diagnosis klinis cepat (tidak menunggu tes lab), peningkatan kadar tryptase serum (bila tersedia).",
+            "penatalaksanaan": "Injeksi Epinephrine (Adrenaline) IM segera (0.3-0.5 mg), pemberian oksigen, cairan IV kristaloid, antihistamin (Diphenhydramine), dan kortikosteroid.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Penurunan Curah Jantung",
+                "kode": "D.0008"
+            },
+            {
+                "nama": "Risiko Perfusi Serebral Tidak Efektif",
+                "kode": "D.0017"
+            }
+        ]
+    },
+    {
+        "nama": "Henti Jantung",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Henti Jantung merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Henti Jantung bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "EKG monitoring (Flat line/Asistol, PEA, atau VF).",
+            "penatalaksanaan": "Strategi tatalaksana terpadu melibatkan pendekatan farmakologis dan non-farmakologis. Berfokus pada stabilisasi hemodinamik melalui monitoring tekanan darah invasif/non-invasif, pemberian inotropik atau vasopressor jika diperlukan, restriksi cairan yang ketat, serta terapi anti-platelet dan anti-koagulan untuk mencegah oklusi vaskular lebih lanjut.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Edukasi pembatasan asupan natrium, pemantauan berat badan harian (lapor jika naik >2kg/minggu), monitoring tekanan darah mandiri, dan pengenalan tanda bahaya serangan jantung seperti nyeri dada menjalar."
+        },
+        "diagnosa": [
+            {
+                "nama": "Penurunan Curah Jantung",
+                "kode": "D.0008"
+            }
+        ]
+    },
+    {
+        "nama": "Henti Napas",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Henti Napas merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Henti Napas bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "Saturasi oksigen (SpO2) rendah, Analisis Gas Darah (PaO2 rendah, PaCO2 tinggi).",
+            "penatalaksanaan": "Reposisi jalan napas (Head tilt-chin lift/Jaw thrust), pembersihan jalan napas (suction), bantuan napas manual (Bag-Valve-Mask), dan intubasi endotrakeal jika diperlukan.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Instruksi latihan batuk efektif, teknik pernapasan diapragmatik, penghindaran paparan alergen/polutan, serta jadwal vaksinasi influenza/pneumonia untuk mencegah eksaserbasi berulang."
+        },
+        "diagnosa": [
+            {
+                "nama": "Bersihan Jalan Napas Tidak Efektif",
+                "kode": "D.0001"
+            },
+            {
+                "nama": "Pola Napas Tidak Efektif",
+                "kode": "D.0005"
+            }
+        ]
+    },
+    {
+        "nama": "Trauma Kepala",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Trauma Kepala merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Trauma Kepala bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "CT-Scan Kepala non-kontras (Gold Standard), Rontgen servikal (eksklusi trauma leher).",
+            "penatalaksanaan": "Stabilisasi ABC (Airway dengan proteksi servikal), elevasi kepala 30 derajat, terapi osmotik (Manitol) jika ada tanda peningkatan TIK, dan pembedahan dekompresi (Kraniotomi) pada kasus perdarahan luas.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Cedera Otak Berat",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Cedera Otak Berat merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Cedera Otak Berat bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Perdarahan Hebat",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Perdarahan Hebat merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Perdarahan Hebat bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Fraktur Terbuka",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Fraktur Terbuka merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Fraktur Terbuka bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "Rontgen tulang terkait (minimal 2 posisi), cek status neurovaskular distal (pulsasi, motorik, sensorik).",
+            "penatalaksanaan": "Irigasi luka dengan NaCl 0.9% secara profuse, penutupan luka dengan kasa steril, bidai untuk imobilisasi, pemberian profilaksis tetanus, antibiotik IV, dan debridemen di kamar operasi.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Nyeri Akut",
+                "kode": "D.0077"
+            }
+        ]
+    },
+    {
+        "nama": "Dislokasi",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Dislokasi merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Dislokasi bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Luka Bakar Berat",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Luka Bakar Berat merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Luka Bakar Berat bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "Hitung luas luka bakar (Rule of Nines), elektrolit serum, dan fungsi ginjal (BUN/Creatinine).",
+            "penatalaksanaan": "Resusitasi cairan menggunakan Rumus Baxter/Parkland, manajemen jalan napas (waspada trauma inhalasi), manajemen nyeri, perawatan luka steril, dan dukungan nutrisi tinggi kalori tinggi protein (TKTP).",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Gangguan Integritas Kulit/Jaringan",
+                "kode": "D.0129"
+            }
+        ]
+    },
+    {
+        "nama": "Keracunan",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Keracunan merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Keracunan bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "Cek toksikologi urine/darah, kadar elektrolit, dan analisis gas darah.",
+            "penatalaksanaan": "Dekontaminasi (bilas lambung, arang aktif), eliminasi toksin, dan pemberian antidotum spesifik (misal: Atropin untuk organofosfat, N-acetylcysteine untuk parasetamol).",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Gigitan Ular",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Gigitan Ular merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Gigitan Ular bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "Waktu pembekuan darah (20-minute whole blood clotting test - WBCT20), hitung jenis leukosit.",
+            "penatalaksanaan": "Imobilisasi anggota gerak yang digigit, pemberian Serum Anti Bisa Ular (SABU) sesuai spesifikasi, pemantauan tanda-tanda kompartemen, dan dukungan ventilasi jika perlu.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Tenggelam",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Tenggelam merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Tenggelam bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Kejang Status Epileptikus",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Kejang Status Epileptikus merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Kejang Status Epileptikus bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "EEG, CT-Scan kepala, kadar elektrolit (Kalsium, Natrium).",
+            "penatalaksanaan": "Manajemen ABC, pemberian Benzodiazepin (Diazepam IV/Larutan rektal atau Midazolam), dilanjutkan dengan obat antiepilepsi kerja panjang (Phenytoin atau Levetiracetam).",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Hipoglikemia Berat",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Hipoglikemia Berat merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Hipoglikemia Berat bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "Cek Glukosa Darah Sewaktu (GDS) - wajib segera.",
+            "penatalaksanaan": "Pemberian Dextrose 40% (2-3 flakon IV), diikuti infus maintenance Dextrose 10%, observasi GDS setiap 15-30 menit hingga stabil di atas 100 mg/dL.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Hiperglikemia Berat",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Hiperglikemia Berat merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Hiperglikemia Berat bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "GDS berkala, cek Keton urin, Analisis Gas Darah.",
+            "penatalaksanaan": "Rehidrasi cairan kristaloid intensif, titrasi insulin intravena (drip), dan koreksi ketidakseimbangan elektrolit (terutama Kalium).",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Serangan Jantung",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Serangan Jantung merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Serangan Jantung bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Edukasi pembatasan asupan natrium, pemantauan berat badan harian (lapor jika naik >2kg/minggu), monitoring tekanan darah mandiri, dan pengenalan tanda bahaya serangan jantung seperti nyeri dada menjalar."
+        },
+        "diagnosa": [
+            {
+                "nama": "Penurunan Curah Jantung",
+                "kode": "D.0008"
+            },
+            {
+                "nama": "Risiko Perfusi Serebral Tidak Efektif",
+                "kode": "D.0017"
+            }
+        ]
+    },
+    {
+        "nama": "Stroke Akut",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Stroke Akut merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Stroke Akut bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "CT-Scan Kepala non-kontras (mendiferensiasi iskemik vs hemoragik), MRI.",
+            "penatalaksanaan": "Stabilisasi tekanan darah, terapi trombolitik (rTPA) pada stroke iskemik jika dalam golden period (<4.5 jam), kontrol edema otak, dan program rehabilitasi dini.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Petunjuk kepatuhan jadwal obat, asupan nutrisi seimbang, jadwal kontrol rutin ke poliklinik, dan instruksi segera ke Unit Gawat Darurat jika terjadi penurunan kondisi klinis mendadak."
+        },
+        "diagnosa": [
+            {
+                "nama": "Defisit Pengetahuan",
+                "kode": "D.0111"
+            },
+            {
+                "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
+                "kode": "D.0112"
+            }
+        ]
+    },
+    {
+        "nama": "Sesak Napas Akut",
+        "kategori": "Nursing Case",
+        "detail": {
+            "definisi": "<strong>Definisi Klinis Komprehensif:</strong><br>Sesak Napas Akut merupakan entitas patologis sistemik yang dikategorikan dalam gangguan fisiologis berat pada sistem organ terkait. Secara klinis, kondisi ini melibatkan deviasi parameter homeostatik yang jika tidak ditangani secara sistematis dapat memicu eskalasi komplikasi multiorgan. Penyakit ini memerlukan pendekatan asuhan keperawatan yang presisi dan berkelanjutan sesuai dengan standar dokumentasi klinis nasional.",
+            "etiologi": "<strong>Analisis Faktor Risiko & Etiologi:</strong><br>Pemicu kondisi Sesak Napas Akut bersifat multifaktoral, mencakup disfungsi seluler primer, pengaruh pajanan lingkungan kronis yang melampaui ambang batas toleransi tubuh, hingga faktor disposisi genetik yang memperburuk ambang batas fungsional organ. Selain itu, gaya hidup dan manajemen kesehatan yang suboptimal seringkali menjadi faktor penyulit yang mempercepat progresivitas penyakit ini di dalam tubuh pasien.",
+            "manifestasi": "<strong>Karakteristik Manifestasi Klinis:</strong><br>Ditunjukkan dengan adanya penyimpangan signifikan pada Tanda-Tanda Vital (TTV) serta kemunculan kluster keluhan subjektif yang konsisten dengan terminologi klinis gangguan sistem organ tersebut. Gejala dapat bervariasi dari tahap asimtomatik hingga manifestasi akut yang mengancam nyawa, memerlukan pemantauan intensif terhadap instabilitas parameter fisiologis secara real-time.",
+            "patofisiologi": "<strong>Mekanisme Patofisiologi Mendalam:</strong><br>Gangguan pada level mikrosirkulasi atau jaringan yang memicu kaskade inflamasi sistemik atau disregulasi fungsional yang parah. Terjadi kegagalan organ dalam menjalankan peran homeostatiknya akibat kerusakan struktural atau gangguan biokimiawi pada tingkat seluler. Proses ini seringkali melibatkan mekanisme kompensasi tubuh yang jika berlangsung kronis justru akan memperberat beban kerja organ lain, menciptakan lingkaran setan patofisiologis yang berujung pada deteriorasi klinis pasien jika tidak segera dilakukan intervensi keperawatan yang tepat.",
+            "pemeriksaan": "<strong>Evaluasi Diagnostik:</strong><br>Memerlukan validasi melalui studi laboratorium (Darah Lengkap/Kimia) dan pencitraan medis guna menentukan tingkat keparahan dan progresivitas kondisi.",
+            "penatalaksanaan": "<strong>Intervensi Strategis:</strong><br>Pendekatan multidisiplin yang menggabungkan manajemen suportif, terapi farmakologis sesuai indikasi, serta monitoring ketat parameter hemodinamik dan kesadaran pasen.",
+            "masalah_keperawatan": "<strong>Prioritas SDKI:</strong><br>Pemilihan diagnosa utama berdasarkan urgensi keselamatan pasien.",
+            "discharge_planning": "Edukasi pasca-rawat dititikberatkan pada kemandirian perawatan di rumah. Instruksi latihan batuk efektif, teknik pernapasan diapragmatik, penghindaran paparan alergen/polutan, serta jadwal vaksinasi influenza/pneumonia untuk mencegah eksaserbasi berulang."
+        },
+        "diagnosa": [
+            {
+                "nama": "Bersihan Jalan Napas Tidak Efektif",
+                "kode": "D.0001"
+            },
+            {
+                "nama": "Pola Napas Tidak Efektif",
+                "kode": "D.0005"
+            }
+        ]
+    }
+]

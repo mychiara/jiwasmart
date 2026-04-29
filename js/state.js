@@ -10,6 +10,17 @@ window.EXTERNAL_TAK = {};
 window.EXTERNAL_JIWA = [];
 window.editingHistoryIndex = -1;
 
+// Ensure DATASET exists and has required properties to prevent crashes
+if (typeof DATASET !== 'undefined') {
+  if (!DATASET.sdki) DATASET.sdki = [];
+  if (!DATASET.siki) DATASET.siki = [];
+  if (!DATASET.slki) DATASET.slki = [];
+  if (!DATASET.tak) DATASET.tak = {};
+  if (!DATASET.spo) DATASET.spo = {};
+} else {
+  window.DATASET = { sdki: [], siki: [], slki: [], lp: [], gejala: [], scales: [], obat: [], tak: {}, spo: {} };
+}
+
 window.loadData = async function () {
   showLoader();
   console.log("Starting data load...");
