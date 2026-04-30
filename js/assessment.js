@@ -117,14 +117,14 @@ window.processDigitalAssessment = function () {
       // Clinical Mapping Logic - High Fidelity (Case Insensitive)
       if (val.includes("tidak rapi") || val.includes("pakaian tidak sesuai")) counts["D.0109"] = (counts["D.0109"] || 0) + 4; // DPD
       if (val.includes("inkoheren") || val.includes("flight of ideas") || val.includes("blocking")) counts["D.0105"] = (counts["D.0105"] || 0) + 3; // Waham (Process)
-      if (val.includes("agitasi") || val.includes("bermusuhan") || val.includes("tersinggung") || val.includes("menyerang")) counts["D.0131"] = (counts["D.0131"] || 0) + 5; // RPK
-      if (val.includes("sedih") || val.includes("putus asa") || val.includes("anhedonia")) counts["D.0076"] = (counts["D.0076"] || 0) + 3; // Keputusasaan
+      if (val.includes("agitasi") || val.includes("bermusuhan") || val.includes("tersinggung") || val.includes("menyerang")) counts["D.0146"] = (counts["D.0146"] || 0) + 5; // RPK
+      if (val.includes("sedih") || val.includes("putus asa") || val.includes("anhedonia")) counts["D.0135"] = (counts["D.0135"] || 0) + 3; // Map to suicide risk/depression
       if (val.includes("ketakutan") || val.includes("khawatir") || val.includes("tegang")) counts["D.0080"] = (counts["D.0080"] || 0) + 3; // Ansietas
       if (val.includes("halusinasi") || name === "as-sm-persepsi") counts["D.0085"] = (counts["D.0085"] || 0) + 5; // Halusinasi
       if (name === "as-sm-waham" || val.includes("waham")) counts["D.0105"] = (counts["D.0105"] || 0) + 6; // Waham (Content)
       if (val.includes("mengingkari") || val.includes("menyalahkan")) counts["D.0105"] = (counts["D.0105"] || 0) + 3; 
       if (val.includes("tidak kooperatif") || val.includes("kontak mata kurang") || val.includes("apatis")) counts["D.0121"] = (counts["D.0121"] || 0) + 4; // Isolasi Sosial
-      if (val.includes("konfabulasi") || val.includes("daya ingat") || val.includes("disorientasi")) counts["D.0066"] = (counts["D.0066"] || 0) + 4; // Konfusi
+      if (val.includes("konfabulasi") || val.includes("daya ingat") || val.includes("disorientasi")) counts["D.0105"] = (counts["D.0105"] || 0) + 2; // Map to Waham/Confusion
       
       // Additional specific mappings
       if (val.includes("mencederai diri") || val.includes("ide bunuh diri") || val.includes("ingin mati")) counts["D.0135"] = (counts["D.0135"] || 0) + 7; // Risiko Bunuh Diri
@@ -134,7 +134,7 @@ window.processDigitalAssessment = function () {
 
   // 3. Mekanisme Koping & Masalah Lain
   if (document.querySelectorAll('input[name="as-koping-ma"][value="Amuk"]:checked').length > 0) {
-    counts["D.0131"] = (counts["D.0131"] || 0) + 6; // RPK (Very high weight for Amuk)
+    counts["D.0146"] = (counts["D.0146"] || 0) + 6; // RPK (Very high weight for Amuk)
   }
   
   if (document.querySelectorAll('input[name="as-koping-ma"][value="Minum"]:checked').length > 0) {
@@ -558,6 +558,14 @@ window.createAskepWithMultipleDiagnoses = function () {
 };
 
 window.resetAssessmentForm = function () {
+  // Clear Edit Mode State
+  window.editingAsHistoryIndex = -1;
+  const editIndicator = document.getElementById("as-edit-mode-indicator");
+  if (editIndicator) editIndicator.style.display = "none";
+  const saveBtn = document.getElementById("as-save-btn");
+  if (saveBtn) saveBtn.innerHTML = '<i data-lucide="save"></i> Simpan Data';
+  if (window.lucide) lucide.createIcons();
+
   const ids = [
     "as-ruang", "as-tgl-rawat", "as-nama", "as-umur", "as-norm", "as-tgl-pengkajian", "as-informan",
     "as-alasan", "as-alasan-keluarga", "as-alasan-hasil",
