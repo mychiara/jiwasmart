@@ -542,18 +542,20 @@ window.createAskepWithMultipleDiagnoses = function () {
     document.getElementById("analyze-dx-btn").click();
     
     // Auto-check requested diagnoses in ASKEP generator
+    // Wait longer (1500ms) because analyze-dx-btn has its own 1000ms delay
     setTimeout(() => {
         selectedDx.forEach(kode => {
             const dxCb = document.getElementById(`dx-${kode}`);
             if (dxCb) dxCb.checked = true;
         });
-        // Trigger SIKI update if the function exists (it's inside a closure in initASKEPGenerator, so we might need to trigger a change event)
+        
+        // Trigger SIKI update by simulating a change event on the first checkbox
         const firstDx = document.querySelector('input[name="selected-sdki"]');
         if (firstDx) {
             const event = new Event('change', { bubbles: true });
             firstDx.dispatchEvent(event);
         }
-    }, 500);
+    }, 1500);
   }, 300);
 };
 

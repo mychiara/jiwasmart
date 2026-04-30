@@ -23,7 +23,7 @@ window.renderHistory = function (filter = "") {
   list.innerHTML = "";
 
   const filteredHistory = history.filter((item) => {
-    const searchStr = (item.nama + " " + item.diagnosa).toLowerCase();
+    const searchStr = ((item.pasien || item.nama || "Tanpa Nama") + " " + (item.diagnosa || "")).toLowerCase();
     return searchStr.includes(filter.toLowerCase());
   });
 
@@ -39,7 +39,7 @@ window.renderHistory = function (filter = "") {
 
   filteredHistory.forEach((item, index) => {
     // Find original index in full history for proper editing/deletion
-    const originalIndex = history.findIndex((h) => h.id === item.id);
+    const originalIndex = history.findIndex((h) => (h.id || 0) === (item.id || 0) && h.tanggal === item.tanggal);
 
     const card = document.createElement("div");
     card.className = "card";
@@ -57,7 +57,7 @@ window.renderHistory = function (filter = "") {
 
     card.innerHTML = `
             <div style="display:flex; justify-content:space-between; align-items:start; margin-bottom: 0.75rem;">
-                <h4 style="color:var(--primary); margin:0; font-weight:700;">${maskName(item.nama)}</h4>
+                <h4 style="color:var(--primary); margin:0; font-weight:700;">${maskName(item.pasien || item.nama || "Tanpa Nama")}</h4>
                 <div style="font-size:0.7rem; color:var(--text-muted); background:var(--bg-light); padding:2px 8px; border-radius:12px;">${item.tanggal}</div>
             </div>
             <div style="display:flex; align-items:center; gap:6px; margin-bottom:1.25rem;">
@@ -100,28 +100,26 @@ window.editHistoryItem = function (index) {
   showView("generator-askep");
 
   // Populate basic info
-  document.getElementById("px-nama").value = item.formData.pxNama || "";
-  document.getElementById("px-norm").value = item.formData.pxNorm || "";
-  document.getElementById("px-umur").value = item.formData.pxUmur || "";
-  document.getElementById("px-jk").value = item.formData.pxJk || "";
-  document.getElementById("px-medis").value = item.formData.pxMedis || "";
+  const formData = item.metadata?.formData || item.formData || {};
+  document.getElementById("px-nama").value = formData.pxNama || "";
+  document.getElementById("px-norm").value = formData.pxNorm || "";
+  document.getElementById("px-umur").value = formData.pxUmur || "";
+  document.getElementById("px-jk").value = formData.pxJk || "";
+  document.getElementById("px-medis").value = formData.pxMedis || "";
 
   // SOAP
-  document.getElementById("soap-s").value = item.formData.soapS || "";
-  document.getElementById("soap-o").value = item.formData.soapO || "";
-  document.getElementById("soap-a").value = item.formData.soapA || "";
-  document.getElementById("soap-p").value = item.formData.soapP || "";
+  document.getElementById("soap-s").value = formData.soapS || "";
+  document.getElementById("soap-o").value = formData.soapO || "";
+  document.getElementById("soap-a").value = formData.soapA || "";
+  document.getElementById("soap-p").value = formData.soapP || "";
 
   // Student info
-  document.getElementById("askep-mhs-nama").value =
-    item.formData.askepMhsNama || "";
-  document.getElementById("askep-mhs-nim").value =
-    item.formData.askepMhsNim || "";
-  document.getElementById("askep-mhs-institusi").value =
-    item.formData.askepMhsInstitusi || "";
+  document.getElementById("askep-mhs-nama").value = formData.askepMhsNama || "";
+  document.getElementById("askep-mhs-nim").value = formData.askepMhsNim || "";
+  document.getElementById("askep-mhs-institusi").value = formData.askepMhsInstitusi || "";
 
   // Repopulate Symptoms
-  const symptoms = item.formData.symptoms || [];
+  const symptoms = item.metadata?.symptoms || formData.symptoms || [];
   const checkboxes = document.querySelectorAll('input[name="symptoms"]');
   checkboxes.forEach((cb) => {
     cb.checked = symptoms.includes(cb.dataset.teks);
@@ -138,11 +136,14 @@ window.viewHistoryItem = function (index) {
   const history = JSON.parse(localStorage.getItem("askep_history") || "[]");
   const item = history[index];
   showView("generator-askep");
-  document.getElementById("askep-output-area").style.display = "block";
-  document.getElementById("askep-result").innerHTML = item.html;
-  document
-    .getElementById("askep-result")
-    .scrollIntoView({ behavior: "smooth" });
+  const resultArea = document.getElementById("askep-output-area");
+  const resultDiv = document.getElementById("askep-result");
+  
+  resultArea.style.display = "block";
+  resultDiv.innerHTML = item.isi || item.html || "";
+  
+  if (typeof lucide !== "undefined") lucide.createIcons();
+  resultDiv.scrollIntoView({ behavior: "smooth" });
 };
 
 window.deleteHistoryItem = function (index) {

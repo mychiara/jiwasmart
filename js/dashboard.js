@@ -79,7 +79,9 @@ window.updateDashboardStats = function () {
     else counts["Lainnya"]++;
 
     // Simple month trend matching
-    const itemDate = new Date(item.tanggal.split("/").reverse().join("-"));
+    if (!item.tanggal) return;
+    const itemDate = new Date(item.tanggal.split(" ")[0].split("/").reverse().join("-"));
+    if (isNaN(itemDate.getTime())) return;
     const diff =
       (now.getFullYear() - itemDate.getFullYear()) * 12 +
       (now.getMonth() - itemDate.getMonth());

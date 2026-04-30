@@ -133,6 +133,10 @@ window.initLicense = function () {
         `${apiUrl}?action=validate&key=${encodeURIComponent(
           email.trim().toLowerCase(),
         )}&device=${encodeURIComponent(deviceId)}`,
+        {
+          mode: "cors",
+          credentials: "omit",
+        }
       );
       const json = await res.json();
 

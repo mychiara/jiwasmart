@@ -33,21 +33,80 @@ window.saveAssessmentToHistory = function () {
         predisRiwayat: getVal("as-predis-riwayat"),
         predisObat: getVal("as-predis-obat"),
         predisKeluarga: getVal("as-predis-keluarga"),
-        predisKeluargaDetail: getVal("as-predis-keluarga-detail"),
+        predisKeluargaDetail: {
+            hubungan: getVal("as-fam-relation"),
+            gejala: getVal("as-fam-gejala"),
+            obat: getVal("as-fam-obat")
+        },
         predisTrauma: Array.from(document.querySelectorAll('input[name^="as-trauma"]:checked')).map(cb => cb.value),
+        predisUnpleasant: getVal("as-predis-unpleasant"),
         
+        // Fisik / TTV
+        ttv: {
+            td: getVal("as-td"),
+            nadi: getVal("as-nadi"),
+            suhu: getVal("as-suhu"),
+            rr: getVal("as-rr"),
+            bb: getVal("as-bb"),
+            tb: getVal("as-tb"),
+            keluhan: getVal("as-fisik-keluhan")
+        },
+
+        // Psikososial
+        psikososial: {
+            genogram: getVal("as-genogram"),
+            konsep: {
+                gambaran: getVal("as-konsep-gambaran"),
+                ideal: getVal("as-konsep-ideal"),
+                harga: getVal("as-konsep-harga"),
+                identitas: getVal("as-konsep-identitas"),
+                peran: getVal("as-konsep-peran")
+            },
+            sosial: {
+                orang: getVal("as-sosial-orang"),
+                peran: getVal("as-sosial-peran"),
+                hambatan: getVal("as-sosial-hambatan")
+            },
+            spiritual: {
+                nilai: getVal("as-spiritual-nilai"),
+                ibadah: getVal("as-spiritual-ibadah")
+            }
+        },
+
         // MSE & Gejala
         symptoms: Array.from(document.querySelectorAll('input[name="as-symptoms"]:checked')).map(cb => cb.dataset.teks),
         mse: {},
-        
+        mseKet: {},
+
+        // Persiapan Pulang (ADL)
+        pulang: {
+            makan: getVal("as-pulang-makan"),
+            eliminasi: getVal("as-pulang-eliminasi"),
+            mandi: getVal("as-pulang-mandi"),
+            berhias: getVal("as-pulang-berhias"),
+            istirahat: getVal("as-pulang-istirahat"),
+            obat: getVal("as-pulang-obat"),
+            sehat: getVal("as-pulang-sehat"),
+            dalam: getVal("as-pulang-dalam"),
+            luar: getVal("as-pulang-luar")
+        },
+
+        // Koping
+        koping: {
+            adaptif: getChecked("as-koping-ad"),
+            maladaptif: getChecked("as-koping-ma")
+        },
+
         // Masalah Psikososial
-        masalahKelompok: getVal("as-masalah-kelompok"),
-        masalahLingkungan: getVal("as-masalah-lingkungan"),
-        masalahPendidikan: getVal("as-masalah-pendidikan"),
-        masalahPekerjaan: getVal("as-masalah-pekerjaan"),
-        masalahEkonomi: getVal("as-masalah-ekonomi"),
-        masalahKes: getVal("as-masalah-kes"),
-        masalahLain: getVal("as-masalah-lain"),
+        masalah: {
+            kelompok: getVal("as-masalah-kelompok"),
+            lingkungan: getVal("as-masalah-lingkungan"),
+            pendidikan: getVal("as-masalah-pendidikan"),
+            pekerjaan: getVal("as-masalah-pekerjaan"),
+            ekonomi: getVal("as-masalah-ekonomi"),
+            kes: getVal("as-masalah-kes"),
+            lain: getVal("as-masalah-lain")
+        },
         
         // Pengetahuan & Medik
         pengetahuan: getChecked("as-tahu"),
@@ -55,15 +114,17 @@ window.saveAssessmentToHistory = function () {
         obatSkrg: getVal("as-obat-skrg")
     };
 
-    // Capture MSE values
+    // Capture MSE values & Keterangan
     const mseNames = [
-        "as-sm-penampilan", "as-sm-bicara", "as-sm-motorik", "as-sm-interaksi",
-        "as-sm-alamperasaan", "as-sm-afek", "as-sm-persepsi", "as-sm-prosespikir",
-        "as-sm-isipikir", "as-sm-kesadaran", "as-sm-memori", "as-sm-hitung",
-        "as-sm-nilai", "as-sm-tilik"
+        "as-sm-penampilan", "as-sm-bicara", "as-sm-motorik", "as-sm-alam",
+        "as-sm-afek", "as-sm-interaksi", "as-sm-persepsi", "as-sm-proses",
+        "as-sm-isi", "as-sm-waham", "as-sm-sadar", "as-sm-disorient",
+        "as-sm-memori", "as-sm-hitung", "as-sm-nilai", "as-sm-tilik"
     ];
     mseNames.forEach(name => {
         data.mse[name] = getChecked(name);
+        const ketEl = document.getElementById(name + "-ket");
+        if (ketEl) data.mseKet[name] = ketEl.value;
     });
 
     let history = JSON.parse(localStorage.getItem("assessment_history") || "[]");
@@ -117,7 +178,7 @@ window.renderAssessmentHistory = function (filter = "") {
     }
 
     filtered.forEach((item, index) => {
-        const originalIndex = history.findIndex(h => h.id === item.id);
+        const originalIndex = history.findIndex(h => (h.id || 0) === (item.id || 0) && h.tanggal === item.tanggal);
         
         const card = document.createElement("div");
         card.className = "card";
@@ -181,7 +242,44 @@ window.editAsHistoryItem = function (index) {
     setVal("as-predis-riwayat", item.predisRiwayat);
     setVal("as-predis-obat", item.predisObat);
     setVal("as-predis-keluarga", item.predisKeluarga);
-    setVal("as-predis-keluarga-detail", item.predisKeluargaDetail);
+    setVal("as-predis-unpleasant", item.predisUnpleasant);
+    if (item.predisKeluargaDetail) {
+        setVal("as-fam-relation", item.predisKeluargaDetail.hubungan);
+        setVal("as-fam-gejala", item.predisKeluargaDetail.gejala);
+        setVal("as-fam-obat", item.predisKeluargaDetail.obat);
+    }
+    
+    // TTV
+    if (item.ttv) {
+        setVal("as-td", item.ttv.td);
+        setVal("as-nadi", item.ttv.nadi);
+        setVal("as-suhu", item.ttv.suhu);
+        setVal("as-rr", item.ttv.rr);
+        setVal("as-bb", item.ttv.bb);
+        setVal("as-tb", item.ttv.tb);
+        setVal("as-fisik-keluhan", item.ttv.keluhan);
+    }
+
+    // Psikososial
+    if (item.psikososial) {
+        setVal("as-genogram", item.psikososial.genogram);
+        if (item.psikososial.konsep) {
+            setVal("as-konsep-gambaran", item.psikososial.konsep.gambaran);
+            setVal("as-konsep-ideal", item.psikososial.konsep.ideal);
+            setVal("as-konsep-harga", item.psikososial.konsep.harga);
+            setVal("as-konsep-identitas", item.psikososial.konsep.identitas);
+            setVal("as-konsep-peran", item.psikososial.konsep.peran);
+        }
+        if (item.psikososial.sosial) {
+            setVal("as-sosial-orang", item.psikososial.sosial.orang);
+            setVal("as-sosial-peran", item.psikososial.sosial.peran);
+            setVal("as-sosial-hambatan", item.psikososial.sosial.hambatan);
+        }
+        if (item.psikososial.spiritual) {
+            setVal("as-spiritual-nilai", item.psikososial.spiritual.nilai);
+            setVal("as-spiritual-ibadah", item.psikososial.spiritual.ibadah);
+        }
+    }
     
     // Predisposisi details toggle
     if (typeof toggleFamilyHistoryDetails === "function") toggleFamilyHistoryDetails();
@@ -194,7 +292,6 @@ window.editAsHistoryItem = function (index) {
     const sympCbs = document.querySelectorAll('input[name="as-symptoms"]');
     sympCbs.forEach(cb => {
         cb.checked = (item.symptoms || []).includes(cb.dataset.teks);
-        // Trigger visual update if needed
         if (cb.onchange) cb.onchange();
     });
 
@@ -203,16 +300,43 @@ window.editAsHistoryItem = function (index) {
         const cbs = document.querySelectorAll(`input[name="${name}"]`);
         const values = item.mse[name] || [];
         cbs.forEach(cb => cb.checked = values.includes(cb.value));
+        
+        // Restore Keterangan
+        const ketEl = document.getElementById(name + "-ket");
+        if (ketEl && item.mseKet && item.mseKet[name]) ketEl.value = item.mseKet[name];
     });
 
-    // Masalah Psikososial
-    setVal("as-masalah-kelompok", item.masalahKelompok);
-    setVal("as-masalah-lingkungan", item.masalahLingkungan);
-    setVal("as-masalah-pendidikan", item.masalahPendidikan);
-    setVal("as-masalah-pekerjaan", item.masalahPekerjaan);
-    setVal("as-masalah-ekonomi", item.masalahEkonomi);
-    setVal("as-masalah-kes", item.masalahKes);
-    setVal("as-masalah-lain", item.masalahLain);
+    // Persiapan Pulang
+    if (item.pulang) {
+        setVal("as-pulang-makan", item.pulang.makan);
+        setVal("as-pulang-eliminasi", item.pulang.eliminasi);
+        setVal("as-pulang-mandi", item.pulang.mandi);
+        setVal("as-pulang-berhias", item.pulang.berhias);
+        setVal("as-pulang-istirahat", item.pulang.istirahat);
+        setVal("as-pulang-obat", item.pulang.obat);
+        setVal("as-pulang-sehat", item.pulang.sehat);
+        setVal("as-pulang-dalam", item.pulang.dalam);
+        setVal("as-pulang-luar", item.pulang.luar);
+    }
+
+    // Koping
+    if (item.koping) {
+        const adCbs = document.querySelectorAll('input[name="as-koping-ad"]');
+        adCbs.forEach(cb => cb.checked = (item.koping.adaptif || []).includes(cb.value));
+        const maCbs = document.querySelectorAll('input[name="as-koping-ma"]');
+        maCbs.forEach(cb => cb.checked = (item.koping.maladaptif || []).includes(cb.value));
+    }
+
+    // Masalah Psikososial (Expanded)
+    if (item.masalah) {
+        setVal("as-masalah-kelompok", item.masalah.kelompok);
+        setVal("as-masalah-lingkungan", item.masalah.lingkungan);
+        setVal("as-masalah-pendidikan", item.masalah.pendidikan);
+        setVal("as-masalah-pekerjaan", item.masalah.pekerjaan);
+        setVal("as-masalah-ekonomi", item.masalah.ekonomi);
+        setVal("as-masalah-kes", item.masalah.kes);
+        setVal("as-masalah-lain", item.masalah.lain);
+    }
 
     // Pengetahuan & Medik
     const tahuCbs = document.querySelectorAll('input[name="as-tahu"]');

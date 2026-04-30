@@ -28,6 +28,20 @@ window.initASKEPGenerator = function () {
     if (asUmur) document.getElementById("px-umur").value = asUmur;
     if (asJk) document.getElementById("px-jk").value = asJk;
     if (asMedis) document.getElementById("px-medis").value = asMedis;
+    const asRuang = document.getElementById("as-ruang")?.value;
+    if (asRuang) document.getElementById("px-ruangan").value = asRuang;
+
+    // Autofill TTV
+    const ttvFields = {
+      "as-td": "px-td",
+      "as-nadi": "px-nadi",
+      "as-rr": "px-rr",
+      "as-suhu": "px-suhu",
+    };
+    for (const [asId, pxId] of Object.entries(ttvFields)) {
+      const val = document.getElementById(asId)?.value;
+      if (val) document.getElementById(pxId).value = val;
+    }
   };
 
   // Symptoms List Initial Render
@@ -133,12 +147,26 @@ window.initASKEPGenerator = function () {
       const dxGrid = document.getElementById("dx-selection-grid");
       detectedDiagnoses.forEach((item, idx) => {
         const div = document.createElement("div");
-        div.className = "checkbox-item";
         // Pre-check hanya jika itu skor tertinggi atau skornya signifikan (misal > 3)
         const isChecked = idx === 0 || item.score > 3;
+        div.className = "dx-card";
+        div.style.cssText = `padding:1.25rem; border:2px solid ${isChecked ? "var(--primary)" : "var(--border)"}; border-radius:12px; background:white; cursor:pointer; transition:all 0.2s; display:flex; align-items:center; gap:12px; margin-bottom:0.5rem;`;
+        div.onclick = (e) => {
+          const cb = div.querySelector('input');
+          if(e.target !== cb) { cb.checked = !cb.checked; updateSikiOptions(); }
+          div.style.borderColor = cb.checked ? "var(--primary)" : "var(--border)";
+          div.style.background = cb.checked ? "var(--bg-light)" : "white";
+        };
+        
         div.innerHTML = `
-              <input type="checkbox" name="selected-sdki" id="dx-${item.kode}" value="${item.kode}" ${isChecked ? "checked" : ""} data-nama="${item.data.Nama || item.data.nama}">
-              <label for="dx-${item.kode}"><b>${item.kode}</b>: ${item.data.Nama || item.data.nama} (Skor: ${item.score.toFixed(1)})</label>
+              <input type="checkbox" name="selected-sdki" id="dx-${item.kode}" value="${item.kode}" ${isChecked ? "checked" : ""} data-nama="${item.data.Nama || item.data.nama}" style="width:24px; height:24px; accent-color:var(--primary); cursor:pointer;" onclick="event.stopPropagation(); updateSikiOptions();">
+              <div style="flex:1;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
+                      <span style="font-size:0.7rem; font-weight:800; color:var(--text-muted); background:var(--bg-soft); padding:1px 6px; border-radius:6px;">${item.kode}</span>
+                      <span style="font-size:0.65rem; color:var(--success); font-weight:700;">Score: ${item.score.toFixed(1)}</span>
+                  </div>
+                  <h4 style="margin:0; font-size:0.95rem; font-weight:800; color:var(--text-main); line-height:1.2;">${item.data.Nama || item.data.nama}</h4>
+              </div>
           `;
         dxGrid.appendChild(div);
       });
@@ -256,6 +284,7 @@ window.initASKEPGenerator = function () {
 
       showLoader();
       setTimeout(() => {
+        try {
         const resultDiv = document.getElementById("askep-result");
 
         // Data TTV
@@ -613,7 +642,7 @@ window.initASKEPGenerator = function () {
                                 <tr class="border-b border-slate-200">
                                     <td class="w-10 text-center bg-indigo-600 text-white font-black text-lg border-r border-slate-200">I</td>
                                     <td class="p-3 text-[12px]"><span class="font-bold text-indigo-800 uppercase tracking-wider text-[10px] block mb-1">Introduction (Pengenalan)</span>
-                                        <strong>Pasien:</strong> ${askepPxNama} (${askepPxUmur} Tahun). <strong>Perawat:</strong> ${askepMhsNama || "Perawat Jaga"}. Ruangan: ${document.getElementById("px-ruangan").value || "-"} 
+                                        <strong>Pasien:</strong> ${nama} (${umur} Tahun). <strong>Perawat:</strong> ${askepMhsNama || "Perawat Jaga"}. Ruangan: ${document.getElementById("px-ruangan").value || "-"} 
                                     </td>
                                 </tr>
                                 <tr class="border-b border-slate-200">
@@ -660,29 +689,38 @@ window.initASKEPGenerator = function () {
 
         saveToHistory({
           id: Date.now(),
-          nama: rawNama,
+          tanggal: new Date().toLocaleString("id-ID", {
+            day: "2-digit",
+            month: "2-digit",
+            year: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+          }).replace(/\./g, ":"),
+          type: "ASKEP",
+          pasien: rawNama,
           diagnosa: allSdkiNames.join(", "),
-          tanggal: new Date().toLocaleDateString("id-ID"),
-          html: finalHtml,
-          formData: {
-            pxNama: rawNama,
-            pxNorm: document.getElementById("px-norm").value,
-            pxUmur: umur,
-            pxJk: jk,
-            pxMedis: medis,
-            soapS: document.getElementById("soap-s").value,
-            soapO: document.getElementById("soap-o").value,
-            soapA: document.getElementById("soap-a").value,
-            soapP: document.getElementById("soap-p").value,
-            askepMhsNama,
-            askepMhsNim,
-            askepMhsInstitusi,
-            symptoms: Array.from(selectedCheckboxes).map(
-              (cb) => cb.dataset.teks,
-            ),
+          isi: finalHtml,
+          metadata: {
+            nim: askepMhsNim,
+            institusi: askepMhsInstitusi,
+            symptoms: Array.from(selectedCheckboxes).map(cb => cb.dataset.teks),
             selectedDKodes,
             ttv,
-          },
+            formData: {
+              pxNama: rawNama,
+              pxNorm: document.getElementById("px-norm").value,
+              pxUmur: umur,
+              pxJk: jk,
+              pxMedis: medis,
+              soapS: document.getElementById("soap-s").value,
+              soapO: document.getElementById("soap-o").value,
+              soapA: document.getElementById("soap-a").value,
+              soapP: document.getElementById("soap-p").value,
+              askepMhsNama,
+              askepMhsNim,
+              askepMhsInstitusi
+            }
+          }
         });
 
         document.getElementById("askep-output-area").style.display = "block";
@@ -704,6 +742,17 @@ window.initASKEPGenerator = function () {
           icon: "success",
           confirmButtonColor: "#1e40af",
         });
+        } catch (error) {
+          console.error("Critical Error during ASKEP generation:", error);
+          hideLoader();
+          Swal.fire({
+            title: "Gagal Membuat ASKEP",
+            text: "Terjadi kesalahan sistem: " + error.message,
+            icon: "error"
+          });
+        } finally {
+          hideLoader();
+        }
       }, 1500);
     });
 

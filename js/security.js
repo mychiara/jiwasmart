@@ -9,7 +9,7 @@
     e.preventDefault();
   });
 
-  // 2. Mencegah Shortcut Keyboard Developer Tools (F12, Ctrl+Shift+I, Ctrl+U)
+  // 2. Mencegah Shortcut Keyboard Developer Tools
   document.addEventListener("keydown", function (e) {
     // F12
     if (e.key === "F12" || e.keyCode === 123) {
@@ -49,7 +49,6 @@
   });
 
   // 3. Debugger Trap (Anti-Debugging)
-  // Akan membuat browser hang apabila DevTools tetap berhasil dibuka
   setInterval(function () {
     const detectDevTool = new Function("debugger");
     detectDevTool();

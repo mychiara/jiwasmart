@@ -41,9 +41,19 @@ const ASSETS = [
 
 // Install Service Worker
 self.addEventListener("install", (event) => {
+  self.skipWaiting(); // Force update
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS);
+      const localAssets = ASSETS.filter(a => !a.startsWith('http'));
+      const externalAssets = ASSETS.filter(a => a.startsWith('http'));
+      
+      return cache.addAll(localAssets).then(() => {
+        return Promise.all(
+          externalAssets.map(url => 
+            cache.add(url).catch(err => console.warn("Failed to cache:", url))
+          )
+        );
+      });
     }),
   );
 });
@@ -51,21 +61,34 @@ self.addEventListener("install", (event) => {
 // Activate & Cleanup Old Caches
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches.keys().then((keys) => {
-      return Promise.all(
-        keys
-          .filter((key) => key !== CACHE_NAME)
-          .map((key) => caches.delete(key)),
-      );
-    }),
+    Promise.all([
+      clients.claim(), // Take control of all pages immediately
+      caches.keys().then((keys) => {
+        return Promise.all(
+          keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
+        );
+      })
+    ])
   );
 });
 
 // Fetch Assets from Cache (Fast Loading)
 self.addEventListener("fetch", (event) => {
+  const url = event.request.url;
+
+  // CRITICAL: Skip Google Apps Script and other external APIs
+  if (url.includes("script.google.com") || url.includes("google.com")) {
+    return; // Let the browser handle it directly
+  }
+
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
-      return cachedResponse || fetch(event.request);
+      if (cachedResponse) return cachedResponse;
+      
+      return fetch(event.request).catch(err => {
+        console.warn("Fetch failed for:", url);
+        // Fallback for failed fetches (optional)
+      });
     }),
   );
 });
