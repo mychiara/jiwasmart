@@ -25,6 +25,7 @@ const ASSETS = [
   "js/dataset-new-modules.js",
   "js/clinical-screening.js",
   "js/e-psikoedukasi.js",
+  "js/history-assessment.js",
   "js/security.js",
   "data/sdki.json",
   "data/slki.json",

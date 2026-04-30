@@ -28,6 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   if (typeof initAssessment === "function") {
     initAssessment();
+    if (typeof renderAssessmentHistory === "function") {
+      renderAssessmentHistory();
+    }
   }
   if (typeof initDashboard === "function") {
     initDashboard();

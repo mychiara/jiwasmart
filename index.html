@@ -192,6 +192,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="#history-assessment" class="nav-link" data-view="history-assessment">
+              <i data-lucide="folder-search"></i>
+              <span>Riwayat Pengkajian</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="#sad-persons" class="nav-link" data-view="sad-persons">
               <i data-lucide="shield-alert"></i>
               <span>Risiko Bunuh Diri</span>
@@ -664,12 +670,13 @@
 
         <!-- Generator LP Section -->
         <!-- Digital Assessment Section -->
+
         <section id="assessment-digital" class="view-section">
           <div class="card">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; border-bottom: 2px solid var(--primary-soft); padding-bottom: 1rem;">
                 <h2 class="text-gradient">Diagnosis Digital NurseJiwa</h2>
                 <div style="display: flex; gap: 0.75rem; align-items: center;">
-                    <button class="btn btn-ghost" onclick="showAssessmentGuide()" style="padding: 0.5rem 1rem; font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; border: 1px solid var(--primary); color: var(--primary);">
+                    <button class="btn btn-ghost" onclick="window.showAssessmentGuide()" style="padding: 0.5rem 1rem; font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; border: 1px solid var(--primary); color: var(--primary); cursor: pointer;">
                         <i data-lucide="help-circle" style="width: 16px; height: 16px;"></i> Panduan Pengisian
                     </button>
                     <div class="badge" style="background: var(--primary); color: white; padding: 0.5rem 1rem;">Format Standar Nasional</div>
@@ -683,15 +690,27 @@
               </p>
             </div>
 
-
             <div id="assessment-form-container" class="standard-form">
               <!-- I. Identitas -->
               <div class="report-section">
                 <h4 class="section-badge">I. IDENTITAS KLIEN</h4>
-                  <div style="background: #f8fafc; border-left: 3px solid #8b5cf6; padding: 8px 12px; font-size: 0.8rem; color: #475569; margin-bottom: 1.25rem; font-style: italic; border-radius: 4px;">
-                    <i data-lucide="info" style="width:14px; height:14px; display:inline; margin-right:4px; vertical-align:middle;"></i>Isi data demografi dasar pasien secara akurat. Data ini akan otomatis tersinkronisasi ke laporan ASKEP.
+                <div style="background: #f0f7ff; border: 1px solid #bae6fd; padding: 18px; font-size: 0.8rem; color: #0369a1; margin-bottom: 1.5rem; border-radius: 8px; line-height: 1.6;">
+                    <div style="font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; color: #0284c7; text-transform: uppercase;">
+                        <i data-lucide="book-open" style="width:16px;"></i> JUKNIS IDENTITAS (FIK-UI)
+                    </div>
+                    1. <b>Perkenalan & Kontrak:</b> Perawat memperkenalkan diri dan menjelaskan tujuan, waktu, tempat, serta topik pertemuan.<br>
+                    2. <b>Usia & No RM:</b> Lihat catatan Rekam Medis (RM).<br>
+                    3. <b>Sumber Data:</b> Tuliskan informan (Pasien, Keluarga, atau Status Pasien) dari mana data didapat.
+                </div>
+                <div class="grid-4">
+                  <div class="form-group">
+                    <label>Ruang Rawat</label>
+                    <input type="text" id="as-ruang" placeholder="Nama Bangsal/Ruang" />
                   </div>
-                <div class="grid-3">
+                  <div class="form-group">
+                    <label>Tanggal Dirawat</label>
+                    <input type="date" id="as-tgl-rawat" />
+                  </div>
                   <div class="form-group">
                     <label>Inisial Pasien</label>
                     <input type="text" id="as-nama" placeholder="Tn. X / Ny. Y" />
@@ -716,7 +735,7 @@
                     <input type="date" id="as-tgl-pengkajian" />
                   </div>
                   <div class="form-group">
-                    <label>Informan</label>
+                    <label>Informan / Sumber Data</label>
                     <input type="text" id="as-informan" placeholder="Keluarga/Pasien/Status" />
                   </div>
                 </div>
@@ -725,18 +744,44 @@
               <!-- II. Alasan Masuk -->
               <div class="report-section">
                 <h4 class="section-badge">II. ALASAN MASUK</h4>
-                  <div style="background: #f8fafc; border-left: 3px solid #8b5cf6; padding: 8px 12px; font-size: 0.8rem; color: #475569; margin-bottom: 1.25rem; font-style: italic; border-radius: 4px;">
-                    <i data-lucide="info" style="width:14px; height:14px; display:inline; margin-right:4px; vertical-align:middle;"></i>Catat kutipan langsung keluhan utama secara subjektif (apa yang dikatakan pasien/keluarga) yang mendasari admisi/perawatan ke rumah sakit.
-                  </div>
-                <textarea id="as-alasan" rows="2" placeholder="Apa yang menyebabkan klien/keluarga datang ke RS Saat ini?"></textarea>
+                <div style="background: #f0f7ff; border: 1px solid #bae6fd; padding: 18px; font-size: 0.8rem; color: #0369a1; margin-bottom: 1.5rem; border-radius: 8px; line-height: 1.6;">
+                    <div style="font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; color: #0284c7; text-transform: uppercase;">
+                        <i data-lucide="book-open" style="width:16px;"></i> JUKNIS ALASAN MASUK (FIK-UI)
+                    </div>
+                    Tanyakan kepada klien / keluarga:<br>
+                    1. Apa yang menyebabkan klien / keluarga datang ke Rumah Sakit saat ini?<br>
+                    2. Apa yang sudah dilakukan oleh keluarga untuk mengatasi masalah ini?<br>
+                    3. Bagaimana hasilnya?
+                </div>
+                <div class="form-group">
+                    <label>1. Apa yang menyebabkan klien / keluarga datang ke Rumah Sakit saat ini?</label>
+                    <textarea id="as-alasan" rows="2" placeholder="Keluhan utama saat ini..."></textarea>
+                </div>
+                <div class="grid-2">
+                    <div class="form-group">
+                        <label>2. Apa yang sudah dilakukan keluarga mengatasi masalah ini?</label>
+                        <textarea id="as-alasan-keluarga" rows="2" placeholder="Tindakan yang sudah dilakukan..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>3. Bagaimana hasilnya?</label>
+                        <textarea id="as-alasan-hasil" rows="2" placeholder="Respon/hasil tindakan..."></textarea>
+                    </div>
+                </div>
               </div>
 
               <!-- III. Faktor Predisposisi -->
               <div class="report-section">
                 <h4 class="section-badge">III. FAKTOR PREDISPOSISI</h4>
-                  <div style="background: #f8fafc; border-left: 3px solid #8b5cf6; padding: 8px 12px; font-size: 0.8rem; color: #475569; margin-bottom: 1.25rem; font-style: italic; border-radius: 4px;">
-                    <i data-lucide="info" style="width:14px; height:14px; display:inline; margin-right:4px; vertical-align:middle;"></i>Evaluasi riwayat gangguan sebelumnya, trauma psikologis, pengobatan masa lalu, atau faktor genetik yang menjadi akar kerentanan pasien.
-                  </div>
+                <div style="background: #f0f7ff; border: 1px solid #bae6fd; padding: 18px; font-size: 0.8rem; color: #0369a1; margin-bottom: 1.5rem; border-radius: 8px; line-height: 1.6;">
+                    <div style="font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; color: #0284c7; text-transform: uppercase;">
+                        <i data-lucide="book-open" style="width:16px;"></i> JUKNIS FAKTOR PREDISPOSISI (FIK-UI)
+                    </div>
+                    1. <b>Riwayat Gangguan Jiwa:</b> Tanyakan apakah pernah mengalami gangguan jiwa di masa lalu.<br>
+                    2. <b>Hasil pengobatan:</b> <b>Berhasil</b> (bisa adaptasi di masyarakat), <b>Kurang berhasil</b> (dapat adaptasi tapi gejala sisa ada), <b>Tidak berhasil</b> (gejala menetap/bertambah).<br>
+                    3. <b>Aniaya / Trauma:</b> Kaji apakah klien sebagai Pelaku, Korban, atau Saksi pada: Fisik, Seksual, Penolakan, KDRT, Kriminal. Isi usia saat kejadian.<br>
+                    4. <b>Riwayat Keluarga:</b> Tanyakan jika ada anggota keluarga (minimal 3 generasi) yang mengalami gangguan jiwa, kaji hubungan, gejala, dan pengobatannya.<br>
+                    5. <b>Pengalaman Tidak Menyenangkan:</b> Kegagalan, kehilangan, perpisahan, kematian, atau trauma tumbuh kembang.
+                </div>
                 <div class="grid-2">
                     <div class="form-group">
                         <label>1. Pernah mengalami gangguan jiwa di masa lalu?</label>
@@ -756,13 +801,50 @@
                 </div>
                 
                 <div class="form-group">
-                    <label>3. Riwayat Aniaya / Trauma (Pelaku/Korban/Saksi):</label>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem; background: var(--bg-soft); padding: 1rem; border-radius: 8px;">
-                        <label class="checkbox-item"><input type="checkbox" name="as-trauma" value="Aniaya Fisik"> Aniaya Fisik</label>
-                        <label class="checkbox-item"><input type="checkbox" name="as-trauma" value="Aniaya Seksual"> Aniaya Seksual</label>
-                        <label class="checkbox-item"><input type="checkbox" name="as-trauma" value="Penolakan"> Penolakan</label>
-                        <label class="checkbox-item"><input type="checkbox" name="as-trauma" value="KDRT"> Kekerasan Rumah Tangga</label>
-                        <label class="checkbox-item"><input type="checkbox" name="as-trauma" value="Kriminal"> Tindakan Kriminal</label>
+                    <label>3. Riwayat Aniaya / Trauma:</label>
+                    <div style="background: var(--bg-soft); padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                        <table style="width: 100%; font-size: 0.85rem; border-collapse: collapse;">
+                            <thead>
+                                <tr style="text-align: left; color: var(--secondary);">
+                                    <th style="padding: 4px;">Jenis Trauma</th>
+                                    <th style="padding: 4px; text-align: center;">Pelaku</th>
+                                    <th style="padding: 4px; text-align: center;">Korban</th>
+                                    <th style="padding: 4px; text-align: center;">Saksi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Aniaya Fisik</td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-f-p" value="Pelaku"></td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-f-k" value="Korban"></td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-f-s" value="Saksi"></td>
+                                </tr>
+                                <tr>
+                                    <td>Aniaya Seksual</td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-s-p" value="Pelaku"></td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-s-k" value="Korban"></td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-s-s" value="Saksi"></td>
+                                </tr>
+                                <tr>
+                                    <td>Penolakan</td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-n-p" value="Pelaku"></td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-n-k" value="Korban"></td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-n-s" value="Saksi"></td>
+                                </tr>
+                                <tr>
+                                    <td>Kekerasan RT</td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-d-p" value="Pelaku"></td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-d-k" value="Korban"></td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-d-s" value="Saksi"></td>
+                                </tr>
+                                <tr>
+                                    <td>Tindakan Kriminal</td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-k-p" value="Pelaku"></td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-k-k" value="Korban"></td>
+                                    <td style="text-align: center;"><input type="checkbox" name="as-trauma-k-s" value="Saksi"></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
@@ -802,9 +884,15 @@
               <!-- IV. Fisik -->
               <div class="report-section">
                 <h4 class="section-badge">IV. FISIK</h4>
-                  <div style="background: #f8fafc; border-left: 3px solid #8b5cf6; padding: 8px 12px; font-size: 0.8rem; color: #475569; margin-bottom: 1.25rem; font-style: italic; border-radius: 4px;">
-                    <i data-lucide="info" style="width:14px; height:14px; display:inline; margin-right:4px; vertical-align:middle;"></i>Dokumentasikan tanda-tanda vital (TTV) dan keluhan somatik. Angka TTV akan ditarik otomatis ke lembar observasi objektif pada menu ASKEP.
-                  </div>
+                <div style="background: #f0f7ff; border: 1px solid #bae6fd; padding: 18px; font-size: 0.8rem; color: #0369a1; margin-bottom: 1.5rem; border-radius: 8px; line-height: 1.6;">
+                    <div style="font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; color: #0284c7; text-transform: uppercase;">
+                        <i data-lucide="book-open" style="width:16px;"></i> JUKNIS PEMERIKSAAN FISIK (FIK-UI)
+                    </div>
+                    1. <b>Tanda-tanda Vital:</b> Ukur Tekanan Darah (TD), Nadi (N), Suhu (S), dan Pernapasan (P).<br>
+                    2. <b>Antropometri:</b> Ukur Tinggi Badan (TB) dan Berat Badan (BB).<br>
+                    3. <b>Keluhan Fisik:</b> Tanyakan keluhan fisik yang dirasakan klien saat ini.<br>
+                    4. <b>Pemeriksaan Sistem:</b> Kaji lebih lanjut sistem organ dan jelaskan secara detail jika ditemukan gangguan atau keluhan.
+                </div>
                 <div class="grid-4">
                   <div class="form-group"><label>TD (mmHg)</label><input type="text" id="as-td" placeholder="120/80" /></div>
                   <div class="form-group"><label>Nadi (N)</label><input type="number" id="as-nadi" placeholder="x/mnt" /></div>
@@ -822,56 +910,425 @@
               <!-- V. Psikososial -->
               <div class="report-section">
                 <h4 class="section-badge">V. PSIKOSOSIAL</h4>
-                  <div style="background: #f8fafc; border-left: 3px solid #8b5cf6; padding: 8px 12px; font-size: 0.8rem; color: #475569; margin-bottom: 1.25rem; font-style: italic; border-radius: 4px;">
-                    <i data-lucide="info" style="width:14px; height:14px; display:inline; margin-right:4px; vertical-align:middle;"></i>Kaji komponen konsep diri (citra tubuh, identitas, peran), kualitas interaksi sosial, serta aspek spiritual sebagai sistem pendukung pasien.
-                  </div>
-                <div class="grid-2">
-                    <div class="form-group">
-                        <label>1. Konsep Diri:</label>
-                        <div style="background: var(--bg-soft); padding: 1rem; border-radius: 8px; font-size: 0.85rem;">
-                            <label class="checkbox-item"><input type="checkbox" name="as-konsep" value="Citra Tubuh"> Gangguan Citra Tubuh</label>
-                            <label class="checkbox-item"><input type="checkbox" name="as-konsep" value="Identitas"> Gangguan Identitas</label>
-                            <label class="checkbox-item"><input type="checkbox" name="as-konsep" value="Peran"> Gangguan Peran</label>
-                            <label class="checkbox-item"><input type="checkbox" name="as-konsep" value="Ideal Diri"> Ideal Diri Rendah</label>
-                            <label class="checkbox-item"><input type="checkbox" name="as-konsep" value="Harga Diri"> Harga Diri Rendah</label>
-                        </div>
+                <div style="background: #f0f7ff; border: 1px solid #bae6fd; padding: 18px; font-size: 0.8rem; color: #0369a1; margin-bottom: 1.5rem; border-radius: 8px; line-height: 1.6;">
+                    <div style="font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; color: #0284c7; text-transform: uppercase;">
+                        <i data-lucide="book-open" style="width:16px;"></i> JUKNIS PSIKOSOSIAL (FIK-UI)
                     </div>
-                    <div class="form-group">
-                        <label>2. Hubungan Sosial:</label>
-                        <div style="background: var(--bg-soft); padding: 1rem; border-radius: 8px; font-size: 0.85rem;">
-                            <label class="checkbox-item"><input type="checkbox" name="as-sosial" value="Menarik Diri"> Menarik Diri</label>
-                            <label class="checkbox-item"><input type="checkbox" name="as-sosial" value="Isolasi"> Isolasi Sosial</label>
-                            <label class="checkbox-item"><input type="checkbox" name="as-sosial" value="Hambatan Komunikasi"> Hambatan Komunikasi</label>
-                            <label class="checkbox-item"><input type="checkbox" name="as-sosial" value="Ketergantungan"> Ketergantungan</label>
+                    1. <b>Genogram:</b> Minimal 3 generasi. Jelaskan masalah komunikasi, pengambilan keputusan, dan pola asuh.<br>
+                    2. <b>Konsep Diri:</b><br>
+                    &nbsp;&nbsp;&nbsp;- <i>Gambaran diri:</i> Persepsi/sikap thd tubuh (ukuran, bentuk, fungsi).<br>
+                    &nbsp;&nbsp;&nbsp;- <i>Identitas:</i> Kepuasan thd status/posisi (sebagai pria/wanita, pekerjaan, dll).<br>
+                    &nbsp;&nbsp;&nbsp;- <i>Peran:</i> Tugas yang diemban dan kemampuan menjalankan tugas tsb.<br>
+                    &nbsp;&nbsp;&nbsp;- <i>Ideal diri:</i> Harapan thd penyakit/lingkungan (apa yang diinginkan terjadi).<br>
+                    &nbsp;&nbsp;&nbsp;- <i>Harga diri:</i> Hubungan dengan orang lain & penilaian thd diri sendiri.<br>
+                    3. <b>Hubungan Sosial:</b> Siapa orang berarti (tempat mengadu/curhat)? Kelompok yang diikuti? Sejauh mana keterlibatan?<br>
+                    4. <b>Spiritual:</b> Nilai/Keyakinan (pandangan thd penyakit/Tuhan) & Kegiatan ibadah (individu/kelompok).
+                </div>
+                
+                <div class="form-group">
+                    <label>1. Genogram (3 Generasi):</label>
+                    <textarea id="as-genogram" rows="3" placeholder="Jelaskan struktur keluarga 3 generasi, siapa yang tinggal serumah, siapa yang memiliki masalah serupa..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>2. Konsep Diri:</label>
+                    <div style="background: var(--bg-soft); padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                        <div class="form-group">
+                            <label style="font-size: 0.8rem; color: var(--primary);">a. Gambaran Diri:</label>
+                            <input type="text" id="as-konsep-gambaran" placeholder="Sikap pasien terhadap tubuhnya..." />
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 0.8rem; color: var(--primary);">b. Ideal Diri:</label>
+                            <input type="text" id="as-konsep-ideal" placeholder="Harapan terhadap tubuh, posisi, tugas, penyakit..." />
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 0.8rem; color: var(--primary);">c. Harga Diri:</label>
+                            <input type="text" id="as-konsep-harga" placeholder="Hubungan dengan orang lain, penilaian terhadap diri..." />
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 0.8rem; color: var(--primary);">d. Identitas Diri:</label>
+                            <input type="text" id="as-konsep-identitas" placeholder="Status dan posisi pasien sebelum dirawat..." />
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 0.8rem; color: var(--primary);">e. Peran:</label>
+                            <input type="text" id="as-konsep-peran" placeholder="Tugas/peran di keluarga/masyarakat..." />
                         </div>
                     </div>
                 </div>
+
                 <div class="form-group">
-                    <label>3. Spiritual (Nilai/Keyakinan & Kegiatan Ibadah):</label>
-                    <input type="text" id="as-spiritual" placeholder="Ketaatan ibadah, pandangan terhadap sakit..." />
+                    <label>3. Hubungan Sosial:</label>
+                    <div style="background: var(--bg-soft); padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                        <div class="form-group">
+                            <label style="font-size: 0.8rem; color: var(--primary);">a. Orang yang berarti:</label>
+                            <input type="text" id="as-sosial-orang" placeholder="Siapa tempat mengadu/bicara?" />
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 0.8rem; color: var(--primary);">b. Peran serta dalam kegiatan kelompok / masyarakat:</label>
+                            <input type="text" id="as-sosial-peran" placeholder="Keikutsertaan dalam organisasi/kegiatan..." />
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 0.8rem; color: var(--primary);">c. Hambatan dalam berbuhungan dengan orang lain:</label>
+                            <input type="text" id="as-sosial-hambatan" placeholder="Apa yang menghambat interaksi?" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>4. Spiritual:</label>
+                    <div class="grid-2">
+                        <div class="form-group">
+                            <label style="font-size: 0.8rem; color: var(--primary);">a. Nilai dan Keyakinan:</label>
+                            <input type="text" id="as-spiritual-nilai" placeholder="Pandangan terhadap penyakit/Tuhan..." />
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 0.8rem; color: var(--primary);">b. Kegiatan Ibadah:</label>
+                            <input type="text" id="as-spiritual-ibadah" placeholder="Ibadah yang dilakukan saat sakit..." />
+                        </div>
+                    </div>
                 </div>
               </div>
 
               <!-- VI. Status Mental -->
               <div class="report-section">
                 <h4 class="section-badge">VI. STATUS MENTAL</h4>
-                  <div style="background: #f8fafc; border-left: 3px solid #8b5cf6; padding: 8px 12px; font-size: 0.8rem; color: #475569; margin-bottom: 1.25rem; font-style: italic; border-radius: 4px;">
-                    <i data-lucide="info" style="width:14px; height:14px; display:inline; margin-right:4px; vertical-align:middle;"></i>Lakukan observasi klinis secara menyeluruh terkait penampilan visual, gaya bicara, afek/mood, hingga gangguan proses pikir (waham/halusinasi) saat ini.
-                  </div>
-                <p style="font-size: 0.8rem; color: var(--secondary); margin-bottom: 1rem;">
-                  Silakan centang tanda dan gejala yang ditemukan pada pasien untuk membantu menentukan diagnosa.
-                </p>
-                <div id="as-checklist-container">
-                  <!-- Dynamic Assessment Checkboxes -->
+                <div style="background: #fdf4ff; border: 1px solid #fae8ff; padding: 20px; font-size: 0.75rem; color: #701a75; margin-bottom: 2rem; border-radius: 12px; line-height: 1.6; border-left: 5px solid #d946ef; max-height: 500px; overflow-y: auto;">
+                    <div style="font-weight: 800; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; color: #86198f; text-transform: uppercase; letter-spacing: 0.5px;">
+                        <i data-lucide="book-open" style="width:18px;"></i> JUKNIS STATUS MENTAL (FIK-UI VERBATIM)
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+                        <!-- 1-3 -->
+                        <div>
+                            <p style="margin-bottom: 0.5rem;"><b>1. PENAMPILAN</b> (Observasi perawat/keluarga)<br>
+                            a. <b>Tidak rapi:</b> Jika dari ujung rambut sampai kaki ada yang tidak rapi (rambut acak-acakan, kancing tidak tepat, resleting terbuka, baju terbalik, baju tidak diganti).<br>
+                            b. <b>Pakaian tidak sesuai:</b> Misal pakaian dalam dipakai di luar baju.<br>
+                            c. <b>Cara berpakaian tidak seperti biasa:</b> Penggunaan pakaian tidak tepat (waktu, tempat, identitas, situasi/kondisi).<br>
+                            d. Jelaskan hal-hal lain yang ditampilkan klien.</p>
+
+                            <p style="margin-bottom: 0.5rem;"><b>2. PEMBICARAAN</b><br>
+                            a. Amati: Apakah cepat, keras, gagap, membisu, apatis, dan atau lambat.<br>
+                            b. <b>Inkoheren:</b> Pembicaraan berpindah-pindah dari satu kalimat ke kalimat lain yang tak ada kaitannya.<br>
+                            c. Jelaskan hal-hal yang tidak tercantum.</p>
+
+                            <p style="margin-bottom: 0.5rem;"><b>3. AKTIVITAS MOTORIK</b> (Observasi)<br>
+                            a. Lesu, tegang, gelisah (sudah jelas).<br>
+                            b. <b>Agitasi:</b> Gerakan motorik yang menunjukkan kegelisahan.<br>
+                            c. <b>Tik:</b> Gerakan kecil pada otot muka yang tidak terkontrol.<br>
+                            d. <b>Grimasen:</b> Gerakan otot muka berubah-ubah tak terkontrol.<br>
+                            e. <b>Tremor:</b> Jari gemetar ketika klien menjulurkan tangan.<br>
+                            f. <b>Kompulsif:</b> Kegiatan berulang-ulang (cuci tangan, mandi, dll).</p>
+                        </div>
+
+                        <!-- 4-6 -->
+                        <div>
+                            <p style="margin-bottom: 0.5rem;"><b>4. ALAM PERASAAN</b> (Observasi)<br>
+                            a. Sedih, putus asa, gembira berlebihan (sudah jelas).<br>
+                            b. <b>Ketakutan:</b> Objek yang ditakuti sudah jelas.<br>
+                            c. <b>Khawatir:</b> Objeknya belum jelas.</p>
+
+                            <p style="margin-bottom: 0.5rem;"><b>5. AFEK</b> (Observasi)<br>
+                            a. <b>Datar:</b> Tidak ada perubahan roman muka saat stimulus senang/sedih.<br>
+                            b. <b>Tumpul:</b> Hanya bereaksi bila ada stimulus emosi yang kuat.<br>
+                            c. <b>Labil:</b> Emosi yang cepat berubah-ubah.<br>
+                            d. <b>Tidak Sesuai:</b> Emosi bertentangan dengan stimulus yang ada.</p>
+
+                            <p style="margin-bottom: 0.5rem;"><b>6. INTERAKSI SELAMA WAWANCARA</b><br>
+                            a. Bermusuhan, tidak kooperatif, mudah tersinggung (sudah jelas).<br>
+                            b. <b>Kontak mata kurang:</b> Tidak mau menatap lawan bicara.<br>
+                            c. <b>Defensif:</b> Berusaha mempertahankan pendapat dan kebenaran dirinya.<br>
+                            d. <b>Curiga:</b> Sikap/perasaan tidak percaya pada orang lain.</p>
+                        </div>
+
+                        <!-- 7-8 -->
+                        <div>
+                            <p style="margin-bottom: 0.5rem;"><b>7. PERSEPSI</b><br>
+                            a. Jenis halusinasi (Dengar, Lihat, Raba, Kecap, Penghidu/Penciuman).<br>
+                            b. Jelaskan isi halusinasi, frekuensi, gejala yang tampak saat halusinasi.</p>
+
+                            <p style="margin-bottom: 0.5rem;"><b>8. PROSES PIKIR</b> (Wawancara & Observasi)<br>
+                            a. <b>Sirkumstansial:</b> Berbelit-belit tapi sampai pada tujuan.<br>
+                            b. <b>Tangensial:</b> Berbelit-belit tapi TIDAK sampai pada tujuan.<br>
+                            c. <b>Kehilangan Asosiasi:</b> Tak ada hubungan antar kalimat, klien tidak menyadari.<br>
+                            d. <b>Flight of Ideas:</b> Meloncat dari satu topik ke topik lain, hubungan tidak logis, tidak sampai tujuan.<br>
+                            e. <b>Blocking:</b> Terhenti tiba-tiba tanpa gangguan eksternal.<br>
+                            f. <b>Perseverasi:</b> Pembicaraan diulang berkali-kali.</p>
+                        </div>
+
+                        <!-- 9 Isi Pikir -->
+                        <div style="grid-column: 1 / -1; border-top: 1px dashed #fae8ff; padding-top: 1rem;">
+                            <p style="margin-bottom: 0.5rem;"><b>9. ISI PIKIR</b><br>
+                            a. <b>Obsesi:</b> Pikiran selalu muncul walau berusaha dihilangkan.<br>
+                            b. <b>Phobia:</b> Ketakutan patologis/tidak logis terhadap objek/situasi.<br>
+                            c. <b>Hipokondria:</b> Keyakinan gangguan organ tubuh yang sebenarnya tidak ada.<br>
+                            d. <b>Depersonalisasi:</b> Perasaan asing terhadap diri sendiri/lingkungan.<br>
+                            e. <b>Ide Terkait:</b> Keyakinan kejadian lingkungan terkait pada dirinya.<br>
+                            f. <b>Pikiran Magis:</b> Keyakinan melakukan hal mustahil.<br>
+                            g. <b>WAHAM:</b><br>
+                            &nbsp;&nbsp;• <b>Agama:</b> Keyakinan agama berlebihan, berulang, tak sesuai kenyataan.<br>
+                            &nbsp;&nbsp;• <b>Somatik:</b> Keyakinan tentang tubuh, berulang, tak sesuai kenyataan.<br>
+                            &nbsp;&nbsp;• <b>Kebesaran:</b> Keyakinan kelebihan kemampuan, berulang, tak sesuai kenyataan.<br>
+                            &nbsp;&nbsp;• <b>Curiga:</b> Keyakinan orang lain hendak merugikan, berulang, tak sesuai kenyataan.<br>
+                            &nbsp;&nbsp;• <b>Nihilistik:</b> Yakin dirinya sudah tidak ada/meninggal, berulang.<br>
+                            &nbsp;&nbsp;• <b>WAHAM BIZAR:</b> Sisip Pikir (ide orang masuk), Siar Pikir (orang tahu pikirannya), Kontrol Pikir (dikontrol kekuatan luar).</p>
+                        </div>
+
+                        <!-- 10-14 -->
+                        <div>
+                            <p style="margin-bottom: 0.5rem;"><b>10. TINGKAT KESADARAN</b><br>
+                            a. <b>Bingung:</b> Tampak bingung dan kacau.<br>
+                            b. <b>Sedasi:</b> Merasa melayang-layang antara sadar/tidak sadar.<br>
+                            c. <b>Stupor:</b> Kekakuan motorik, gerakan diulang, sikap canggung dipertahankan, tapi mengerti lingkungan.<br>
+                            d. <b>Orientasi:</b> Waktu, tempat, orang.</p>
+
+                            <p style="margin-bottom: 0.5rem;"><b>11. MEMORI</b><br>
+                            a. <b>Jangka Panjang:</b> Kejadian > 1 bulan.<br>
+                            b. <b>Jangka Pendek:</b> Kejadian 1 minggu terakhir.<br>
+                            c. <b>Saat ini:</b> Kejadian yang baru saja terjadi.<br>
+                            d. <b>Konfabulasi:</b> Memasukkan cerita tidak benar untuk menutupi gangguan daya ingat.</p>
+                        </div>
+
+                        <div>
+                            <p style="margin-bottom: 0.5rem;"><b>12. TINGKAT KONSENTRASI & BERHITUNG</b><br>
+                            a. <b>Mudah dialihkan:</b> Perhatian mudah berganti objek.<br>
+                            b. <b>Tidak mampu konsentrasi:</b> Minta pertanyaan diulang/tak bisa jelaskan kembali.<br>
+                            c. <b>Tidak mampu berhitung:</b> Tak bisa tambah/kurang benda nyata.</p>
+
+                            <p style="margin-bottom: 0.5rem;"><b>13. KEMAMPUAN PENILAIAN</b><br>
+                            a. <b>Ringan:</b> Bisa ambil keputusan sederhana dengan bantuan.<br>
+                            b. <b>Bermakna:</b> Tidak mampu mengambil keputusan walaupun dibantu.</p>
+
+                            <p style="margin-bottom: 0.5rem;"><b>14. DAYA TILIK DIRI (INSIGHT)</b><br>
+                            a. <b>Mengingkari penyakit:</b> Merasa tidak sakit & tidak butuh pertolongan.<br>
+                            b. <b>Menyalahkan hal luar:</b> Menyalahkan orang lain/lingkungan atas kondisinya.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="as-status-mental-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+                    <!-- 1. Penampilan -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">1. Penampilan:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-penampilan" value="Tidak Rapi"> Tidak Rapi</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-penampilan" value="Penggunaan Pakaian Tidak Sesuai"> Penggunaan Pakaian Tidak Sesuai</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-penampilan" value="Cara Berpakaian Tidak Seperti Biasa"> Cara Berpakaian Tidak Seperti Biasa</label>
+                        </div>
+                        <input type="text" id="as-sm-penampilan-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 2. Pembicaraan -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">2. Pembicaraan:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-bicara" value="Cepat"> Cepat</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-bicara" value="Keras"> Keras</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-bicara" value="Gagap"> Gagap</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-bicara" value="Inkoheren"> Inkoheren</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-bicara" value="Apatis"> Apatis</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-bicara" value="Lambat"> Lambat</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-bicara" value="Membisu"> Membisu</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-bicara" value="Tidak Mampu Memulai"> Tidak Mampu Memulai</label>
+                        </div>
+                        <input type="text" id="as-sm-bicara-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 3. Aktivitas Motorik -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">3. Aktivitas Motorik:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-motorik" value="Lesu"> Lesu</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-motorik" value="Tegang"> Tegang</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-motorik" value="Gelisah"> Gelisah</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-motorik" value="Agitasi"> Agitasi</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-motorik" value="Tik"> Tik</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-motorik" value="Grimasem"> Grimaset</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-motorik" value="Tremor"> Tremor</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-motorik" value="Kompulsif"> Kompulsif</label>
+                        </div>
+                        <input type="text" id="as-sm-motorik-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 4. Alam Perasaan -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">4. Alam Perasaan:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-alam" value="Sedih"> Sedih</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-alam" value="Ketakutan"> Ketakutan</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-alam" value="Putus Asa"> Putus Asa</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-alam" value="Khawatir"> Khawatir</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-alam" value="Gembira Berlebih"> Gembira Berlebih</label>
+                        </div>
+                        <input type="text" id="as-sm-alam-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 5. Afek -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">5. Afek:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-afek" value="Datar"> Datar</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-afek" value="Tumpul"> Tumpul</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-afek" value="Labil"> Labil</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-afek" value="Tidak Sesuai"> Tidak Sesuai</label>
+                        </div>
+                        <input type="text" id="as-sm-afek-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 6. Interaksi Selama Wawancara -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">6. Interaksi Wawancara:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-interaksi" value="Bermusuhan"> Bermusuhan</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-interaksi" value="Tidak Kooperatif"> Tidak Kooperatif</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-interaksi" value="Mudah Tersinggung"> Mudah Tersinggung</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-interaksi" value="Kontak Mata Kurang"> Kontak Mata Kurang</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-interaksi" value="Defensif"> Defensif</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-interaksi" value="Curiga"> Curiga</label>
+                        </div>
+                        <input type="text" id="as-sm-interaksi-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 7. Persepsi -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">7. Persepsi (Halusinasi):</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-persepsi" value="Pendengaran"> Pendengaran</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-persepsi" value="Penglihatan"> Penglihatan</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-persepsi" value="Perabaan"> Perabaan</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-persepsi" value="Pengecapan"> Pengecapan</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-persepsi" value="Penghiduan"> Penghiduan</label>
+                        </div>
+                        <input type="text" id="as-sm-persepsi-ket" placeholder="Jelaskan isi/frekuensi..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 8. Proses Pikir -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">8. Proses Pikir:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-proses" value="Sirkumstansial"> Sirkumstansial</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-proses" value="Tangensial"> Tangensial</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-proses" value="Kehilangan Asosiasi"> Kehilangan Asosiasi</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-proses" value="Flight of Ideas"> Flight of Ideas</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-proses" value="Blocking"> Blocking</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-proses" value="Pengulangan Pembicaraan"> Pengulangan Pembicaraan</label>
+                        </div>
+                        <input type="text" id="as-sm-proses-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 9. Isi Pikir -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">9. Isi Pikir:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-isi" value="Obsesi"> Obsesi</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-isi" value="Fobia"> Phobia</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-isi" value="Hipokondria"> Hipokondria</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-isi" value="Depersonalisasi"> Depersonalisasi</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-isi" value="Ide Terkait"> Ide Terkait</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-isi" value="Pikiran Magis"> Pikiran Magis</label>
+                        </div>
+                        <div style="margin-top: 0.5rem; border-top: 1px dashed var(--border); padding-top: 0.5rem;">
+                            <label style="font-size: 0.75rem; font-weight: bold;">Waham:</label>
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                                <label class="checkbox-item"><input type="checkbox" name="as-sm-waham" value="Agama"> Agama</label>
+                                <label class="checkbox-item"><input type="checkbox" name="as-sm-waham" value="Kebesaran"> Kebesaran</label>
+                                <label class="checkbox-item"><input type="checkbox" name="as-sm-waham" value="Curiga"> Curiga</label>
+                                <label class="checkbox-item"><input type="checkbox" name="as-sm-waham" value="Nihilistik"> Nihilistik</label>
+                                <label class="checkbox-item"><input type="checkbox" name="as-sm-waham" value="Sisip Pikir"> Sisip Pikir</label>
+                                <label class="checkbox-item"><input type="checkbox" name="as-sm-waham" value="Siar Pikir"> Siar Pikir</label>
+                                <label class="checkbox-item"><input type="checkbox" name="as-sm-waham" value="Kontrol Pikir"> Kontrol Pikir</label>
+                            </div>
+                        </div>
+                        <input type="text" id="as-sm-isi-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 10. Tingkat Kesadaran -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">10. Tingkat Kesadaran:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-sadar" value="Bingung"> Bingung</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-sadar" value="Sedasi"> Sedasi</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-sadar" value="Stupor"> Stupor</label>
+                        </div>
+                        <div style="margin-top: 0.5rem; border-top: 1px dashed var(--border); padding-top: 0.5rem;">
+                            <label style="font-size: 0.75rem; font-weight: bold;">Disorientasi:</label>
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                                <label class="checkbox-item"><input type="checkbox" name="as-sm-disorient" value="Waktu"> Waktu</label>
+                                <label class="checkbox-item"><input type="checkbox" name="as-sm-disorient" value="Tempat"> Tempat</label>
+                                <label class="checkbox-item"><input type="checkbox" name="as-sm-disorient" value="Orang"> Orang</label>
+                            </div>
+                        </div>
+                        <input type="text" id="as-sm-sadar-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 11. Memori -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">11. Memori:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-memori" value="Jangka Panjang"> Jangka Panjang</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-memori" value="Jangka Pendek"> Jangka Pendek</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-memori" value="Saat Ini"> Saat Ini</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-memori" value="Konfabulasi"> Konfabulasi</label>
+                        </div>
+                        <input type="text" id="as-sm-memori-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 12. Tingkat Konsentrasi & Berhitung -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">12. Konsentrasi & Berhitung:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-hitung" value="Mudah Dialihkan"> Mudah Dialihkan</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-hitung" value="Tidak Mampu Konsentrasi"> Tidak Mampu Konsentrasi</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-hitung" value="Tidak Mampu Berhitung Sederhana"> Tidak Mampu Berhitung Sederhana</label>
+                        </div>
+                        <input type="text" id="as-sm-hitung-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 13. Kemampuan Penilaian -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">13. Kemampuan Penilaian:</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-nilai" value="Gangguan Ringan"> Gangguan Ringan</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-nilai" value="Gangguan Bermakna"> Gangguan Bermakna</label>
+                        </div>
+                        <input type="text" id="as-sm-nilai-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+
+                    <!-- 14. Daya Tilik Diri -->
+                    <div class="form-group" style="border: 1px solid var(--border); padding: 1rem; border-radius: 8px;">
+                        <label style="font-weight: 700; color: var(--primary);">14. Daya Tilik Diri (Insight):</label>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 0.8rem;">
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-tilik" value="Mengingkari Penyakit"> Mengingkari Penyakit</label>
+                            <label class="checkbox-item"><input type="checkbox" name="as-sm-tilik" value="Menyalahkan Hal Luar"> Menyalahkan Hal Luar</label>
+                        </div>
+                        <input type="text" id="as-sm-tilik-ket" placeholder="Jelaskan..." style="margin-top: 0.5rem; font-size: 0.8rem;" />
+                    </div>
+                </div>
+
+                <div style="margin-top: 2rem; border-top: 2px dashed var(--border); padding-top: 1rem;">
+                    <p style="font-size: 0.8rem; color: var(--secondary); margin-bottom: 1rem;">
+                      Centang tanda dan gejala tambahan (Mapping SDKI) di bawah ini:
+                    </p>
+                    <div id="as-checklist-container">
+                      <!-- Dynamic Assessment Checkboxes -->
+                    </div>
                 </div>
               </div>
 
               <!-- VII. Kebutuhan Persiapan Pulang -->
               <div class="report-section">
                 <h4 class="section-badge">VII. KEBUTUHAN PERSIAPAN PULANG</h4>
-                  <div style="background: #f8fafc; border-left: 3px solid #8b5cf6; padding: 8px 12px; font-size: 0.8rem; color: #475569; margin-bottom: 1.25rem; font-style: italic; border-radius: 4px;">
-                    <i data-lucide="info" style="width:14px; height:14px; display:inline; margin-right:4px; vertical-align:middle;"></i>Evaluasi dan centang tingkat kemandirian pasien dalam melakukan Aktivitas Kehidupan Sehari-hari (ADL) untuk menentukan rencana discharge planning.
-                  </div>
+                <div style="background: #f0f7ff; border: 1px solid #bae6fd; padding: 18px; font-size: 0.8rem; color: #0369a1; margin-bottom: 1.5rem; border-radius: 8px; line-height: 1.6;">
+                    <div style="font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; color: #0284c7; text-transform: uppercase;">
+                        <i data-lucide="book-open" style="width:16px;"></i> JUKNIS PERSIAPAN PULANG (FIK-UI)
+                    </div>
+                    1. <b>Kemampuan ADL:</b> Kaji kemandirian dalam Makan, BAB/BAK, Mandi, Berpakaian, dan Berhias.<br>
+                    2. <b>Istirahat/Tidur:</b> Kaji lama tidur siang & malam, serta kegiatan sebelum/sesudah tidur.<br>
+                    3. <b>Penggunaan Obat:</b> Kaji pengetahuan klien tentang 5 Benar (Obat, Dosis, Pasien, Cara, Waktu).<br>
+                    4. <b>Pemeliharaan Kesehatan:</b> Kaji sistem pendukung dan perawatan lanjutan.<br>
+                    5. <b>Kegiatan Rumah:</b> Menyiapkan makanan, mencuci pakaian, mengatur keuangan.<br>
+                    6. <b>Kegiatan Luar Rumah:</b> Belanja, transportasi, aktivitas di masyarakat.
+                </div>
+
                 <div class="grid-3" style="font-size: 0.85rem;">
                     <div class="form-group">
                         <label>Makan:</label>
@@ -897,15 +1354,31 @@
                         <label>Penggunaan Obat:</label>
                         <select id="as-pulang-obat"><option>Mandiri</option><option>Bantuan Keluarga</option></select>
                     </div>
+                    <div class="form-group">
+                        <label>Pemeliharaan Kesehatan:</label>
+                        <select id="as-pulang-sehat"><option>Ya</option><option>Tidak</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label>Kegiatan di dalam rumah:</label>
+                        <select id="as-pulang-dalam"><option>Ya</option><option>Tidak</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label>Kegiatan di luar rumah:</label>
+                        <select id="as-pulang-luar"><option>Ya</option><option>Tidak</option></select>
+                    </div>
                 </div>
               </div>
 
               <!-- VIII. Mekanisme Koping -->
               <div class="report-section">
                 <h4 class="section-badge">VIII. MEKANISME KOPING</h4>
-                  <div style="background: #f8fafc; border-left: 3px solid #8b5cf6; padding: 8px 12px; font-size: 0.8rem; color: #475569; margin-bottom: 1.25rem; font-style: italic; border-radius: 4px;">
-                    <i data-lucide="info" style="width:14px; height:14px; display:inline; margin-right:4px; vertical-align:middle;"></i>Identifikasi respons kognitif dan perilaku pasien saat menghadapi stresor, untuk membedakan penggunaan koping adaptif (konstruktif) atau maladaptif (destruktif).
-                  </div>
+                <div style="background: #f0f7ff; border: 1px solid #bae6fd; padding: 18px; font-size: 0.8rem; color: #0369a1; margin-bottom: 1.5rem; border-radius: 8px; line-height: 1.6;">
+                    <div style="font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; color: #0284c7; text-transform: uppercase;">
+                        <i data-lucide="book-open" style="width:16px;"></i> JUKNIS MEKANISME KOPING (FIK-UI)
+                    </div>
+                    <b>Adaptif:</b> Cara positif menyelesaikan masalah (Bicara dengan orang lain, menyelesaikan masalah, relaksasi, olahraga).<br>
+                    <b>Maladaptif:</b> Cara negatif yang merugikan (Amuk, minum alkohol, bekerja berlebihan, menghindar, mencederai diri).
+                </div>
                 <div class="grid-2">
                     <div class="form-group">
                         <label>Adaptif:</label>
@@ -926,18 +1399,99 @@
                 </div>
               </div>
 
-              <!-- IX. Masalah & Aspek Medik -->
+              <!-- IX. Masalah Psikososial & Lingkungan -->
               <div class="report-section">
-                <h4 class="section-badge">IX. MASALAH PSIKOSOSIAL, LINGKUNGAN & MEDIK</h4>
-                <div class="form-group">
-                    <label>Masalah Psikososial & Lingkungan:</label>
-                    <textarea id="as-masalah-lain" rows="2" placeholder="Masalah dengan dukungan kelompok, pendidikan, ekonomi, dll"></textarea>
+                <h4 class="section-badge">IX. MASALAH PSIKOSOSIAL & LINGKUNGAN</h4>
+                <div style="background: #f0f7ff; border: 1px solid #bae6fd; padding: 18px; font-size: 0.8rem; color: #0369a1; margin-bottom: 1.5rem; border-radius: 8px; line-height: 1.6;">
+                    <div style="font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; color: #0284c7; text-transform: uppercase;">
+                        <i data-lucide="book-open" style="width:16px;"></i> JUKNIS MASALAH PSIKOSOSIAL (FIK-UI)
+                    </div>
+                    Kaji masalah spesifik pada:<br>
+                    1. <b>Kelompok:</b> Masalah dengan teman, tetangga, atau lingkungan sekitar.<br>
+                    2. <b>Pendidikan/Pekerjaan:</b> Putus sekolah, pengangguran, atau konflik di tempat kerja.<br>
+                    3. <b>Ekonomi:</b> Masalah keuangan/biaya hidup.<br>
+                    4. <b>Pelayanan Kesehatan:</b> Masalah jarak, biaya, atau kualitas layanan.<br>
+                    5. <b>Lainnya:</b> Masalah hukum, perumahan, dll.
+                </div>
+                <div style="background: var(--bg-soft); padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                    <div class="form-group">
+                        <label style="font-size: 0.8rem; color: var(--primary);">Masalah dengan Dukungan Kelompok:</label>
+                        <input type="text" id="as-masalah-kelompok" placeholder="Sebutkan jika ada..." />
+                    </div>
+                    <div class="form-group">
+                        <label style="font-size: 0.8rem; color: var(--primary);">Masalah berhubungan dengan Lingkungan:</label>
+                        <input type="text" id="as-masalah-lingkungan" placeholder="Sebutkan jika ada..." />
+                    </div>
+                    <div class="form-group">
+                        <label style="font-size: 0.8rem; color: var(--primary);">Masalah berhubungan dengan Pendidikan:</label>
+                        <input type="text" id="as-masalah-pendidikan" placeholder="Sebutkan jika ada..." />
+                    </div>
+                    <div class="form-group">
+                        <label style="font-size: 0.8rem; color: var(--primary);">Masalah berhubungan dengan Pekerjaan:</label>
+                        <input type="text" id="as-masalah-pekerjaan" placeholder="Sebutkan jika ada..." />
+                    </div>
+                    <div class="form-group">
+                        <label style="font-size: 0.8rem; color: var(--primary);">Masalah berhubungan dengan Ekonomi:</label>
+                        <input type="text" id="as-masalah-ekonomi" placeholder="Sebutkan jika ada..." />
+                    </div>
+                    <div class="form-group">
+                        <label style="font-size: 0.8rem; color: var(--primary);">Masalah berhubungan dengan Pelayanan Kesehatan:</label>
+                        <input type="text" id="as-masalah-kes" placeholder="Sebutkan jika ada..." />
+                    </div>
+                    <div class="form-group">
+                        <label style="font-size: 0.8rem; color: var(--primary);">Masalah lainnya:</label>
+                        <input type="text" id="as-masalah-lain" placeholder="Sebutkan jika ada..." />
+                    </div>
+                </div>
+              </div>
+
+              <!-- X. Pengetahuan -->
+              <div class="report-section">
+                <h4 class="section-badge">X. PENGETAHUAN KURANG TENTANG</h4>
+                <div style="background: #f0f7ff; border: 1px solid #bae6fd; padding: 18px; font-size: 0.8rem; color: #0369a1; margin-bottom: 1.5rem; border-radius: 8px; line-height: 1.6;">
+                    <div style="font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; color: #0284c7; text-transform: uppercase;">
+                        <i data-lucide="book-open" style="width:16px;"></i> JUKNIS PENGETAHUAN (FIK-UI)
+                    </div>
+                    Kaji kurangnya pengetahuan klien/keluarga tentang:<br>
+                    1. <b>Penyakit Jiwa:</b> Pengertian, gejala, penyebab.<br>
+                    2. <b>Sistem Pendukung:</b> Pemanfaatan fasilitas kesehatan.<br>
+                    3. <b>Faktor Presipitasi:</b> Hal yang memicu kekambuhan.<br>
+                    4. <b>Mekanisme Koping:</b> Cara penyelesaian masalah.<br>
+                    5. <b>Obat-obatan:</b> Manfaat, efek samping, dan pentingnya patuh obat.
+                </div>
+                <div style="background: var(--bg-soft); padding: 1rem; border-radius: 8px; font-size: 0.85rem; display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+                    <label class="checkbox-item"><input type="checkbox" name="as-tahu" value="Penyakit Jiwa"> Penyakit Jiwa</label>
+                    <label class="checkbox-item"><input type="checkbox" name="as-tahu" value="Sistem Pendukung"> Sistem Pendukung</label>
+                    <label class="checkbox-item"><input type="checkbox" name="as-tahu" value="Faktor Presipitasi"> Faktor Presipitasi</label>
+                    <label class="checkbox-item"><input type="checkbox" name="as-tahu" value="Mekanisme Koping"> Mekanisme Koping</label>
+                    <label class="checkbox-item"><input type="checkbox" name="as-tahu" value="Penyakit Fisik"> Penyakit Fisik</label>
+                    <label class="checkbox-item"><input type="checkbox" name="as-tahu" value="Obat-obatan"> Obat-obatan</label>
+                </div>
+              </div>
+
+              <!-- XI. Aspek Medik -->
+              <div class="report-section">
+                <h4 class="section-badge">XI. ASPEK MEDIK</h4>
+                <div style="background: #f0f7ff; border: 1px solid #bae6fd; padding: 18px; font-size: 0.8rem; color: #0369a1; margin-bottom: 1.5rem; border-radius: 8px; line-height: 1.6;">
+                    <div style="font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; color: #0284c7; text-transform: uppercase;">
+                        <i data-lucide="book-open" style="width:16px;"></i> JUKNIS ASPEK MEDIK (FIK-UI)
+                    </div>
+                    <b>Diagnosa Medik:</b> Tuliskan diagnosa (Axis I s/d V).<br>
+                    <b>Terapi Medik:</b> Tuliskan psikofarmaka (obat jiwa) dan terapi lainnya beserta dosis dan rute pemberian.
                 </div>
                 <div class="form-group">
-                    <label>Aspek Medik (Diagnosa Medis & Terapi saat ini):</label>
-                    <input type="text" id="as-medis" placeholder="Diagnosa Medis" style="margin-bottom: 0.5rem;" />
-                    <textarea id="as-obat-skrg" rows="2" placeholder="Sebutkan obat dan dosisnya..."></textarea>
+                    <label>Diagnosa Medis:</label>
+                    <input type="text" id="as-medis" placeholder="Tuliskan Diagnosa Medis (Axis I - V)..." />
                 </div>
+                <div class="form-group">
+                    <label>Terapi Medik (Psikofarmaka):</label>
+                    <textarea id="as-obat-skrg" rows="3" placeholder="Sebutkan nama obat, dosis, dan rute pemberian..."></textarea>
+                </div>
+              </div>
+
+              <div id="as-edit-mode-indicator" style="display:none; align-items:center; gap:8px; padding:0.75rem; background:#fef3c7; color:#92400e; border-radius:8px; margin-bottom:1.5rem; font-size:0.85rem; border:1px solid #fcd34d;">
+                  <i data-lucide="alert-triangle" style="width:16px;"></i>
+                  <span><b>Mode Edit:</b> Anda sedang mengedit riwayat pengkajian. Klik "Simpan Perubahan" untuk memperbarui.</span>
               </div>
 
               <div class="form-actions" style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; padding: 1.5rem; background: var(--bg-soft); border-radius: 12px; border: 1px dashed var(--primary);">
@@ -948,11 +1502,19 @@
                   <i data-lucide="wand-2"></i> Rekomendasi Diagnosa
                 </button>
                 <button
+                  id="as-save-btn"
+                  class="btn btn-primary"
+                  onclick="saveAssessmentToHistory()"
+                  style="background-color: var(--secondary); color: white;"
+                >
+                  <i data-lucide="save"></i> Simpan Data
+                </button>
+                <button
                   class="btn btn-success"
                   onclick="printAssessmentReport()"
                   style="background-color: var(--success); color: white;"
                 >
-                  <i data-lucide="printer"></i> Cetak Pengkajian Lengkap
+                  <i data-lucide="printer"></i> Cetak
                 </button>
                 <button class="btn btn-ghost" onclick="resetAssessmentForm()">
                   <i data-lucide="refresh-cw"></i> Reset Form
@@ -999,6 +1561,11 @@
                 id="recommended-diagnoses-list"
                 class="grid"
                 style="display: grid; grid-template-columns: 1fr; gap: 1rem"
+              ></div>
+              <div id="assessment-bulk-actions" style="display:none; margin-top: 1.5rem; text-align: center;">
+                  <button class="btn btn-primary" onclick="createAskepWithMultipleDiagnoses()" style="width: 100%; max-width: 400px; background: var(--success);">
+                      <i data-lucide="file-plus"></i> Buat ASKEP untuk Diagnosa Terpilih
+                  </button>
               </div>
             </div>
           </div>
@@ -1011,6 +1578,21 @@
               <i data-lucide="shield-alert"></i> Penilaian Risiko Bunuh Diri (SAD PERSONS Scale)
               <span class="badge" style="background:#ef4444; color:white; font-size:0.75rem; margin-left:8px;">Emergency Tool</span>
             </h2>
+            <div style="background: #fff1f2; border: 1px solid #fecdd3; padding: 15px; font-size: 0.8rem; color: #9f1239; margin-bottom: 2rem; border-radius: 8px; line-height: 1.6; border-left: 5px solid #e11d48;">
+                <div style="font-weight: 800; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; text-transform: uppercase;">
+                    <i data-lucide="info" style="width:16px;"></i> JUKNIS INTERPRETASI SKOR
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        • <b>Skor 0 - 2:</b> Risiko Rendah. Boleh pulang dengan pengawasan keluarga.<br>
+                        • <b>Skor 3 - 4:</b> Risiko Sedang. Pengawasan ketat, pertimbangkan rawat inap.
+                    </div>
+                    <div>
+                        • <b>Skor 5 - 6:</b> Risiko Tinggi. Sangat disarankan untuk rawat inap.<br>
+                        • <b>Skor 7 - 10:</b> Risiko Sangat Tinggi. Rawat inap wajib / pengawasan ketat 24 jam.
+                    </div>
+                </div>
+            </div>
             
             <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem;">
               Instrumen pengkajian cepat untuk mengukur tingkat risiko bunuh diri pada pasien. Centang kriteria yang ditemukan pada pasien.
@@ -1087,6 +1669,44 @@
               <span class="badge" style="background:#8b5cf6; color:white; font-size:0.7rem; margin-left:8px;">Standardized MSE</span>
             </h2>
             <div class="report-section">
+              <h4 class="section-badge">JUKNIS PENGISIAN MSE (FIK-UI)</h4>
+              <div style="background: #fdf4ff; border: 1px solid #fae8ff; padding: 18px; font-size: 0.8rem; color: #701a75; margin-bottom: 2rem; border-radius: 12px; line-height: 1.6; border-left: 5px solid #d946ef;">
+                  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                      <div>
+                          <p><b>1. Penampilan:</b><br>
+                          - <b>Tidak Rapi:</b> Jika dari ujung rambut sampai ujung kaki ada yang tidak rapih. Misalnya: rambut acak-acakan, kancing baju tidak tepat, resleting tidak dikunci, baju terbalik, baju tidak diganti-ganti.<br>
+                          - <b>Pakaian Tidak Sesuai:</b> Misalnya: pakaian dalam dipakai di luar baju.<br>
+                          - <b>Cara berpakaian tidak seperti biasanya:</b> Jika penggunaan pakaian tidak tepat (waktu, tempat, identitas, situasi/kondisi).<br>
+                          - <i>Jelaskan hal-hal yang ditampilkan klien dan kondisi lain yang tidak tercantum. Masalah keperawatan ditulis sesuai dengan data.</i></p>
+                          
+                          <p><b>2. Pembicaraan:</b> Amati apakah cepat, keras, gagap, membisu, apatis, lambat. <b>Inkoheren:</b> Pembicaraan berpindah-pindah dari satu kalimat ke kalimat lain yang tidak ada kaitannya.</p>
+                          
+                          <p><b>3. Aktivitas Motorik:</b><br>
+                          - <b>Agitasi:</b> Kegelisahan motorik yang tinggi.<br>
+                          - <b>Grimasen:</b> Gerakan otot muka yang berubah-ubah yang tidak dapat dikontrol oleh klien.<br>
+                          - <b>Tremor:</b> Jari-jari yang tampak gemetar saat klien menjulurkan tangan.<br>
+                          - <b>Kompulsif:</b> Kegiatan yang dilakukan berulang-ulang.</p>
+                      </div>
+                      <div>
+                          <p><b>4. Mood & Afek:</b><br>
+                          - <b>Datar:</b> Tidak ada perubahan roman muka pada saat ada stimulus yang menyenangkan atau menyedihkan.<br>
+                          - <b>Tumpul:</b> Hanya bereaksi bila ada stimulus emosi yang kuat.<br>
+                          - <b>Labil:</b> Emosi yang cepat berubah-ubah.<br>
+                          - <b>Tidak sesuai:</b> Emosi yang tidak sesuai atau bertentangan dengan stimulus yang ada.<br>
+                          - <i>Masalah keperawatan ditulis sesuai dengan data.</i></p>
+                          
+                          <p><b>5. Proses Pikir:</b><br>
+                          - <b>Sirkumstansial:</b> Berbelit-belit tapi sampai tujuan.<br>
+                          - <b>Tangensial:</b> Berbelit-belit tapi TAK sampai tujuan.<br>
+                          - <b>Flight of ideas:</b> Topik meloncat-loncat.</p>
+                          
+                          <p><b>6. Insight (Daya Tilik):</b><br>
+                          - Drjt 1: Penyangkalan total.<br>
+                          - Drjt 3: Menyalahkan orang lain/luar.<br>
+                          - Drjt 6: Sadar sepenuhnya & ingin berubah.</p>
+                      </div>
+                  </div>
+              </div>
               <h4 class="section-badge">FORMULIR MSE</h4>
               <div class="grid-2">
                 <div class="form-group">
@@ -1167,6 +1787,23 @@
               <i data-lucide="activity"></i> Hamilton Anxiety Rating Scale (HARS)
               <span class="badge" style="background:#0ea5e9; color:white; font-size:0.75rem; margin-left:8px;">Clinical Scale</span>
             </h2>
+
+            <div style="background: #f0f9ff; border: 1px solid #e0f2fe; padding: 15px; font-size: 0.8rem; color: #0369a1; margin-bottom: 2rem; border-radius: 8px; line-height: 1.6; border-left: 5px solid #0ea5e9;">
+                <div style="font-weight: 800; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; text-transform: uppercase;">
+                    <i data-lucide="info" style="width:16px;"></i> JUKNIS INTERPRETASI SKOR HARS
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        • <b>Skor < 14:</b> Tidak ada kecemasan.<br>
+                        • <b>Skor 14 - 20:</b> Kecemasan Ringan.<br>
+                        • <b>Skor 21 - 27:</b> Kecemasan Sedang.
+                    </div>
+                    <div>
+                        • <b>Skor 28 - 41:</b> Kecemasan Berat.<br>
+                        • <b>Skor 42 - 56:</b> Kecemasan Sangat Berat (Panik).
+                    </div>
+                </div>
+            </div>
             <div class="report-section">
               <div id="hars-form-items">
                 <!-- HARS items injected here -->
@@ -2058,6 +2695,33 @@ Lanjutkan intervensi...</textarea
           </div>
         </section>
 
+        <!-- History Assessment Section -->
+        <section id="history-assessment" class="view-section">
+          <div class="card">
+            <h2 class="card-title">
+              <i data-lucide="folder-search"></i> Riwayat Pengkajian Awal
+            </h2>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 2rem;">
+                Daftar riwayat pengkajian awal yang telah disimpan. Anda dapat melihat kembali, mengedit, atau menghapus riwayat ini.
+            </p>
+            <div class="search-container" style="margin-bottom: 2rem; position: relative;">
+                <i data-lucide="search" style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: var(--text-muted); width: 18px;"></i>
+                <input type="text" id="search-history-as" placeholder="Cari Nama Pasien atau Tanggal..." style="width: 100%; padding: 1rem 1rem 1rem 3rem; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-light); outline: none; transition: var(--transition);" oninput="renderAssessmentHistory(this.value)">
+            </div>
+            <div
+              id="history-as-list"
+              class="grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 1rem;
+              "
+            >
+              <!-- Assessment History Items will be injected here -->
+            </div>
+          </div>
+        </section>
+
         <!-- History Section -->
         <section id="history" class="view-section">
           <div class="card">
@@ -2604,6 +3268,27 @@ Lanjutkan intervensi...</textarea
                   <i data-lucide="upload"></i> Unggah File
                 </button>
               </div>
+              <div
+                class="card"
+                style="margin-bottom: 0; border: 1px solid var(--border); grid-column: span 2;"
+              >
+                <h3>Status Aplikasi (PWA)</h3>
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+                    <p style="font-size: 0.8rem; color: var(--text-muted); max-width: 400px; margin:0;">
+                      Jadikan NurseJiwa sebagai aplikasi mandiri di perangkat Anda untuk akses lebih cepat dan dukungan offline.
+                    </p>
+                    <div id="pwa-status-container" style="font-size: 0.85rem; display:flex; align-items:center; gap:12px;">
+                        <span id="pwa-badge" class="badge" style="background:#64748b; color:white; padding: 4px 12px;">Mengecek...</span>
+                        <button id="pwa-manual-install" class="btn btn-primary" style="display:none; font-size: 0.8rem; padding: 6px 12px;">
+                          <i data-lucide="download"></i> Pasang Sekarang
+                        </button>
+                    </div>
+                </div>
+                <div id="ios-install-hint" style="display:none; margin-top:1rem; font-size: 0.75rem; color: var(--text-muted); background: var(--bg-light); padding: 0.75rem; border-radius: 8px;">
+                    <i data-lucide="info" style="width:14px; color:var(--primary); vertical-align:middle; margin-right:4px;"></i>
+                    <b>Khusus iOS/Safari:</b> Klik tombol <i data-lucide="share" style="width:12px; display:inline;"></i> (Share) di browser Anda, lalu pilih <b>"Add to Home Screen"</b>.
+                </div>
+              </div>
             </div>
             <button
               class="btn btn-primary"
@@ -2899,17 +3584,52 @@ Lanjutkan intervensi...</textarea
     <script src="js/dataset-new-modules.js"></script>
     <script src="js/clinical-screening.js"></script>
     <script src="js/e-psikoedukasi.js"></script>
+    <script src="js/history-assessment.js"></script>
     <script src="app.js"></script>
 
     <!-- Register PWA Service Worker -->
     <script>
+      const pwaBadge = document.getElementById('pwa-badge');
+      const manualInstallBtn = document.getElementById('pwa-manual-install');
+      const iosHint = document.getElementById('ios-install-hint');
+      const floatingInstallBtn = document.getElementById('pwa-install-btn');
+
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('sw.js')
-            .then(reg => console.log('Service Worker Registered'))
-            .catch(err => console.log('Service Worker Failed', err));
+            .then(reg => {
+                console.log('Service Worker Registered');
+                if (pwaBadge) {
+                    pwaBadge.textContent = 'Offline Ready';
+                    pwaBadge.style.background = 'var(--success)';
+                }
+            })
+            .catch(err => {
+                console.log('Service Worker Failed', err);
+                if (pwaBadge) {
+                    pwaBadge.textContent = 'Error: ' + err.message;
+                    pwaBadge.style.background = '#ef4444';
+                }
+            });
         });
       }
+
+      // Check if already installed
+      window.addEventListener('DOMContentLoaded', () => {
+        if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
+            if (pwaBadge) {
+                pwaBadge.textContent = 'Terpasang';
+                pwaBadge.style.background = 'var(--primary)';
+            }
+        }
+        
+        // iOS detection
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        if (isIOS && !window.navigator.standalone) {
+            if (iosHint) iosHint.style.display = 'block';
+            if (pwaBadge) pwaBadge.textContent = 'Klik Share > Add to Home Screen';
+        }
+      });
 
       // Handle PWA Install Prompt
       let deferredPrompt;
@@ -2917,6 +3637,10 @@ Lanjutkan intervensi...</textarea
         e.preventDefault();
         deferredPrompt = e;
         
+        // Show manual button in settings
+        if (manualInstallBtn) manualInstallBtn.style.display = 'flex';
+
+        // Create floating button if not exists
         let installBtn = document.getElementById('pwa-install-btn');
         if (!installBtn) {
           installBtn = document.createElement('button');
@@ -2928,16 +3652,20 @@ Lanjutkan intervensi...</textarea
           document.body.appendChild(installBtn);
         }
 
-        installBtn.addEventListener('click', async () => {
-          if (deferredPrompt !== null) {
+        const triggerPrompt = async () => {
+          if (deferredPrompt) {
             deferredPrompt.prompt();
             const { outcome } = await deferredPrompt.userChoice;
             if (outcome === 'accepted') {
               deferredPrompt = null;
-              installBtn.remove();
+              if (installBtn) installBtn.remove();
+              if (manualInstallBtn) manualInstallBtn.style.display = 'none';
             }
           }
-        });
+        };
+
+        installBtn.addEventListener('click', triggerPrompt);
+        if (manualInstallBtn) manualInstallBtn.addEventListener('click', triggerPrompt);
       });
       
       window.addEventListener('appinstalled', () => {
@@ -2945,6 +3673,11 @@ Lanjutkan intervensi...</textarea
         console.log('PWA was installed');
         const btn = document.getElementById('pwa-install-btn');
         if (btn) btn.remove();
+        if (manualInstallBtn) manualInstallBtn.style.display = 'none';
+        if (pwaBadge) {
+            pwaBadge.textContent = 'Terpasang';
+            pwaBadge.style.background = 'var(--primary)';
+        }
       });
     </script>
   </body>

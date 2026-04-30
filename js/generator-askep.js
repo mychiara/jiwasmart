@@ -117,6 +117,9 @@ window.initASKEPGenerator = function () {
       document.getElementById("analyze-dx-btn").style.display = "none";
 
       // Tambahkan area pemilihan diagnosa ke UI
+      const existingDxList = document.getElementById("selected-dx-list");
+      if (existingDxList) existingDxList.remove();
+
       const dxContainer = document.createElement("div");
       dxContainer.id = "selected-dx-list";
       dxContainer.className = "report-section";
@@ -127,7 +130,6 @@ window.initASKEPGenerator = function () {
       `;
 
       inputsSection.insertBefore(dxContainer, inputsSection.firstChild);
-
       const dxGrid = document.getElementById("dx-selection-grid");
       detectedDiagnoses.forEach((item, idx) => {
         const div = document.createElement("div");
