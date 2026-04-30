@@ -195,17 +195,17 @@ window.processDigitalAssessment = function () {
         index === 0 ? "5px solid #10B981" : "3px solid #CBD5E1";
       card.innerHTML = `
                 <div style="display:flex; justify-content:space-between; align-items:center;">
-                    <div style="display:flex; align-items:center; gap:12px;">
-                        <input type="checkbox" name="as-diag-select" value="${diag.kode || diag.Kode}" style="width:20px; height:20px; cursor:pointer;" ${index === 0 ? "checked" : ""}>
-                        <h3 style="margin:0; font-size:1.1rem;">${diag.kode || diag.Kode}: ${diag.nama || diag.Nama}</h3>
-                    </div>
+                    <label for="diag-${diag.kode || diag.Kode}" style="display:flex; align-items:center; gap:15px; cursor:pointer; flex:1;">
+                        <input type="checkbox" id="diag-${diag.kode || diag.Kode}" name="as-diag-select" value="${diag.kode || diag.Kode}" style="width:24px; height:24px; cursor:pointer; accent-color:var(--primary);" ${index === 0 ? "checked" : ""}>
+                        <h3 style="margin:0; font-size:1.15rem; font-weight:700;">${diag.kode || diag.Kode}: ${diag.nama || diag.Nama}</h3>
+                    </label>
                     ${priorityLabel}
                 </div>
-                <p style="font-size:0.85rem; color:var(--text-muted); margin:0.5rem 0 1rem; padding-left:32px;">${diag.definisi || diag.Definisi}</p>
-                <div style="background:#f8fafc; padding:0.75rem; border-radius:8px; margin-left:32px;">
+                <p style="font-size:0.85rem; color:var(--text-muted); margin:0.8rem 0 1.2rem; padding-left:39px; line-height:1.5;">${diag.definisi || diag.Definisi}</p>
+                <div style="background:#f8fafc; padding:0.75rem; border-radius:8px; margin-left:39px;">
                     <p style="font-size:0.8rem; margin:0;"><strong>Tanda Mayor:</strong> ${diag.tanda_mayor || diag.TandaMayor || "-"}</p>
                 </div>
-                <div style="display:grid; grid-template-columns: 1fr; gap:0.5rem; margin-top:1rem; padding-left:32px;">
+                <div style="display:grid; grid-template-columns: 1fr; gap:0.5rem; margin-top:1rem; padding-left:39px;">
                     <button class="btn btn-ghost" style="font-size:0.75rem; padding:4px 8px;" onclick="goToMSEFromAssessment('${diag.kode || diag.Kode}')"><i data-lucide="user-check"></i> Lihat Panduan MSE</button>
                 </div>
             `;
